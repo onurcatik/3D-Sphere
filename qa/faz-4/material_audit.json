@@ -1,0 +1,746 @@
+{
+  "public/models/orb_v3_faz4_desktop.glb": {
+    "bytes": 2087392,
+    "sha256": "bc5e816f9d339cb38521f3965cc4b52095f806f65eea0b5af411a480c78e48ac",
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_ior",
+      "KHR_materials_transmission",
+      "KHR_materials_volume"
+    ],
+    "materials": [
+      {
+        "name": "MAT_Core_BlueWhite",
+        "pbr": {
+          "baseColorFactor": [
+            0.06847816984440017,
+            0.33245153634617935,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.2704977910130658,
+          0.7083757798916868,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.05
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_Halo",
+        "pbr": {
+          "baseColorFactor": [
+            0.11443537382697373,
+            0.4851499400560704,
+            1.0,
+            0.17
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15
+        },
+        "emissiveFactor": [
+          0.07036009569659588,
+          0.386429433787049,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 0.82
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Shell_Graphite",
+        "pbr": {
+          "baseColorFactor": [
+            0.005605391624202723,
+            0.008568125618069307,
+            0.01599629336550963,
+            1.0
+          ],
+          "metallicFactor": 0.82,
+          "roughnessFactor": 0.33
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.2,
+            "clearcoatRoughnessFactor": 0.31
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Antique_Gold",
+        "pbr": {
+          "baseColorFactor": [
+            0.5332764040105052,
+            0.25415209433082675,
+            0.046665086336880095,
+            1.0
+          ],
+          "metallicFactor": 1,
+          "roughnessFactor": 0.24
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.16,
+            "clearcoatRoughnessFactor": 0.22
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Crystal_Ice",
+        "pbr": {
+          "baseColorFactor": [
+            0.19120168274079138,
+            0.5840784178911641,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.065
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_transmission": {
+            "transmissionFactor": 0.72
+          },
+          "KHR_materials_volume": {
+            "thicknessFactor": 0.34,
+            "attenuationDistance": 1.75,
+            "attenuationColor": [
+              0.07618538148130785,
+              0.27467731206038465,
+              0.5972017883637634
+            ]
+          },
+          "KHR_materials_ior": {
+            "ior": 1.46
+          },
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.36,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Shell_Inner",
+        "pbr": {
+          "baseColorFactor": [
+            0.003346535763899161,
+            0.005181516702338386,
+            0.009134058702220787,
+            1.0
+          ],
+          "metallicFactor": 0.63,
+          "roughnessFactor": 0.52
+        },
+        "emissiveFactor": [
+          0.000607053967097675,
+          0.005181516702338386,
+          0.011612245179743885
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 0.12
+          },
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.08,
+            "clearcoatRoughnessFactor": 0.46
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Platform_Obsidian",
+        "pbr": {
+          "baseColorFactor": [
+            0.0024282158683907,
+            0.003346535763899161,
+            0.005605391624202723,
+            1.0
+          ],
+          "metallicFactor": 0.66,
+          "roughnessFactor": 0.3
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.32,
+            "clearcoatRoughnessFactor": 0.21
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_EnergyWell_Blue",
+        "pbr": {
+          "baseColorFactor": [
+            0.003676507324047436,
+            0.07421356838014963,
+            0.35153259950043936,
+            0.68
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.18
+        },
+        "emissiveFactor": [
+          0.008568125618069307,
+          0.15292615199615017,
+          0.6866853124353135
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.02
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Rune_Emissive",
+        "pbr": {
+          "baseColorFactor": [
+            0.26225065752969623,
+            0.05612849004960009,
+            0.009134058702220787,
+            1.0
+          ],
+          "metallicFactor": 0.32,
+          "roughnessFactor": 0.3
+        },
+        "emissiveFactor": [
+          1.0,
+          0.238397573812271,
+          0.024157632448504756
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.12
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_InnerWhite",
+        "pbr": {
+          "baseColorFactor": [
+            0.5088813208549338,
+            0.8549926081242338,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.6866853124353135,
+          0.9301108583754237,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.32
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_EnergyShell",
+        "pbr": {
+          "baseColorFactor": [
+            0.008023192985384994,
+            0.13843161503245183,
+            0.6866853124353135,
+            0.34
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.021219010376003555,
+          0.31398871337571754,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.2
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Energy_Filament",
+        "pbr": {
+          "baseColorFactor": [
+            0.07818742180518633,
+            0.4910208498478356,
+            1.0,
+            0.8
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.1
+        },
+        "emissiveFactor": [
+          0.07818742180518633,
+          0.5775804404296506,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.35
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Energy_Lightning",
+        "pbr": {
+          "baseColorFactor": [
+            0.4793201831008268,
+            0.846873231509858,
+            1.0,
+            0.82
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.08
+        },
+        "emissiveFactor": [
+          0.3467040563550296,
+          0.8069522576692516,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.55
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Energy_Beam",
+        "pbr": {
+          "baseColorFactor": [
+            0.027320891639074894,
+            0.3049873140698863,
+            1.0,
+            0.27
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.04970656598412723,
+          0.4793201831008268,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.1
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      }
+    ],
+    "textures": 0,
+    "images": 0
+  },
+  "public/models/orb_v3_faz4_mobile.glb": {
+    "bytes": 1515432,
+    "sha256": "347561662562853a57169cbbf129413b879051a891987f355dd742b367d9fe4a",
+    "extensionsUsed": [
+      "KHR_materials_clearcoat",
+      "KHR_materials_emissive_strength",
+      "KHR_materials_ior",
+      "KHR_materials_transmission",
+      "KHR_materials_volume"
+    ],
+    "materials": [
+      {
+        "name": "MAT_Core_BlueWhite",
+        "pbr": {
+          "baseColorFactor": [
+            0.06847816984440017,
+            0.33245153634617935,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.2704977910130658,
+          0.7083757798916868,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.05
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_Halo",
+        "pbr": {
+          "baseColorFactor": [
+            0.11443537382697373,
+            0.4851499400560704,
+            1.0,
+            0.17
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.15
+        },
+        "emissiveFactor": [
+          0.07036009569659588,
+          0.386429433787049,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 0.82
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Shell_Graphite",
+        "pbr": {
+          "baseColorFactor": [
+            0.005605391624202723,
+            0.008568125618069307,
+            0.01599629336550963,
+            1.0
+          ],
+          "metallicFactor": 0.82,
+          "roughnessFactor": 0.33
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.14,
+            "clearcoatRoughnessFactor": 0.31
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Antique_Gold",
+        "pbr": {
+          "baseColorFactor": [
+            0.5332764040105052,
+            0.25415209433082675,
+            0.046665086336880095,
+            1.0
+          ],
+          "metallicFactor": 1,
+          "roughnessFactor": 0.24
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.1,
+            "clearcoatRoughnessFactor": 0.22
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Crystal_Ice",
+        "pbr": {
+          "baseColorFactor": [
+            0.19120168274079138,
+            0.5840784178911641,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.095
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_transmission": {
+            "transmissionFactor": 0.52
+          },
+          "KHR_materials_volume": {
+            "thicknessFactor": 0.24,
+            "attenuationDistance": 1.75,
+            "attenuationColor": [
+              0.07618538148130785,
+              0.27467731206038465,
+              0.5972017883637634
+            ]
+          },
+          "KHR_materials_ior": {
+            "ior": 1.46
+          },
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.24,
+            "clearcoatRoughnessFactor": 0.08
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Shell_Inner",
+        "pbr": {
+          "baseColorFactor": [
+            0.003346535763899161,
+            0.005181516702338386,
+            0.009134058702220787,
+            1.0
+          ],
+          "metallicFactor": 0.63,
+          "roughnessFactor": 0.52
+        },
+        "emissiveFactor": [
+          0.000607053967097675,
+          0.005181516702338386,
+          0.011612245179743885
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 0.12
+          },
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.04,
+            "clearcoatRoughnessFactor": 0.46
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Platform_Obsidian",
+        "pbr": {
+          "baseColorFactor": [
+            0.0024282158683907,
+            0.003346535763899161,
+            0.005605391624202723,
+            1.0
+          ],
+          "metallicFactor": 0.66,
+          "roughnessFactor": 0.3
+        },
+        "emissiveFactor": null,
+        "extensions": {
+          "KHR_materials_clearcoat": {
+            "clearcoatFactor": 0.18,
+            "clearcoatRoughnessFactor": 0.21
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_EnergyWell_Blue",
+        "pbr": {
+          "baseColorFactor": [
+            0.003676507324047436,
+            0.07421356838014963,
+            0.35153259950043936,
+            0.68
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.18
+        },
+        "emissiveFactor": [
+          0.008568125618069307,
+          0.15292615199615017,
+          0.6866853124353135
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.02
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Rune_Emissive",
+        "pbr": {
+          "baseColorFactor": [
+            0.26225065752969623,
+            0.05612849004960009,
+            0.009134058702220787,
+            1.0
+          ],
+          "metallicFactor": 0.32,
+          "roughnessFactor": 0.3
+        },
+        "emissiveFactor": [
+          1.0,
+          0.238397573812271,
+          0.024157632448504756
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.12
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_InnerWhite",
+        "pbr": {
+          "baseColorFactor": [
+            0.5088813208549338,
+            0.8549926081242338,
+            1.0,
+            1.0
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.6866853124353135,
+          0.9301108583754237,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.32
+          }
+        },
+        "alphaMode": "OPAQUE",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Core_EnergyShell",
+        "pbr": {
+          "baseColorFactor": [
+            0.008023192985384994,
+            0.13843161503245183,
+            0.6866853124353135,
+            0.34
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.021219010376003555,
+          0.31398871337571754,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.2
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      },
+      {
+        "name": "MAT_Energy_Filament",
+        "pbr": {
+          "baseColorFactor": [
+            0.07818742180518633,
+            0.4910208498478356,
+            1.0,
+            0.8
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.1
+        },
+        "emissiveFactor": [
+          0.07818742180518633,
+          0.5775804404296506,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.35
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Energy_Lightning",
+        "pbr": {
+          "baseColorFactor": [
+            0.4793201831008268,
+            0.846873231509858,
+            1.0,
+            0.82
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.08
+        },
+        "emissiveFactor": [
+          0.3467040563550296,
+          0.8069522576692516,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.55
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": false
+      },
+      {
+        "name": "MAT_Energy_Beam",
+        "pbr": {
+          "baseColorFactor": [
+            0.027320891639074894,
+            0.3049873140698863,
+            1.0,
+            0.27
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.12
+        },
+        "emissiveFactor": [
+          0.04970656598412723,
+          0.4793201831008268,
+          1.0
+        ],
+        "extensions": {
+          "KHR_materials_emissive_strength": {
+            "emissiveStrength": 1.1
+          }
+        },
+        "alphaMode": "BLEND",
+        "doubleSided": true
+      }
+    ],
+    "textures": 0,
+    "images": 0
+  }
+}

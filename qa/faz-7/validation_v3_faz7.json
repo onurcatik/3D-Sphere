@@ -1,0 +1,399 @@
+{
+  "phase": 7,
+  "passed": true,
+  "globalChecks": {
+    "waveMembershipCoversExactly14Shells": true,
+    "desktopMobileReassemblyMetadataIdentical": true,
+    "activeAssetsPhase7": true,
+    "sceneTimelineIncludesReassembly": true,
+    "innerSeamUsesReassembly": true,
+    "runtimeUsesSceneTime": true,
+    "runtimeHasMagneticGuides": true,
+    "runtimeHasFinalSealRing": true,
+    "timelineHasSeatAndSealPulses": true
+  },
+  "models": [
+    {
+      "profile": "desktop",
+      "faz4": "public/models/orb_v3_faz4_desktop.glb",
+      "faz5Reference": "public/models/orb_v3_faz5_desktop.glb",
+      "output": "public/models/orb_v3_faz7_desktop.glb",
+      "outputSha256": "b791a252abb0ef542c113ebd3455b4fcea257cf4184cdf762b624be990b8035c",
+      "outputBytes": 2358132,
+      "checks": {
+        "outputWithinBudget": true,
+        "phase4BinaryIsPrefix": true,
+        "nodeCountPreserved": true,
+        "meshCountPreserved": true,
+        "materialCountPreserved": true,
+        "animationChannelCountPreserved": true,
+        "exactly28ShellTransformChannelsReauthored": true,
+        "nonShellAnimationPayloadIdentical": true,
+        "faz5BreakupPreservedBeforeRecall": true,
+        "alignmentDoesNotCollapsePosition": true,
+        "alignmentWithinEightDegrees": true,
+        "exactSeatBy10_34": true,
+        "exactFinalAt11": true,
+        "quaternionsNormalized": true,
+        "noNewAabbOverlapPairsDuringRecall": true,
+        "reassemblyMetadataPresent": true,
+        "phaseMetadataPresent": true
+      },
+      "preReassemblyMaxPositionError": 0.0,
+      "preReassemblyMaxRotationErrorDegrees": 0.0,
+      "shellMetrics": [
+        {
+          "shell": 1,
+          "wave": "W1",
+          "alignPositionShift": 0.0007074502934843628,
+          "alignAngleErrorDegrees": 6.4399590821353305,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 2,
+          "wave": "W2",
+          "alignPositionShift": 3.379642907665572e-08,
+          "alignAngleErrorDegrees": 5.8800101565870975,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 3,
+          "wave": "W1",
+          "alignPositionShift": 0.0007318052647639263,
+          "alignAngleErrorDegrees": 7.27995417191059,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 4,
+          "wave": "W2",
+          "alignPositionShift": 2.6045768970922096e-08,
+          "alignAngleErrorDegrees": 6.300011537378074,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 5,
+          "wave": "W3",
+          "alignPositionShift": 1.7755966898770348e-08,
+          "alignAngleErrorDegrees": 4.7600056482179784,
+          "positionErrorAt10_34": 2.9067587977344513e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 2.9067587977344513e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 6,
+          "wave": "W4",
+          "alignPositionShift": 2.16178233047174e-08,
+          "alignAngleErrorDegrees": 4.200004932306632,
+          "positionErrorAt10_34": 4.095381697377113e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 4.095381697377113e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 7,
+          "wave": "W5",
+          "alignPositionShift": 2.3272082216775575e-08,
+          "alignAngleErrorDegrees": 5.040008631386056,
+          "positionErrorAt10_34": 3.832164316849765e-05,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.306384450105554e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 8,
+          "wave": "W3",
+          "alignPositionShift": 4.8726326753564516e-08,
+          "alignAngleErrorDegrees": 4.4800057250840855,
+          "positionErrorAt10_34": 2.9067587977344513e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 2.9067587977344513e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 9,
+          "wave": "W4",
+          "alignPositionShift": 4.9511244296026267e-08,
+          "alignAngleErrorDegrees": 4.760004977663803,
+          "positionErrorAt10_34": 4.095381697377113e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 4.095381697377113e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 10,
+          "wave": "W5",
+          "alignPositionShift": 1.1812009228156899e-08,
+          "alignAngleErrorDegrees": 4.9000065097478975,
+          "positionErrorAt10_34": 3.832164316849765e-05,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.306384450105554e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 11,
+          "wave": "W1",
+          "alignPositionShift": 0.0006835268327337181,
+          "alignAngleErrorDegrees": 6.1599618122569275,
+          "positionErrorAt10_34": 6.764777302689855e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689855e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 12,
+          "wave": "W2",
+          "alignPositionShift": 1.0894436180536665e-09,
+          "alignAngleErrorDegrees": 6.720011639038112,
+          "positionErrorAt10_34": 6.764777302689856e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689856e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 13,
+          "wave": "W1",
+          "alignPositionShift": 0.0007321543224704832,
+          "alignAngleErrorDegrees": 6.999957504997242,
+          "positionErrorAt10_34": 6.764777302689855e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689855e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 14,
+          "wave": "W2",
+          "alignPositionShift": 4.712909060381797e-08,
+          "alignAngleErrorDegrees": 6.440008085109191,
+          "positionErrorAt10_34": 6.764777302689856e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689856e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        }
+      ],
+      "finalClosedAabbPairs": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "newAabbOverlapPairsDuringRecall": [],
+      "maxAabbPairCountDuringRecall": 4
+    },
+    {
+      "profile": "mobile",
+      "faz4": "public/models/orb_v3_faz4_mobile.glb",
+      "faz5Reference": "public/models/orb_v3_faz5_mobile.glb",
+      "output": "public/models/orb_v3_faz7_mobile.glb",
+      "outputSha256": "f5ca166be26a826855cc40856dd66b318283e8f8e3cf91625f348078bab27e65",
+      "outputBytes": 1786168,
+      "checks": {
+        "outputWithinBudget": true,
+        "phase4BinaryIsPrefix": true,
+        "nodeCountPreserved": true,
+        "meshCountPreserved": true,
+        "materialCountPreserved": true,
+        "animationChannelCountPreserved": true,
+        "exactly28ShellTransformChannelsReauthored": true,
+        "nonShellAnimationPayloadIdentical": true,
+        "faz5BreakupPreservedBeforeRecall": true,
+        "alignmentDoesNotCollapsePosition": true,
+        "alignmentWithinEightDegrees": true,
+        "exactSeatBy10_34": true,
+        "exactFinalAt11": true,
+        "quaternionsNormalized": true,
+        "noNewAabbOverlapPairsDuringRecall": true,
+        "reassemblyMetadataPresent": true,
+        "phaseMetadataPresent": true
+      },
+      "preReassemblyMaxPositionError": 0.0,
+      "preReassemblyMaxRotationErrorDegrees": 0.0,
+      "shellMetrics": [
+        {
+          "shell": 1,
+          "wave": "W1",
+          "alignPositionShift": 0.0007074502934843628,
+          "alignAngleErrorDegrees": 6.4399590821353305,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 2,
+          "wave": "W2",
+          "alignPositionShift": 3.379642907665572e-08,
+          "alignAngleErrorDegrees": 5.8800101565870975,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 3,
+          "wave": "W1",
+          "alignPositionShift": 0.0007318052647639263,
+          "alignAngleErrorDegrees": 7.27995417191059,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 4,
+          "wave": "W2",
+          "alignPositionShift": 2.6045768970922096e-08,
+          "alignAngleErrorDegrees": 6.300011487000892,
+          "positionErrorAt10_34": 3.083826487836956e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.083826487836956e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 5,
+          "wave": "W3",
+          "alignPositionShift": 1.7755966898770348e-08,
+          "alignAngleErrorDegrees": 4.7600056482179784,
+          "positionErrorAt10_34": 2.9067587977344513e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 2.9067587977344513e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 6,
+          "wave": "W4",
+          "alignPositionShift": 2.16178233047174e-08,
+          "alignAngleErrorDegrees": 4.200004932306632,
+          "positionErrorAt10_34": 4.095381697377113e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 4.095381697377113e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 7,
+          "wave": "W5",
+          "alignPositionShift": 2.3272082216775575e-08,
+          "alignAngleErrorDegrees": 5.040008631386056,
+          "positionErrorAt10_34": 3.832164316849765e-05,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.306384450105554e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 8,
+          "wave": "W3",
+          "alignPositionShift": 4.8726326753564516e-08,
+          "alignAngleErrorDegrees": 4.4800057250840855,
+          "positionErrorAt10_34": 2.9067587977344513e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 2.9067587977344513e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 9,
+          "wave": "W4",
+          "alignPositionShift": 4.9511244296026267e-08,
+          "alignAngleErrorDegrees": 4.760004977663803,
+          "positionErrorAt10_34": 4.095381697377113e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 4.095381697377113e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 10,
+          "wave": "W5",
+          "alignPositionShift": 1.1812009228156899e-08,
+          "alignAngleErrorDegrees": 4.9000065097478975,
+          "positionErrorAt10_34": 3.832164316849765e-05,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 3.306384450105554e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 11,
+          "wave": "W1",
+          "alignPositionShift": 0.0006835268327337181,
+          "alignAngleErrorDegrees": 6.1599618122569275,
+          "positionErrorAt10_34": 6.764777302689855e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689855e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 12,
+          "wave": "W2",
+          "alignPositionShift": 1.0894436180536665e-09,
+          "alignAngleErrorDegrees": 6.720011639038112,
+          "positionErrorAt10_34": 6.764777302689856e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689856e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 13,
+          "wave": "W1",
+          "alignPositionShift": 0.0007321543224704832,
+          "alignAngleErrorDegrees": 6.999957504997242,
+          "positionErrorAt10_34": 6.764777302689855e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689855e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        },
+        {
+          "shell": 14,
+          "wave": "W2",
+          "alignPositionShift": 4.712909060381797e-08,
+          "alignAngleErrorDegrees": 6.440008085109191,
+          "positionErrorAt10_34": 6.764777302689856e-08,
+          "rotationErrorAt10_34Degrees": 0.0,
+          "positionErrorAt11_00": 6.764777302689856e-08,
+          "rotationErrorAt11_00Degrees": 0.0
+        }
+      ],
+      "finalClosedAabbPairs": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "newAabbOverlapPairsDuringRecall": [],
+      "maxAabbPairCountDuringRecall": 4
+    }
+  ]
+}

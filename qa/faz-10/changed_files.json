@@ -1,0 +1,137 @@
+[
+  {
+    "path": "package.json",
+    "bytes": 2119,
+    "sha256": "abeb6d02173b76e0e4fd9c1fcbeceae1d2ea9065ffcb5622b34391aa3c57c9ab"
+  },
+  {
+    "path": "app/globals.css",
+    "bytes": 31229,
+    "sha256": "2c3fba2d71cd684006b357784503bc75f38c768a496e51ccb1664279c5d9e5ec"
+  },
+  {
+    "path": "components/experience/CinematicExperience.tsx",
+    "bytes": 4778,
+    "sha256": "a51fc7a7b3a6590079d2466b24aff842d77f3afa33f95220f7a39ebc8267f955"
+  },
+  {
+    "path": "components/scene/CinematicPostFX.tsx",
+    "bytes": 3118,
+    "sha256": "6a259f5142445c9025587e5fd7eca094ae988a2ba006f648884ae9e4ffdf028d"
+  },
+  {
+    "path": "components/scene/OrbModel.tsx",
+    "bytes": 5906,
+    "sha256": "18d9f8c015748a687e9af23d47ac8229ee842f0c1983e99e3903ba30083c2cc8"
+  },
+  {
+    "path": "components/scene/ParticleEnergyField.tsx",
+    "bytes": 9021,
+    "sha256": "d6f9b6690835769df56921964ddcf91cd96626bc8fb71c3150c6897f4900381d"
+  },
+  {
+    "path": "components/scene/SceneTimelineDriver.tsx",
+    "bytes": 1805,
+    "sha256": "a5b391b5452fe0662f10d27d23a1eef5fbf0215a134416ac44bf0eef7ea83c98"
+  },
+  {
+    "path": "components/scene/ShellFractureFX.tsx",
+    "bytes": 5505,
+    "sha256": "a2ff9857e7fc097c36bb10cef337bb22487448641807f7539ca0d24ae09d21d1"
+  },
+  {
+    "path": "components/scene/TempleEnvironment.tsx",
+    "bytes": 6588,
+    "sha256": "573e251b55115fad66c2eca9ad78f5981044e4dbe7b36289133877d5d2baff6e"
+  },
+  {
+    "path": "components/scene/VolumetricLightShaft.tsx",
+    "bytes": 1720,
+    "sha256": "f4e4d6022dd3f461109523a3ae20e5b1da9da1b6ae0d492881b989dfb03fbd71"
+  },
+  {
+    "path": "lib/particleBudget.ts",
+    "bytes": 1133,
+    "sha256": "a9b32cd83b31940339098926e1196570af542e0cd6a06a20b5228d5cd664efa1"
+  },
+  {
+    "path": "lib/postProcessingBudget.ts",
+    "bytes": 3427,
+    "sha256": "d714fb489265089bd104e117f86c6356e50a7425599314820187c5edba5ba2eb"
+  },
+  {
+    "path": "lib/runtime/coreEnergyRuntime.js",
+    "bytes": 20982,
+    "sha256": "0660767a4cbb4f3552c0a4eff0addb09ebd5b4a761da8e307760328af7b03267"
+  },
+  {
+    "path": "lib/runtime/reassemblyRuntime.js",
+    "bytes": 4296,
+    "sha256": "b97f9dd0a28dec6cc5c9be17cd20c729176dd9f4117ff7bae5c228db9b2b98fd"
+  },
+  {
+    "path": "lib/sceneTimeline.ts",
+    "bytes": 3395,
+    "sha256": "af96911500f43bda551ff88ea5dd76dffe2eefd51fbcae354e9b6cab6cf022b6"
+  },
+  {
+    "path": "lib/types.ts",
+    "bytes": 1203,
+    "sha256": "fb86128c8332f139a2cff04ea7d514b77d5fffcc6ee3ed4083c1f6e7ba8f9e8d"
+  },
+  {
+    "path": "tools/analyze_frame_saturation.py",
+    "bytes": 2225,
+    "sha256": "40a9e129c619445dbe3d3b2230e759fc50950672f22cddcf4ac03e31e460f839"
+  },
+  {
+    "path": "tools/validate_v3_faz10.py",
+    "bytes": 13243,
+    "sha256": "97a05bd8156d78a80f5af1e1e9ded5d5071c33b887c217ff1c738d4b47636c47"
+  },
+  {
+    "path": "tools/validate_v3_faz5.py",
+    "bytes": 12223,
+    "sha256": "85da4b8a5aecb781a4864f04c74c24f0d73519801d1c3768d544773ed7468069"
+  },
+  {
+    "path": "tools/validate_v3_faz6.py",
+    "bytes": 5852,
+    "sha256": "caddc35f8fbe1457cc3e15074daa0cac0b4d04e9fe643754d7cc9c32b38e846f"
+  },
+  {
+    "path": "tools/validate_v3_faz7.py",
+    "bytes": 13066,
+    "sha256": "ee8c03056fcce4438382fd82a4defc90ff45b2877afd0035176b150b15adee16"
+  },
+  {
+    "path": "tools/validate_v3_faz9.py",
+    "bytes": 6533,
+    "sha256": "91959a0495d52266222c92e0786fc541e7ead12af6c2c4c7a2e3945e0c61d404"
+  },
+  {
+    "path": "spec/v3/FAZ10_PARTICLE_POSTFX_CONTRACT.md",
+    "bytes": 3707,
+    "sha256": "e4173d400731d324c3787ad173ed399404b5bdea225195922463dae5c8d10bc5"
+  },
+  {
+    "path": "qa/faz-10/FAZ10_REPORT.md",
+    "bytes": 3207,
+    "sha256": "928400faf04b1e86618d7d56af43077357c4c4dc74f311fcad42565fcc18e4a6"
+  },
+  {
+    "path": "PROJECT_STATE.json",
+    "bytes": 24806,
+    "sha256": "89bb1244e06f0730d133a436b6d99dbb3d0be256d130bc9aa1a062e2dbe37284"
+  },
+  {
+    "path": "README.md",
+    "bytes": 7505,
+    "sha256": "76f1f117d147556befc31f72f5491ce777faebd660578255ed2875420695476b"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 20107,
+    "sha256": "36ec42359d4ccbb6f2a99027f06ee0ff6967e333072199c4da69e854d9b72825"
+  }
+]

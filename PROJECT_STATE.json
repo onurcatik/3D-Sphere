@@ -1,0 +1,780 @@
+{
+  "project": "3D Premium Website CHATGPT V3",
+  "revision": "V3-F11",
+  "currentPhase": 11,
+  "phaseName": "Premium arayuz, icerik ve kaydirma deneyimi",
+  "phaseStatus": "COMPLETE_WITH_ENVIRONMENT_BLOCKERS",
+  "sourceArchive": {
+    "path": "/mnt/data/3D_Premium_Website_FAZ13.zip",
+    "sha256": "bd9bb6a9da0b59b51662402687058581eda564f6de7da51f92ff62f112e4216f"
+  },
+  "workingRoot": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13",
+  "visualChanges": true,
+  "applicationCodeChanges": true,
+  "sourceIntegrityMatchesArchive": false,
+  "cinematicContract": {
+    "durationSeconds": 11.0,
+    "criticalTimesSeconds": [
+      0.0,
+      1.54,
+      3.08,
+      5.5,
+      6.93,
+      7.92,
+      10.34,
+      11.0
+    ],
+    "scrollHeightVh": 700,
+    "scrollMapping": "monotone-cubic-hermite",
+    "singleSceneSampler": "sampleScene(sceneTime, profile)",
+    "frameOrder": {
+      "sceneTimelineDriver": -100,
+      "cameraRig": -20,
+      "atmosphere": -10,
+      "remainingConsumers": 0
+    }
+  },
+  "assets": {
+    "orb_faz8_web_desktop.glb": {
+      "bytes": 1444796,
+      "sha256": "2d3f0eb4e68629c0710f33b56e7ecb31371ac58774c25dd2cd59a6508d19b58d",
+      "asset": {
+        "version": "2.0",
+        "generator": "OpenAI FAZ8 GLB Optimizer",
+        "extras": {
+          "project": "3D Premium Website",
+          "phase": "FAZ 5",
+          "animationClip": "Orb_Main_Cinematic",
+          "durationSeconds": 11.0,
+          "fpsBaked": 30
+        }
+      },
+      "sceneCount": 1,
+      "nodeCount": 243,
+      "meshCount": 150,
+      "primitiveCount": 150,
+      "vertexAccessorCountSum": 48165,
+      "triangleEstimate": 92678,
+      "materialCount": 14,
+      "textureCount": 0,
+      "imageCount": 0,
+      "skinCount": 0,
+      "attributes": {
+        "POSITION": 150
+      },
+      "hasUV": false,
+      "hasNormals": false,
+      "hasTangents": false,
+      "requiredNodes": {
+        "ORB_ROOT": true,
+        "CORE_ROOT": true,
+        "SHELL_ROOT": true,
+        "RINGS_ROOT": true
+      },
+      "shellRootNodeCount": 14,
+      "animations": [
+        {
+          "name": "Orb_Main_Cinematic",
+          "durationSeconds": 11.0,
+          "channels": 167,
+          "paths": {
+            "translation": 80,
+            "rotation": 83,
+            "scale": 4
+          },
+          "targetNodeCount": 84
+        },
+        {
+          "name": "Ring_Idle",
+          "durationSeconds": 4.0,
+          "channels": 3,
+          "paths": {
+            "rotation": 3
+          },
+          "targetNodeCount": 3
+        },
+        {
+          "name": "Core_Pulse",
+          "durationSeconds": 2.4000000953674316,
+          "channels": 1,
+          "paths": {
+            "scale": 1
+          },
+          "targetNodeCount": 1
+        }
+      ],
+      "materials": [
+        "MAT_Core_BlueWhite",
+        "MAT_Core_Halo",
+        "MAT_Shell_Graphite",
+        "MAT_Antique_Gold",
+        "MAT_Crystal_Ice",
+        "MAT_Shell_Inner",
+        "MAT_Platform_Obsidian",
+        "MAT_EnergyWell_Blue",
+        "MAT_Rune_Emissive",
+        "MAT_Core_InnerWhite",
+        "MAT_Core_EnergyShell",
+        "MAT_Energy_Filament",
+        "MAT_Energy_Lightning",
+        "MAT_Energy_Beam"
+      ]
+    },
+    "orb_faz8_web_mobile.glb": {
+      "bytes": 1076060,
+      "sha256": "95ccb3790c48740ad8e485d994812811ffc22f040711128ff47fb61d24fed59d",
+      "asset": {
+        "version": "2.0",
+        "generator": "OpenAI FAZ8 GLB Optimizer",
+        "extras": {
+          "project": "3D Premium Website",
+          "phase": "FAZ 5",
+          "animationClip": "Orb_Main_Cinematic",
+          "durationSeconds": 11.0,
+          "fpsBaked": 30
+        }
+      },
+      "sceneCount": 1,
+      "nodeCount": 222,
+      "meshCount": 129,
+      "primitiveCount": 129,
+      "vertexAccessorCountSum": 31515,
+      "triangleEstimate": 60470,
+      "materialCount": 14,
+      "textureCount": 0,
+      "imageCount": 0,
+      "skinCount": 0,
+      "attributes": {
+        "POSITION": 129
+      },
+      "hasUV": false,
+      "hasNormals": false,
+      "hasTangents": false,
+      "requiredNodes": {
+        "ORB_ROOT": true,
+        "CORE_ROOT": true,
+        "SHELL_ROOT": true,
+        "RINGS_ROOT": true
+      },
+      "shellRootNodeCount": 14,
+      "animations": [
+        {
+          "name": "Orb_Main_Cinematic",
+          "durationSeconds": 11.0,
+          "channels": 167,
+          "paths": {
+            "translation": 80,
+            "rotation": 83,
+            "scale": 4
+          },
+          "targetNodeCount": 84
+        },
+        {
+          "name": "Ring_Idle",
+          "durationSeconds": 4.0,
+          "channels": 3,
+          "paths": {
+            "rotation": 3
+          },
+          "targetNodeCount": 3
+        },
+        {
+          "name": "Core_Pulse",
+          "durationSeconds": 2.4000000953674316,
+          "channels": 1,
+          "paths": {
+            "scale": 1
+          },
+          "targetNodeCount": 1
+        }
+      ],
+      "materials": [
+        "MAT_Core_BlueWhite",
+        "MAT_Core_Halo",
+        "MAT_Shell_Graphite",
+        "MAT_Antique_Gold",
+        "MAT_Crystal_Ice",
+        "MAT_Shell_Inner",
+        "MAT_Platform_Obsidian",
+        "MAT_EnergyWell_Blue",
+        "MAT_Rune_Emissive",
+        "MAT_Core_InnerWhite",
+        "MAT_Core_EnergyShell",
+        "MAT_Energy_Filament",
+        "MAT_Energy_Lightning",
+        "MAT_Energy_Beam"
+      ]
+    }
+  },
+  "checks": {
+    "sourceIntegrity": "PASS",
+    "tsTsxSyntax": "PASS",
+    "legacyFaz13Validator": "PASS",
+    "runtimeJsSyntax": "PASS",
+    "dependencyInstall": "BLOCKED",
+    "projectTypecheck": "BLOCKED_DEPENDENCIES",
+    "lint": "BLOCKED_DEPENDENCIES",
+    "productionBuild": "BLOCKED_DEPENDENCIES",
+    "freshBrowserCapture": "BLOCKED_DEPENDENCIES",
+    "blenderAssetEditing": "BLOCKED",
+    "v3Faz1Validator": "PASS",
+    "timelineTargetedCompile": "PASS",
+    "timelineRuntimeContract": "PASS",
+    "cameraParityAgainstPreF1Runtime": "PASS",
+    "sceneSampleSourceContract": "PASS",
+    "desktopGlbUnchanged": "PASS",
+    "mobileGlbUnchanged": "PASS",
+    "v3Faz2Validator": "PASS",
+    "deterministicFlowTime10001Samples": "PASS",
+    "seekHelperUnitTests": "PASS",
+    "reverseNumericSmoothstepScan": "PASS",
+    "independentElapsedTimeScan": "PASS",
+    "incrementalCoreRotationScan": "PASS",
+    "sceneTimelineTargetedCompileFaz2": "PASS",
+    "faz1RegressionAfterFaz2": "PASS",
+    "actualThreeMixerGlbReverseSeek": "BLOCKED_DEPENDENCIES",
+    "v3Faz3Validator": "PASS",
+    "glbPipelineDeterminism": "PASS",
+    "embeddedNormalsAllPrimitives": "PASS",
+    "innerShellGeometry14of14": "PASS",
+    "innerShellOffsetAudit": "PASS",
+    "animationPayloadPreserved": "PASS",
+    "originalGlbBinPrefixPreserved": "PASS",
+    "trimeshIndependentLoad": "PASS",
+    "faz1RegressionAfterFaz3": "PASS",
+    "faz2RegressionAfterFaz3": "PASS",
+    "activeThreeGlbLoaderTest": "BLOCKED_DEPENDENCIES",
+    "dccGeometricBevel": "BLOCKED_NO_BLENDER",
+    "v3Faz4Validator": "PASS",
+    "premiumMaterialRuntimeSystem": "PASS",
+    "embeddedGlbPbrExtensions": "PASS",
+    "faz4MaterialPipelineDeterminism": "PASS",
+    "faz4BinaryGeometryAnimationPreserved": "PASS",
+    "faz4NoTextureUvFabrication": "PASS",
+    "faz4TrimeshIndependentLoad": "PASS",
+    "faz1RegressionAfterFaz4": "PASS",
+    "faz2RegressionAfterFaz4": "PASS",
+    "gltfValidatorCli": "BLOCKED_NOT_INSTALLED",
+    "v3Faz5Validator": "PASS",
+    "breakupGlbPipelineDeterminism": "PASS",
+    "shellTightAt3_08": "PASS",
+    "stagedBreakupGroups": "PASS",
+    "shellTransformChannelsReauthored28": "PASS",
+    "nonShellAnimationPayloadPreservedFaz5": "PASS",
+    "noNewAabbOverlapPairsDuringBreakup": "PASS",
+    "openPoseSphereClearancePositive": "PASS",
+    "phase5TrimeshIndependentLoad": "PASS",
+    "phase5TsTsxSyntax": "PASS",
+    "faz1RegressionAfterFaz5": "PASS",
+    "faz2RegressionAfterFaz5": "PASS",
+    "phase5LiveBrowserRender": "BLOCKED_DEPENDENCIES",
+    "v3Faz6Validator": "PASS",
+    "coreEnergyTimeline10001Samples": "PASS",
+    "threeLayerCoreEnergy": "PASS",
+    "semanticShellConnections": "PASS",
+    "phase6DeterministicClockScan": "PASS",
+    "phase6ReverseSmoothstepScan": "PASS",
+    "phase6TsTsxSyntax": "PASS",
+    "phase6CoreRuntimeJsSyntax": "PASS",
+    "phase5GlbHashesPreserved": "PASS",
+    "faz1RegressionAfterFaz6": "PASS",
+    "faz2RegressionAfterFaz6": "PASS",
+    "faz5RegressionAfterFaz6": "PASS",
+    "phase6LiveBrowserRender": "BLOCKED_DEPENDENCIES",
+    "v3Faz7Validator": "PASS",
+    "reassemblyGlbPipelineDeterminism": "PASS",
+    "faz5BreakupPreservedBeforeRecall": "PASS",
+    "fiveWaveMagneticRecall": "PASS",
+    "noNewAabbOverlapPairsDuringRecall": "PASS",
+    "exactSeatBy10_34": "PASS",
+    "exactFinalAt11": "PASS",
+    "phase7Timeline10001Samples": "PASS",
+    "phase7TsTsxSyntax": "PASS",
+    "phase7RuntimeJsSyntax": "PASS",
+    "phase7TrimeshIndependentLoad": "PASS",
+    "faz1RegressionAfterFaz7": "PASS",
+    "faz2RegressionAfterFaz7": "PASS",
+    "faz5RegressionAfterFaz7": "PASS",
+    "faz6RegressionAfterFaz7": "PASS",
+    "phase7LiveBrowserRender": "BLOCKED_DEPENDENCIES",
+    "v3Faz8Validator": "PASS",
+    "phase8CameraTargetedCompile": "PASS",
+    "phase8CameraC1Continuity": "PASS",
+    "phase8SafeFraming661Samples": "PASS",
+    "phase8DesktopNarrativeComposition": "PASS",
+    "phase8TouchParallaxDisabled": "PASS",
+    "phase8TsTsxSyntax": "PASS",
+    "phase8CameraRuntimeJsSyntax": "PASS",
+    "phase8GlbHashesPreserved": "PASS",
+    "faz1RegressionAfterFaz8": "PASS",
+    "faz2RegressionAfterFaz8": "PASS",
+    "faz5RegressionAfterFaz8": "PASS",
+    "faz6RegressionAfterFaz8": "PASS",
+    "faz7RegressionAfterFaz8": "PASS",
+    "phase8LiveBrowserRender": "BLOCKED_DEPENDENCIES",
+    "v3Faz9Validator": "PASS",
+    "phase9LightingTimeline10001Samples": "PASS",
+    "phase9SingleShadowCastingSceneLight": "PASS",
+    "phase9TimelineDrivenPmrem": "PASS",
+    "phase9LayeredTempleDepth": "PASS",
+    "phase9AnalyticContactShadow": "PASS",
+    "phase9FogAndClearColorSeparated": "PASS",
+    "phase9TsTsxSyntax": "PASS",
+    "phase9GlbHashesPreserved": "PASS",
+    "faz1RegressionAfterFaz9": "PASS",
+    "faz2RegressionAfterFaz9": "PASS",
+    "faz5RegressionAfterFaz9": "PASS",
+    "faz6RegressionAfterFaz9": "PASS",
+    "faz7RegressionAfterFaz9": "PASS",
+    "faz8RegressionAfterFaz9": "PASS",
+    "phase9LiveBrowserRender": "BLOCKED_DEPENDENCIES"
+  },
+  "blockers": [
+    "node_modules is absent and npm registry DNS access is unavailable in this runtime, so project dependencies cannot be installed.",
+    "Actual Three.js GLTFLoader/AnimationMixer integration test cannot run because the 'three' package cannot be resolved.",
+    "Full project typecheck/lint/build and fresh browser/GPU validation remain blocked by missing project dependencies.",
+    "Blender/DCC bevel tooling is unavailable. FAZ 3 therefore does not perform a destructive bevel topology rewrite; embedded normals and physical inner reveal geometry were generated with the deterministic local pipeline."
+  ],
+  "knownTechnicalRisks": [
+    "The active V3 GLBs are structurally and geometrically validated, but have not been rendered through the real Three.js application because project dependencies are unavailable.",
+    "UV and tangent attributes remain intentionally absent because the current GLBs contain no textures or tangent-space normal maps. If FAZ 4 introduces mapped textures, mapping must be generated with a surface-specific policy.",
+    "A destructive geometry bevel is deferred because Blender/DCC tooling is unavailable; an approximate custom bevel was not used because it would add topology and animation risk.",
+    "The 0.016-unit reversed-winding inner shell layer is geometry-audited but still requires live camera/render inspection to judge its visual thickness.",
+    "Archived 5.50s baseline still shows composition/readability loss; camera/art-direction correction is planned for later phases.",
+    "FAZ 4 premium materials are structurally validated but still require live Three.js/browser inspection because project dependencies are unavailable.",
+    "Texture/UV micro-detail remains intentionally deferred; material quality currently relies on embedded normals, PBR response, clearcoat and PMREM reflections.",
+    "FAZ 5 parçalanma hareketi ve ikincil fracture efektleri kaynak/GLB düzeyinde doğrulandı ancak project dependencies bulunmadığından canlı Three.js/browser görüntüsü henüz görsel olarak onaylanmadı.",
+    "FAZ 6 core/energy sistemi kaynak ve deterministik timeline düzeyinde doğrulandı; gerçek WebGL shader görünümü ve enerji bağlantılarının kompozisyonu, proje bağımlılıkları bulunmadığı için canlı tarayıcıda henüz görsel olarak onaylanmadı.",
+    "FAZ 7 manyetik recall ve birleşme GLB/geometri/timeline düzeyinde doğrulandı; canlı Three.js/WebGL görünümü proje bağımlılıkları bulunmadığı için henüz görsel olarak onaylanmadı.",
+    "FAZ 8 camera yolu 661 kare/profil projeksiyon denetiminde güvenli kadraj verdi; ancak gerçek Three.js/browser çıktısı proje bağımlılıkları bulunmadığı için henüz canlı görsel olarak onaylanmadı.",
+    "FAZ 9 lighting/environment system passed source/timeline/regression validation, but the final visual balance still requires live Three.js/browser inspection because project dependencies are unavailable.",
+    "FAZ 10 particle/post-FX controls passed source, dense timeline and regression validation, but the updated rendered saturation ratio is not claimed because a fresh browser build cannot run without project dependencies."
+  ],
+  "nextPhase": 11,
+  "nextPhaseName": "Premium arayuz, icerik ve kaydirma deneyimi",
+  "phase1Changes": {
+    "sharedSceneSample": true,
+    "cameraTimelineSingleSource": true,
+    "mainClipConsumesSharedProgress": true,
+    "lookConsumersUseSharedSample": true,
+    "particleStateConsumersUseSharedSample": true,
+    "criticalBoundarySpeedNoLongerForcedToZero": true,
+    "glbFilesChanged": false
+  },
+  "phase2Changes": {
+    "independentCinematicClocksRemoved": true,
+    "deterministicIntegratedFlowTime": true,
+    "incrementalCoreRotationsRemoved": true,
+    "reverseSmoothstepFixed": true,
+    "safeShaderNormalizationAdded": true,
+    "sharedSeekHelperAdded": true,
+    "runtimeMaterialRestorationAdded": true,
+    "glbFilesChanged": false,
+    "flowTimeFinalAt11s": 8.75545,
+    "flowDerivativeMaxError": 3.2151576956351846e-09
+  },
+  "activeAssets": {
+    "desktop": {
+      "url": "/models/orb_v3_faz7_desktop.glb",
+      "bytes": 2358132,
+      "sha256": "b791a252abb0ef542c113ebd3455b4fcea257cf4184cdf762b624be990b8035c",
+      "embeddedNormals": true,
+      "innerShellCount": 14,
+      "uv": false,
+      "tangents": false,
+      "premiumPbrPhase": 4,
+      "extensions": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_ior",
+        "KHR_materials_emissive_strength"
+      ],
+      "breakupPhase": 5,
+      "breakupSampleRateFps": 60,
+      "breakupOpenPoseSeconds": 5.5,
+      "minimumOpenSphereClearance": 0.5292873235349248,
+      "reassemblyPhase": 7,
+      "reassemblySampleRateFps": 60,
+      "reassemblyAlignEndSeconds": 7.92,
+      "reassemblySealStartSeconds": 10.34,
+      "newAabbOverlapPairsDuringRecall": 0
+    },
+    "mobile": {
+      "url": "/models/orb_v3_faz7_mobile.glb",
+      "bytes": 1786168,
+      "sha256": "f5ca166be26a826855cc40856dd66b318283e8f8e3cf91625f348078bab27e65",
+      "embeddedNormals": true,
+      "innerShellCount": 14,
+      "uv": false,
+      "tangents": false,
+      "premiumPbrPhase": 4,
+      "extensions": [
+        "KHR_materials_clearcoat",
+        "KHR_materials_transmission",
+        "KHR_materials_volume",
+        "KHR_materials_ior",
+        "KHR_materials_emissive_strength"
+      ],
+      "breakupPhase": 5,
+      "breakupSampleRateFps": 60,
+      "breakupOpenPoseSeconds": 5.5,
+      "minimumOpenSphereClearance": 0.5292873235349248,
+      "reassemblyPhase": 7,
+      "reassemblySampleRateFps": 60,
+      "reassemblyAlignEndSeconds": 7.92,
+      "reassemblySealStartSeconds": 10.34,
+      "newAabbOverlapPairsDuringRecall": 0
+    },
+    "sourceModelsPreserved": true,
+    "pipeline": "tools/glb_v3_pipeline.py",
+    "geometryPipeline": "tools/glb_v3_pipeline.py",
+    "materialPipeline": "tools/glb_v3_materials.py",
+    "choreographyPipeline": "tools/glb_v3_choreography.py",
+    "reassemblyPipeline": "tools/glb_v3_reassembly.py"
+  },
+  "phase3Changes": {
+    "originalGlbsPreserved": true,
+    "versionedActiveGlbsGenerated": true,
+    "embeddedNormals": true,
+    "allActivePrimitivesHaveNormals": true,
+    "innerShellSurfaces": 14,
+    "innerSurfaceThickness": 0.016,
+    "stableShellIds": true,
+    "sourceAnimationPayloadChanged": false,
+    "sourceTransformsChanged": false,
+    "uvGenerated": false,
+    "tangentsGenerated": false,
+    "bevelGenerated": false,
+    "bevelStatus": "BLOCKED_NO_BLENDER_DEFERRED_NONDESTRUCTIVELY",
+    "desktopBytes": 2085464,
+    "mobileBytes": 1513500
+  },
+  "currentRevision": "V3-F9",
+  "currentPhaseName": "Işık, ortam ve mekânsal derinlik",
+  "phase4Changes": {
+    "premiumRuntimeMaterialSystem": true,
+    "glbEmbeddedPbrMaterialIntent": true,
+    "shellGraphitePhysical": true,
+    "antiqueGoldPhysical": true,
+    "crystalTransmissionVolumeIor": true,
+    "innerShellDarkerRougherMetal": true,
+    "platformObsidianPhysical": true,
+    "runeEmissiveWarmAccent": true,
+    "tieredEnvironmentIntensity": true,
+    "singleAcesToneMappingPolicyPreserved": true,
+    "texturesAdded": false,
+    "uvGenerated": false,
+    "tangentsGenerated": false,
+    "sourceBinaryGeometryAnimationChanged": false
+  },
+  "phase5Changes": {
+    "stagedGroups": {
+      "A": [
+        1,
+        6,
+        8,
+        11,
+        13
+      ],
+      "B": [
+        2,
+        5,
+        9,
+        12,
+        14
+      ],
+      "C": [
+        3,
+        4,
+        7,
+        10
+      ]
+    },
+    "groupStartSeconds": {
+      "A": 3.08,
+      "B": 3.26,
+      "C": 3.44
+    },
+    "openPoseSeconds": 5.5,
+    "openHoldEndSeconds": 6.93,
+    "sampleRateFps": 60,
+    "shellTransformChannelsReauthored": 28,
+    "nonShellAnimationChannelsPreserved": 139,
+    "maxDisplacementAt3_08": 0.026455042783903638,
+    "openDisplacementMin": 1.1860314830787202,
+    "openDisplacementMax": 1.4946476791145178,
+    "newAabbOverlapPairsDuringBreakup": 0,
+    "minimumOpenSphereClearance": 0.5292873235349248,
+    "deterministicSeededDebris": true,
+    "singleShockwave": true,
+    "innerShellSeamGlow": true,
+    "recallAfter6_93Finalized": false,
+    "recallDeferredToPhase7": true
+  },
+  "phase6Changes": {
+    "coreTimelineSingleSource": true,
+    "coreLayers": [
+      "Runtime_InnerCore",
+      "Core_Vortex_GEO",
+      "Core_EnergyShell_GEO"
+    ],
+    "haloSeparateOpticalLayer": true,
+    "desktopDynamicShellConnections": 5,
+    "mobileDynamicShellConnections": 3,
+    "connectionGainAt5_50": 1.0,
+    "connectionGainAt11_00": 0.0,
+    "whiteHotPeak": 0.48,
+    "particleLinkedToCoreGain": true,
+    "volumetricBeamLinkedToCoreGain": true,
+    "coreLightLinkedToCoreGain": true,
+    "bloomDetailGuard": true,
+    "independentClockSources": false,
+    "glbFilesChanged": false,
+    "timelineSamplesValidated": 10001,
+    "maxAdjacentSampleDelta": 0.0010680782909181508
+  },
+  "phase7Changes": {
+    "breakupBefore6_93Preserved": true,
+    "alignmentWindowSeconds": [
+      6.93,
+      7.92
+    ],
+    "reassemblyWindowSeconds": [
+      7.92,
+      10.34
+    ],
+    "sealWindowSeconds": [
+      10.34,
+      11.0
+    ],
+    "waves": {
+      "W1": [
+        1,
+        3,
+        11,
+        13
+      ],
+      "W2": [
+        2,
+        4,
+        12,
+        14
+      ],
+      "W3": [
+        5,
+        8
+      ],
+      "W4": [
+        6,
+        9
+      ],
+      "W5": [
+        7,
+        10
+      ]
+    },
+    "preSeatGap": 0.11,
+    "seatDurationSeconds": 0.22,
+    "maxAlignmentAngleErrorDegrees": 7.27995417191059,
+    "maxPositionErrorAt10_34": 3.832164316849765e-05,
+    "maxRotationErrorAt10_34Degrees": 0.0,
+    "newAabbOverlapPairsDuringRecall": 0,
+    "magneticSlotGuides": true,
+    "finalSealRing": true,
+    "independentClockSources": false,
+    "timelineSamplesValidated": 10001,
+    "timelineMaxAdjacentDelta": 0.023569440233219274
+  },
+  "phase8Changes": {
+    "cameraKeyframes": 11,
+    "openOrbCameraWindowSeconds": [
+      5.5,
+      6.93
+    ],
+    "coreRevealCameraPosition": [
+      4.9,
+      1.35,
+      12.8
+    ],
+    "coreRevealFovDegrees": 44.0,
+    "coreRevealFocusDistanceApprox": 13.7823,
+    "opticalTargetSeparateFromFocusTarget": true,
+    "targetInterpolation": "monotone-cubic-hermite",
+    "positionInterpolation": "c1-cubic-hermite",
+    "pointerParallaxPositionBase": 0.045,
+    "pointerParallaxTargetBase": 0.018,
+    "touchParallaxDisabled": true,
+    "near": 0.1,
+    "far": 60,
+    "safeFrameSamplesPerProfile": 661,
+    "safeFrameProfiles": {
+      "desktop1440x900": {
+        "violations": 0,
+        "maxAbsX": 0.9633716857993972,
+        "minY": -0.8368850656812346,
+        "maxY": 0.7284270436110392,
+        "minDepth": 8.213442510373582
+      },
+      "tabletPortrait768x1024": {
+        "violations": 0,
+        "maxAbsX": 0.9363709065619468,
+        "minY": -0.5447256049860125,
+        "maxY": 0.5503004455908201,
+        "minDepth": 10.113961640646195
+      },
+      "mobilePortrait390x844": {
+        "violations": 0,
+        "maxAbsX": 0.9242999757095152,
+        "minY": -0.31323431409047925,
+        "maxY": 0.46864938902957404,
+        "minDepth": 12.03635787410501
+      },
+      "mobileLandscape844x390": {
+        "violations": 0,
+        "maxAbsX": 0.36857375809152654,
+        "minY": -0.5888301669726101,
+        "maxY": 0.6228435938543768,
+        "minDepth": 9.230945639510951
+      },
+      "lowPowerPortrait360x800": {
+        "violations": 0,
+        "maxAbsX": 0.942089455962906,
+        "minY": -0.3063532555737579,
+        "maxY": 0.46457618880817386,
+        "minDepth": 12.206990762775959
+      }
+    },
+    "maxPositionVelocityJump": 0.00018307945112440145,
+    "maxTargetVelocityJump": 0.0006621726332894511,
+    "desktopGlbChanged": false,
+    "mobileGlbChanged": false
+  },
+  "phase9Changes": {
+    "lightingKeyframes": 10,
+    "lightingDenseSamples": 10001,
+    "maxLightingStep": 0.00019999967078199177,
+    "shadowCastingSceneLights": 1,
+    "coreRevealSeconds": 5.5,
+    "coreReveal": {
+      "environmentGain": 1.04,
+      "fogDensityScale": 0.74,
+      "exposureTrim": 0.94,
+      "contactShadowOpacity": 0.2,
+      "shaftGain": 1.0
+    },
+    "templeDepthZ": [
+      -2.6,
+      -6.5,
+      -10.2
+    ],
+    "localPmrem": true,
+    "externalHdrDependency": false,
+    "desktopGlbChanged": false,
+    "mobileGlbChanged": false
+  },
+  "validation": {
+    "v3Faz10Validator": "PASS",
+    "phase10PostFxDenseSamples": "PASS",
+    "phase10ParticleBudgets": "PASS",
+    "phase10ComposerMsaaPolicy": "PASS",
+    "phase10ParticleBoundsAndCulling": "PASS",
+    "phase10TsTsxSyntax": "PASS",
+    "phase10CoreRuntimeJsSyntax": "PASS",
+    "phase10ReassemblyRuntimeJsSyntax": "PASS",
+    "faz1RegressionAfterFaz10": "PASS",
+    "faz2RegressionAfterFaz10": "PASS",
+    "faz5RegressionAfterFaz10": "PASS",
+    "faz6RegressionAfterFaz10": "PASS",
+    "faz7RegressionAfterFaz10": "PASS",
+    "faz8RegressionAfterFaz10": "PASS",
+    "faz9RegressionAfterFaz10": "PASS",
+    "phase10LiveBrowserRender": "BLOCKED_DEPENDENCIES"
+  },
+  "phase10Changes": {
+    "centralParticleBudget": true,
+    "particleBudgets": {
+      "desktop-high": {
+        "total": 2650,
+        "cap": 3000
+      },
+      "desktop-balanced": {
+        "total": 2220,
+        "cap": 3000
+      },
+      "tablet": {
+        "total": 1620,
+        "cap": 3000
+      },
+      "mobile": {
+        "total": 870,
+        "cap": 1000
+      },
+      "low-power": {
+        "total": 540,
+        "cap": 1000
+      }
+    },
+    "sharedPostFxBudget": true,
+    "denseSamplesPerProfile": 10001,
+    "qualityProfilesSampled": 5,
+    "maxAnalyticSaturationRisk": 0.6950776302187168,
+    "maxBloomIntensity": 0.49897361492891,
+    "minBloomThreshold": 1.1957593312411616,
+    "maxDesktopBokehScale": 0.4412352795140175,
+    "maxAdjacentControlStep": 0.0018797059655887849,
+    "composerMultisampling": {
+      "desktop-high": 4,
+      "desktop-balanced": 2,
+      "tablet": 2,
+      "mobile": 0,
+      "low-power": 0
+    },
+    "particleBoundingSphereRadius": {
+      "field": 7.2,
+      "core": 3.4,
+      "debris": 4.8
+    },
+    "archivalBaselineNearWhiteMaxRatio": 0.2138503086419753,
+    "archivalBaselineHighLumaMaxRatio": 0.256313175154321,
+    "archivalBaselineWarningFrame": "0.63.png",
+    "desktopGlbChanged": false,
+    "mobileGlbChanged": false
+  },
+  "uiScrollContract": {
+    "chapterCount": 7,
+    "scrollHeightDvh": 700,
+    "navigationMapping": "ScrollTrigger.start + usableRange * segment.scrollStart",
+    "productionHeader": "chapter + progress line + chapter index",
+    "debugUiQuery": "?debug=1",
+    "rawMetricsProductionVisible": false,
+    "skipLink": true,
+    "ariaCurrent": "step",
+    "minimumActionTargetPx": 48,
+    "scrollSnap": false,
+    "forcedAutoplay": false
+  },
+  "phase11Validation": {
+    "validator": "qa/faz-11/validation_v3_faz11.json",
+    "passed": true,
+    "denseSamples": 10001,
+    "chapterStartProgressMaxError": 0,
+    "chapterStartSceneTimeMaxError": 0,
+    "regressions": [
+      1,
+      2,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "fullTypecheck": "BLOCKED_MISSING_NODE_MODULES",
+    "lint": "BLOCKED_MISSING_ESLINT",
+    "build": "BLOCKED_MISSING_NEXT",
+    "browserRender": "NOT_RUN_NO_CURRENT_BUILD",
+    "npmValidation": "PASS",
+    "validatorOptimized": true
+  }
+}

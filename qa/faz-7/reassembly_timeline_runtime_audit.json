@@ -1,0 +1,188 @@
+{
+  "samples": 10001,
+  "finite": true,
+  "bounded": true,
+  "maxAdjacentDelta": 0.023569440233219274,
+  "critical": {
+    "0": {
+      "active": 0,
+      "alignment": 0,
+      "progress": 0,
+      "closedness": 0,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 0,
+        "W2": 0,
+        "W3": 0,
+        "W4": 0,
+        "W5": 0
+      }
+    },
+    "11": {
+      "active": 0,
+      "alignment": 1,
+      "progress": 1,
+      "closedness": 1,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 1,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 1,
+        "W4": 1,
+        "W5": 1
+      }
+    },
+    "6.93": {
+      "active": 0,
+      "alignment": 0,
+      "progress": 0,
+      "closedness": 0,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 0,
+        "W2": 0,
+        "W3": 0,
+        "W4": 0,
+        "W5": 0
+      }
+    },
+    "7.92": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0,
+      "closedness": 0,
+      "guideGain": 1,
+      "seamGlow": 0.1348148148148148,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 0,
+        "W2": 0,
+        "W3": 0,
+        "W4": 0,
+        "W5": 0
+      }
+    },
+    "9.05": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.6461491527718091,
+      "closedness": 0.6461491527718091,
+      "guideGain": 0.715694372780404,
+      "seamGlow": 0.8301515933304684,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 0.9098722930706731,
+        "W3": 0.5655738018991345,
+        "W4": 0.1372348125000576,
+        "W5": 0.000490868862125403
+      }
+    },
+    "9.32": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.7894571081402529,
+      "closedness": 0.7894571081402529,
+      "guideGain": 0.6526388724182888,
+      "seamGlow": 0.8989394119073214,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 0.9182494892067361,
+        "W4": 0.5158867876163764,
+        "W5": 0.09206348015865785
+      }
+    },
+    "9.58": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.8926377286986199,
+      "closedness": 0.8926377286986199,
+      "guideGain": 0.6072393993726073,
+      "seamGlow": 0.9484661097753375,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 1,
+        "W4": 0.8728902400896006,
+        "W5": 0.3755738608007385
+      }
+    },
+    "9.9": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.9710626571268872,
+      "closedness": 0.9710626571268872,
+      "guideGain": 0.5727324308641697,
+      "seamGlow": 0.9861100754209058,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 1,
+        "W4": 1,
+        "W5": 0.797438599888211
+      }
+    },
+    "10.34": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 1,
+      "closedness": 1,
+      "guideGain": 0,
+      "seamGlow": 1,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 1,
+        "W4": 1,
+        "W5": 1
+      }
+    },
+    "10.5": {
+      "active": 0.8521857695411412,
+      "alignment": 1,
+      "progress": 1,
+      "closedness": 1,
+      "guideGain": 0,
+      "seamGlow": 0.8521857695411412,
+      "seatPulse": 0.03429355281207003,
+      "sealPulse": 0.9944933015533823,
+      "completed": 0.09568750210327534,
+      "waveProgress": {
+        "W1": 1,
+        "W2": 1,
+        "W3": 1,
+        "W4": 1,
+        "W5": 1
+      }
+    }
+  }
+}

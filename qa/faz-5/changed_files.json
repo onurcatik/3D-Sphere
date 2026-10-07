@@ -1,0 +1,105 @@
+{
+  "phase": 5,
+  "files": [
+    {
+      "path": "spec/v3/orb_breakup_choreography.json",
+      "bytes": 4677,
+      "sha256": "f65ae56c062c80be156cd5ada18a37f7d2160a19e249cd4f761ada84bb06bbda"
+    },
+    {
+      "path": "spec/v3/FAZ5_BREAKUP_CHOREOGRAPHY_CONTRACT.md",
+      "bytes": 3579,
+      "sha256": "9dd9e2067319590e4c71a4a1d6690af8a295dbbb27d69fd04b330f2f910ba094"
+    },
+    {
+      "path": "tools/glb_v3_pipeline.py",
+      "bytes": 16604,
+      "sha256": "21460dee922e87cc044fbf1e39e1f8ae5ad4134e5531deee5d4c2e588511f973"
+    },
+    {
+      "path": "tools/glb_v3_choreography.py",
+      "bytes": 13639,
+      "sha256": "226425e15c141a1c0a0ba3138c1b84a14a602e242bdd4c69571559ec07db6e3b"
+    },
+    {
+      "path": "tools/validate_v3_faz5.py",
+      "bytes": 12020,
+      "sha256": "bf650c6cae55a7316c3fb7ee337d4be7aad9fb2350cc139078868c08fa17fa5c"
+    },
+    {
+      "path": "public/models/orb_v3_faz5_desktop.glb",
+      "bytes": 2359076,
+      "sha256": "498e2cb4fb5198ebd5564614e5b085b7ea81ba64f23f439cfb47017e4028ee8e"
+    },
+    {
+      "path": "public/models/orb_v3_faz5_mobile.glb",
+      "bytes": 1787108,
+      "sha256": "6638b24a83395856f4b6752d284c41cbeb42d8df425c00721ff77c8b0a0d7cf9"
+    },
+    {
+      "path": "public/models/orb_v3_faz5_manifest.json",
+      "bytes": 18568,
+      "sha256": "52db60379beca6e6ad86b7bb30fa776c60a02624682f9450212175134eca1152"
+    },
+    {
+      "path": "lib/orbBreakupTimeline.ts",
+      "bytes": 2708,
+      "sha256": "b1db0b2693e525be5a57c098b6b27347050e60b017f2621292796fe7c24248ee"
+    },
+    {
+      "path": "lib/sceneTimeline.ts",
+      "bytes": 2508,
+      "sha256": "83936ff38a6fd5e40f6de3d0ddea4cbe2bb7103c052081ba504ab0a80465eba0"
+    },
+    {
+      "path": "lib/assetProfile.ts",
+      "bytes": 7267,
+      "sha256": "3bafb7d98e1718135b72204c0ccd80d877687e8849aa9286b742322b77d0c490"
+    },
+    {
+      "path": "components/scene/ShellFractureFX.tsx",
+      "bytes": 5442,
+      "sha256": "4ea960a78a113629645b54b12b4dfe5ba45080f2b87a2be0f62fb76a1ee2d43e"
+    },
+    {
+      "path": "components/scene/CinematicCanvas.tsx",
+      "bytes": 2518,
+      "sha256": "d4a199258099be5e200de5219f77ede327e0eb925ea3e3539a0c44edd48927e2"
+    },
+    {
+      "path": "components/scene/OrbModel.tsx",
+      "bytes": 4736,
+      "sha256": "82c99f10636488f4d2c3475aa540dd35963690da0a70f427ae7b8d0c5fd1fb9e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1606,
+      "sha256": "affbdedce48e04034415f6a21dd1f7d8c52676f1af1c972dd85bef4367cb5c61"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3007,
+      "sha256": "4b20f9601daf3b503c2fea6289b50c74095e3e87160e9a2e1a6903d3c061f513"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 9455,
+      "sha256": "f03c1ea8b6f9c3b9454348e00d92f5e2a2b59d9300cc58b82b8fd2d5788a12c1"
+    },
+    {
+      "path": "PROJECT_STATE.json",
+      "bytes": 15165,
+      "sha256": "fec3916adcbfeeab525ef10eed3d12c83cf03d7685857afd15f57e8aa500eee6"
+    },
+    {
+      "path": "qa/faz-5/FAZ5_REPORT.md",
+      "bytes": 3593,
+      "sha256": "9db8be36ed4755925c4a9c8277a1c96923141a52bc0bdea42c58dd8ae00c9c6a"
+    },
+    {
+      "path": "qa/faz-5/validation_v3_faz5.json",
+      "bytes": 11713,
+      "sha256": "2d8424bf7a57a37437424b67ac56f5ecf0ddb6c16e21ee48d8a2e49bebdd5e5b"
+    }
+  ]
+}

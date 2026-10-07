@@ -1,0 +1,71 @@
+{
+  "phase": 3,
+  "models": [
+    {
+      "profile": "desktop",
+      "sourceBytes": 1444796,
+      "enhancedBytes": 2085464,
+      "budgetBytes": 4194304,
+      "normalMaxUnitError": 4.649407014944984e-08,
+      "counts": {
+        "nodes": 257,
+        "meshes": 164,
+        "primitives": 164,
+        "accessors": 731,
+        "innerShellNodes": 14
+      },
+      "checks": {
+        "budget": true,
+        "source_bin_prefix_preserved": true,
+        "animation_payload_identical": true,
+        "original_node_names_preserved": true,
+        "original_transforms_preserved": true,
+        "all_primitives_have_normals": true,
+        "normals_finite": true,
+        "normals_unit_error_lt_1e-4": true,
+        "fourteen_inner_shell_nodes": true,
+        "stable_shell_ids": true,
+        "no_textures": true,
+        "no_uv_or_tangent_invented": true,
+        "asset_metadata": true
+      },
+      "pass": true
+    },
+    {
+      "profile": "mobile",
+      "sourceBytes": 1076060,
+      "enhancedBytes": 1513500,
+      "budgetBytes": 2097152,
+      "normalMaxUnitError": 4.597109826143253e-08,
+      "counts": {
+        "nodes": 236,
+        "meshes": 143,
+        "primitives": 143,
+        "accessors": 687,
+        "innerShellNodes": 14
+      },
+      "checks": {
+        "budget": true,
+        "source_bin_prefix_preserved": true,
+        "animation_payload_identical": true,
+        "original_node_names_preserved": true,
+        "original_transforms_preserved": true,
+        "all_primitives_have_normals": true,
+        "normals_finite": true,
+        "normals_unit_error_lt_1e-4": true,
+        "fourteen_inner_shell_nodes": true,
+        "stable_shell_ids": true,
+        "no_textures": true,
+        "no_uv_or_tangent_invented": true,
+        "asset_metadata": true
+      },
+      "pass": true
+    }
+  ],
+  "projectChecks": {
+    "asset_profile_uses_v3": true,
+    "pipeline_exists": true,
+    "contract_exists": true
+  },
+  "pass": true
+}

@@ -1,0 +1,26 @@
+TAP version 13
+# (node:3288) [MODULE_TYPELESS_PACKAGE_JSON] Warning: Module type of file:///mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/lib/runtime/seekAnimationAction.js is not specified and it doesn't parse as CommonJS.
+# Reparsing as ES module because module syntax was detected. This incurs a performance overhead.
+# To eliminate this warning, add "type": "module" to /mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/package.json.
+# (Use `node --trace-warnings ...` to show where the warning was created)
+# Subtest: seek helper re-arms a LoopOnce action after the final frame
+ok 1 - seek helper re-arms a LoopOnce action after the final frame
+  ---
+  duration_ms: 1.16411
+  type: 'test'
+  ...
+# Subtest: seek helper clamps invalid and out-of-range requests
+ok 2 - seek helper clamps invalid and out-of-range requests
+  ---
+  duration_ms: 0.171288
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 61.814889

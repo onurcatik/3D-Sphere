@@ -1,0 +1,96 @@
+{
+  "phase": "CHATGPT V3 FAZ 2",
+  "status": "PASS",
+  "checks": {
+    "no_state_clock_elapsedTime_in_components_or_lib": true,
+    "no_incremental_rotation_in_core_runtime": true,
+    "core_runtime_uses_absolute_base_rotations": true,
+    "particle_uses_integrated_flow_time": true,
+    "particle_shader_no_uFlowSpeed_multiplier": true,
+    "scene_sample_exposes_flow_time": true,
+    "flow_integral_is_analytic": true,
+    "beam_uses_scene_time": true,
+    "ambient_dust_uses_scene_time": true,
+    "no_numeric_reverse_or_equal_smoothstep": true,
+    "particle_safe_normalize_guard": true,
+    "core_shader_safe_normalize_guard": true,
+    "orb_uses_shared_seek_helper": true,
+    "seek_helper_rearms_enabled_paused": true,
+    "asset_test_uses_same_seek_helper": true,
+    "standalone_seek_test_passed": true,
+    "runtime_tracks_material_restoration": true,
+    "orb_tracks_base_material_cleanup": true,
+    "crystal_transmission_scoped_to_crystal_targets": true,
+    "flow_time_test_passed": true,
+    "flow_time_derivative_matches_speed": true,
+    "ts_tsx_syntax_passed": true,
+    "scene_timeline_targeted_compile_passed": true,
+    "core_runtime_js_syntax_passed": true,
+    "seek_runtime_js_syntax_passed": true,
+    "faz1_regression_passed": true,
+    "orb_faz8_web_desktop.glb:unchanged": true,
+    "orb_faz8_web_mobile.glb:unchanged": true
+  },
+  "diagnostics": {
+    "numericReverseSmoothsteps": [],
+    "flowTime": {
+      "status": "PASS",
+      "samplesChecked": 10001,
+      "monotonic": true,
+      "finite": true,
+      "maxDerivativeError": 3.2151576956351846e-09,
+      "finalFlowTime": 8.755449999999998,
+      "samples": [
+        {
+          "progress": 0,
+          "flowTime": 0,
+          "flowSpeed": 0.42
+        },
+        {
+          "progress": 0.125,
+          "flowTime": 0.6380444455051746,
+          "flowSpeed": 0.5189592436373238
+        },
+        {
+          "progress": 0.25,
+          "flowTime": 1.424388704111382,
+          "flowSpeed": 0.6688832034271435
+        },
+        {
+          "progress": 0.375,
+          "flowTime": 2.4308663162344932,
+          "flowSpeed": 0.8737855227732493
+        },
+        {
+          "progress": 0.5,
+          "flowTime": 3.740220922559811,
+          "flowSpeed": 1.0901091052080163
+        },
+        {
+          "progress": 0.625,
+          "flowTime": 5.358652799367904,
+          "flowSpeed": 1.2498003578186037
+        },
+        {
+          "progress": 0.75,
+          "flowTime": 6.852593945312499,
+          "flowSpeed": 0.9572265624999999
+        },
+        {
+          "progress": 0.875,
+          "flowTime": 7.967058587812498,
+          "flowSpeed": 0.7129661249999999
+        },
+        {
+          "progress": 1,
+          "flowTime": 8.755449999999998,
+          "flowSpeed": 0.5
+        }
+      ]
+    },
+    "actualThreeAnimationMixerIntegration": "BLOCKED_DEPENDENCIES"
+  },
+  "environmentBlockers": [
+    "Actual Three.js AnimationMixer + GLB integration test cannot run because node_modules is absent and the 'three' package cannot be resolved."
+  ]
+}

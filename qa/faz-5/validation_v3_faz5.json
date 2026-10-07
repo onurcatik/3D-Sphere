@@ -1,0 +1,343 @@
+{
+  "phase": 5,
+  "passed": true,
+  "globalChecks": {
+    "groupMembershipExact": true,
+    "desktopMobileOpenPoseIdentical": true,
+    "activeAssetsPhase5OrLater": true,
+    "breakupRuntimeUsesSceneTime": true,
+    "breakupTimelineIntegrated": true,
+    "singleShockwaveContract": true,
+    "deterministicDebrisSeed": true
+  },
+  "models": [
+    {
+      "profile": "desktop",
+      "source": "public/models/orb_v3_faz4_desktop.glb",
+      "output": "public/models/orb_v3_faz5_desktop.glb",
+      "sourceSha256": "bc5e816f9d339cb38521f3965cc4b52095f806f65eea0b5af411a480c78e48ac",
+      "outputSha256": "498e2cb4fb5198ebd5564614e5b085b7ea81ba64f23f439cfb47017e4028ee8e",
+      "outputBytes": 2359076,
+      "checks": {
+        "outputWithinBudget": true,
+        "sourceBinaryIsPrefix": true,
+        "nodeCountPreserved": true,
+        "meshCountPreserved": true,
+        "materialCountPreserved": true,
+        "animationChannelCountPreserved": true,
+        "exactly28ShellTransformChannelsReauthored": true,
+        "nonShellAnimationPayloadIdentical": true,
+        "tightAt3_08": true,
+        "openPoseReadableDistance": true,
+        "openPoseHeldTo6_93": true,
+        "lateSourceContinuity": true,
+        "quaternionsNormalized": true,
+        "noNewAabbOverlapPairsDuringBreakup": true,
+        "openPoseSphereClearancePositive": true,
+        "phaseMetadataPresent": true
+      },
+      "shellMetrics": [
+        {
+          "shell": 1,
+          "displacementAt3_08": 0.026455042783903638,
+          "displacementAt5_50": 1.4625371605583095,
+          "holdDifference5_50to6_93": 3.1987163240130754e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.900954976368658e-07
+        },
+        {
+          "shell": 2,
+          "displacementAt3_08": 0.026070918964095587,
+          "displacementAt5_50": 1.4089448898520904,
+          "holdDifference5_50to6_93": 1.7192583646487332e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.4014758113166254e-07
+        },
+        {
+          "shell": 3,
+          "displacementAt3_08": 0.026215606404484375,
+          "displacementAt5_50": 1.4946476791145178,
+          "holdDifference5_50to6_93": 2.567843009590421e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.101758772109362e-07
+        },
+        {
+          "shell": 4,
+          "displacementAt3_08": 0.026283305175349353,
+          "displacementAt5_50": 1.4408724335240166,
+          "holdDifference5_50to6_93": 1.0662387741745184e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.1068907659521662e-07
+        },
+        {
+          "shell": 5,
+          "displacementAt3_08": 0.026123454903752757,
+          "displacementAt5_50": 1.2113039692439609,
+          "holdDifference5_50to6_93": 9.536729522752196e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.1920928955078125e-07
+        },
+        {
+          "shell": 6,
+          "displacementAt3_08": 0.02600843042034286,
+          "displacementAt5_50": 1.1860314830787202,
+          "holdDifference5_50to6_93": 1.0662387741745184e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.659321255401985e-07
+        },
+        {
+          "shell": 7,
+          "displacementAt3_08": 0.026249698214284602,
+          "displacementAt5_50": 1.2134898090187487,
+          "holdDifference5_50to6_93": 9.536729517201081e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.4979249734912254e-07
+        },
+        {
+          "shell": 8,
+          "displacementAt3_08": 0.02603388237684042,
+          "displacementAt5_50": 1.1866339274636224,
+          "holdDifference5_50to6_93": 2.949070736331582e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.204015093583045e-07
+        },
+        {
+          "shell": 9,
+          "displacementAt3_08": 0.026173047293794566,
+          "displacementAt5_50": 1.195825859721253,
+          "holdDifference5_50to6_93": 2.1589689685963826e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.2802340809137194e-07
+        },
+        {
+          "shell": 10,
+          "displacementAt3_08": 0.026316144559988004,
+          "displacementAt5_50": 1.2314571979333029,
+          "holdDifference5_50to6_93": 4.7683647586005407e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.541327823478213e-07
+        },
+        {
+          "shell": 11,
+          "displacementAt3_08": 0.026001332877709116,
+          "displacementAt5_50": 1.3946967463071358,
+          "holdDifference5_50to6_93": 9.536729517201081e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.323172209886055e-07
+        },
+        {
+          "shell": 12,
+          "displacementAt3_08": 0.026100042189645303,
+          "displacementAt5_50": 1.4254716674503736,
+          "holdDifference5_50to6_93": 0.0,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.406506680440518e-07
+        },
+        {
+          "shell": 13,
+          "displacementAt3_08": 0.02601945102749802,
+          "displacementAt5_50": 1.4427386497837449,
+          "holdDifference5_50to6_93": 1.9073459034402163e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.085279619331497e-07
+        },
+        {
+          "shell": 14,
+          "displacementAt3_08": 0.02614795961235096,
+          "displacementAt5_50": 1.4023407728748998,
+          "holdDifference5_50to6_93": 1.9073459034402163e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.751940956718811e-07
+        }
+      ],
+      "initialAabbOverlapPairs": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "newAabbOverlapPairs": [],
+      "minimumOpenSphereClearance": 0.5292873235349248,
+      "minimumOpenSphereClearancePair": [
+        1,
+        5
+      ]
+    },
+    {
+      "profile": "mobile",
+      "source": "public/models/orb_v3_faz4_mobile.glb",
+      "output": "public/models/orb_v3_faz5_mobile.glb",
+      "sourceSha256": "347561662562853a57169cbbf129413b879051a891987f355dd742b367d9fe4a",
+      "outputSha256": "6638b24a83395856f4b6752d284c41cbeb42d8df425c00721ff77c8b0a0d7cf9",
+      "outputBytes": 1787108,
+      "checks": {
+        "outputWithinBudget": true,
+        "sourceBinaryIsPrefix": true,
+        "nodeCountPreserved": true,
+        "meshCountPreserved": true,
+        "materialCountPreserved": true,
+        "animationChannelCountPreserved": true,
+        "exactly28ShellTransformChannelsReauthored": true,
+        "nonShellAnimationPayloadIdentical": true,
+        "tightAt3_08": true,
+        "openPoseReadableDistance": true,
+        "openPoseHeldTo6_93": true,
+        "lateSourceContinuity": true,
+        "quaternionsNormalized": true,
+        "noNewAabbOverlapPairsDuringBreakup": true,
+        "openPoseSphereClearancePositive": true,
+        "phaseMetadataPresent": true
+      },
+      "shellMetrics": [
+        {
+          "shell": 1,
+          "displacementAt3_08": 0.026455042783903638,
+          "displacementAt5_50": 1.4625371605583095,
+          "holdDifference5_50to6_93": 3.1987163240130754e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.3131646619956295e-07
+        },
+        {
+          "shell": 2,
+          "displacementAt3_08": 0.026070918964095587,
+          "displacementAt5_50": 1.4089448898520904,
+          "holdDifference5_50to6_93": 1.7192583646487332e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.1547279037346595e-07
+        },
+        {
+          "shell": 3,
+          "displacementAt3_08": 0.026215606404484375,
+          "displacementAt5_50": 1.4946476791145178,
+          "holdDifference5_50to6_93": 2.567843009590421e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.101758772109362e-07
+        },
+        {
+          "shell": 4,
+          "displacementAt3_08": 0.026283305175349353,
+          "displacementAt5_50": 1.4408724335240166,
+          "holdDifference5_50to6_93": 1.0662387741745184e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.4039937650771395e-07
+        },
+        {
+          "shell": 5,
+          "displacementAt3_08": 0.026123454903752757,
+          "displacementAt5_50": 1.2113039692439609,
+          "holdDifference5_50to6_93": 9.536729522752196e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.1969228059676967e-07
+        },
+        {
+          "shell": 6,
+          "displacementAt3_08": 0.02600843042034286,
+          "displacementAt5_50": 1.1860314830787202,
+          "holdDifference5_50to6_93": 1.0662387741745184e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.622926467074747e-07
+        },
+        {
+          "shell": 7,
+          "displacementAt3_08": 0.026249698214284602,
+          "displacementAt5_50": 1.2134898090187487,
+          "holdDifference5_50to6_93": 9.536729517201081e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.4979249734912254e-07
+        },
+        {
+          "shell": 8,
+          "displacementAt3_08": 0.02603388237684042,
+          "displacementAt5_50": 1.1866339274636224,
+          "holdDifference5_50to6_93": 2.949070736331582e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.204015093583045e-07
+        },
+        {
+          "shell": 9,
+          "displacementAt3_08": 0.026173047293794566,
+          "displacementAt5_50": 1.195825859721253,
+          "holdDifference5_50to6_93": 2.1589689685963826e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.3427160456075494e-07
+        },
+        {
+          "shell": 10,
+          "displacementAt3_08": 0.026316144559988004,
+          "displacementAt5_50": 1.2314571979333029,
+          "holdDifference5_50to6_93": 4.7683647586005407e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.541327823478213e-07
+        },
+        {
+          "shell": 11,
+          "displacementAt3_08": 0.026001332877709116,
+          "displacementAt5_50": 1.3946967463071358,
+          "holdDifference5_50to6_93": 9.536729517201081e-08,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 2.877515510776217e-07
+        },
+        {
+          "shell": 12,
+          "displacementAt3_08": 0.026100042189645303,
+          "displacementAt5_50": 1.4254716674503736,
+          "holdDifference5_50to6_93": 0.0,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.406506680440518e-07
+        },
+        {
+          "shell": 13,
+          "displacementAt3_08": 0.02601945102749802,
+          "displacementAt5_50": 1.4427386497837449,
+          "holdDifference5_50to6_93": 1.9073459034402163e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 3.085279619331497e-07
+        },
+        {
+          "shell": 14,
+          "displacementAt3_08": 0.02614795961235096,
+          "displacementAt5_50": 1.4023407728748998,
+          "holdDifference5_50to6_93": 1.9073459034402163e-07,
+          "openQuaternionNorm": 1.0,
+          "maxLateSourceError": 1.751940956718811e-07
+        }
+      ],
+      "initialAabbOverlapPairs": [
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          7
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          8,
+          9
+        ]
+      ],
+      "newAabbOverlapPairs": [],
+      "minimumOpenSphereClearance": 0.5292873235349248,
+      "minimumOpenSphereClearancePair": [
+        1,
+        5
+      ]
+    }
+  ]
+}

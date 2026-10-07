@@ -1,0 +1,13 @@
+{
+  "validate_v3_faz9": 0,
+  "ts_syntax": 0,
+  "typecheck": 2,
+  "lint": 127,
+  "build": 127,
+  "regression_faz1": 0,
+  "regression_faz2": 0,
+  "regression_faz5": 0,
+  "regression_faz6": 0,
+  "regression_faz7": 0,
+  "regression_faz8": 0
+}

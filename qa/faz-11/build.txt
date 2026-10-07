@@ -1,0 +1,5 @@
+
+> 3d-premium-website-faz13@1.0.0 build
+> next build
+
+sh: 1: next: not found

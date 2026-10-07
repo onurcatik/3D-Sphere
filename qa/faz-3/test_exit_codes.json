@@ -1,0 +1,9 @@
+{
+  "pipeline_rerun": 0,
+  "deterministic_hash_match": true,
+  "faz3_validator": 0,
+  "ts_syntax": 0,
+  "faz1_regression": 0,
+  "faz2_regression": 0,
+  "assets_three_test": 1
+}

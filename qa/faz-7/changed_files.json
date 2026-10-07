@@ -1,0 +1,91 @@
+{
+  "phase": 7,
+  "revision": "V3-F7",
+  "files": [
+    {
+      "path": "spec/v3/orb_reassembly_choreography.json",
+      "bytes": 2664,
+      "sha256": "b7bef50b1f1c14de126a5d9a3298f2effbdd1f5cc7adc230d27b61f3d5dcd55d"
+    },
+    {
+      "path": "spec/v3/FAZ7_REASSEMBLY_CONTRACT.md",
+      "bytes": 2812,
+      "sha256": "8ea60a1d838255fcf7f623602c7959bff00914f3758aeec3cbd026da80777510"
+    },
+    {
+      "path": "tools/glb_v3_reassembly.py",
+      "bytes": 12653,
+      "sha256": "ada6de63d0f497fca79f5213e55217f9115e2b6a7583c6d800ce6941156ff853"
+    },
+    {
+      "path": "tools/validate_v3_faz7.py",
+      "bytes": 12968,
+      "sha256": "cc6ef8380ad7f3d63d09194b117f51d94acf22c1ad4091fc6a3230677fbd923a"
+    },
+    {
+      "path": "tools/validate_v3_faz5.py",
+      "bytes": 12109,
+      "sha256": "3f23fe45b36dbab5009f962ccf544f4ce864a18388d88806b754d3cf006a6bb7"
+    },
+    {
+      "path": "lib/orbReassemblyTimeline.ts",
+      "bytes": 3550,
+      "sha256": "771a4b648a766e3c65bc5283f1cddc855a5e671ab025847c8465c9e9131e781f"
+    },
+    {
+      "path": "lib/sceneTimeline.ts",
+      "bytes": 2837,
+      "sha256": "438b110fda2d03b81b317a963f5b10e2eb8913cb90b14dbf486ec0819cd51005"
+    },
+    {
+      "path": "lib/assetProfile.ts",
+      "bytes": 7267,
+      "sha256": "e40e51a044f74b6c1ba4d87fe57631c41d0ffe9df56a24bb654bc918ad407399"
+    },
+    {
+      "path": "lib/runtime/reassemblyRuntime.js",
+      "bytes": 4214,
+      "sha256": "07df7d8e2c53c957c8f84898b04f1f20ab12cdfa77c5d9f66b268345a411f3a0"
+    },
+    {
+      "path": "components/scene/OrbModel.tsx",
+      "bytes": 5605,
+      "sha256": "571f22a6f9c9246be81f1cb4a6fe0a7e04cb016fd180de7bdd8315c7ccfbb3f1"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1844,
+      "sha256": "e84ffb219d681517797409f79185790a8213a069778b151b7a265da1f0109200"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4404,
+      "sha256": "e5983d319b5b57186999e3e15a13526c4ac192096ec18a4952820d30ace0e499"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 13282,
+      "sha256": "b451ba75b376e69f42ad3da58be3936f2b8b2179787d17da2cb1fae4af887758"
+    },
+    {
+      "path": "PROJECT_STATE.json",
+      "bytes": 18772,
+      "sha256": "0de5cfa380f8729ed367be82f1b7a56c40da0f3b370f0612327577f6b8cb820f"
+    },
+    {
+      "path": "public/models/orb_v3_faz7_desktop.glb",
+      "bytes": 2358132,
+      "sha256": "b791a252abb0ef542c113ebd3455b4fcea257cf4184cdf762b624be990b8035c"
+    },
+    {
+      "path": "public/models/orb_v3_faz7_mobile.glb",
+      "bytes": 1786168,
+      "sha256": "f5ca166be26a826855cc40856dd66b318283e8f8e3cf91625f348078bab27e65"
+    },
+    {
+      "path": "public/models/orb_v3_faz7_manifest.json",
+      "bytes": 19271,
+      "sha256": "dfe3c511b0735f97b6d79ebdc8dc84cb75fc52d3f93aab895350180d2f402271"
+    }
+  ]
+}

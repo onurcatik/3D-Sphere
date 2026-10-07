@@ -1,0 +1,268 @@
+{
+  "phase": 8,
+  "passed": true,
+  "checks": {
+    "elevenKeyframes": true,
+    "coreRevealKeyframeAt5_50": true,
+    "focusTargetSeparateFromCompositionTarget": true,
+    "c1CameraSpline": true,
+    "safeFramingAllProfiles661Samples": true,
+    "desktopNarrativeCompositionOpposition": true,
+    "touchParallaxDisabled": true,
+    "parallaxAmplitudeReduced": true,
+    "nearFarTightened": true,
+    "mobilePortraitSafeProfile": true,
+    "tabletSafeProfile": true,
+    "activeGlbStillPhase7": true
+  },
+  "continuity": {
+    "passed": true,
+    "maxPositionVelocityJump": 0.00018307945112440145,
+    "maxTargetVelocityJump": 0.0006621726332894511,
+    "maxFovVelocityJump": 6.416200903913705e-05,
+    "maxRollVelocityJump": 8.41826608422025e-06,
+    "keyframes": [
+      {
+        "id": "unlock",
+        "time": 1.54,
+        "positionVelocityJump": 1.1209620981741594e-05,
+        "targetVelocityJump": 0.00015237172537744205,
+        "fovVelocityJump": 5.684341886080801e-07,
+        "rollVelocityJump": 3.064215547965432e-07
+      },
+      {
+        "id": "fragment_start",
+        "time": 3.08,
+        "positionVelocityJump": 8.359666501942183e-06,
+        "targetVelocityJump": 9.061782379022719e-05,
+        "fovVelocityJump": 5.258016244624741e-06,
+        "rollVelocityJump": 2.2754020889692583e-06
+      },
+      {
+        "id": "fragment_peak",
+        "time": 4.3,
+        "positionVelocityJump": 1.4468513693329243e-05,
+        "targetVelocityJump": 0.00017645904370883873,
+        "fovVelocityJump": 2.2168933355715126e-05,
+        "rollVelocityJump": 3.55576679211822e-06
+      },
+      {
+        "id": "core_reveal",
+        "time": 5.5,
+        "positionVelocityJump": 0.00018307945112440145,
+        "targetVelocityJump": 0.0001764639192572425,
+        "fovVelocityJump": 4.9666937229631e-05,
+        "rollVelocityJump": 2.8796409701214998e-06
+      },
+      {
+        "id": "core_hold",
+        "time": 6.2,
+        "positionVelocityJump": 7.68243829538763e-05,
+        "targetVelocityJump": 0.00042237078103535925,
+        "fovVelocityJump": 6.416200903913705e-05,
+        "rollVelocityJump": 2.305655666390294e-06
+      },
+      {
+        "id": "recall",
+        "time": 6.93,
+        "positionVelocityJump": 0.00014862885985303685,
+        "targetVelocityJump": 0.0006621726332894511,
+        "fovVelocityJump": 1.1937117960769683e-05,
+        "rollVelocityJump": 8.41826608422025e-06
+      },
+      {
+        "id": "reassembly_start",
+        "time": 7.92,
+        "positionVelocityJump": 2.8551386798675637e-05,
+        "targetVelocityJump": 0.00024072594057977938,
+        "fovVelocityJump": 2.4442670110147446e-05,
+        "rollVelocityJump": 3.6137759451548845e-07
+      },
+      {
+        "id": "reassembly_mid",
+        "time": 9.2,
+        "positionVelocityJump": 2.6625872250660124e-05,
+        "targetVelocityJump": 7.843302883351832e-05,
+        "fovVelocityJump": 2.0747847884194925e-05,
+        "rollVelocityJump": 3.237765642261081e-07
+      },
+      {
+        "id": "seal",
+        "time": 10.34,
+        "positionVelocityJump": 5.5222835372836905e-05,
+        "targetVelocityJump": 7.977261809885629e-05,
+        "fovVelocityJump": 7.602807272633072e-06,
+        "rollVelocityJump": 7.282785485784871e-06
+      }
+    ]
+  },
+  "composition": {
+    "passed": true,
+    "anchors": [
+      {
+        "id": "hero_start",
+        "time": 0,
+        "expected": "right",
+        "projectedCenterX": 0.26679639475118067,
+        "passed": true
+      },
+      {
+        "id": "unlock",
+        "time": 1.54,
+        "expected": "left",
+        "projectedCenterX": -0.40157791350725536,
+        "passed": true
+      },
+      {
+        "id": "fragment_start",
+        "time": 3.08,
+        "expected": "right",
+        "projectedCenterX": 0.30473551559550455,
+        "passed": true
+      },
+      {
+        "id": "core_reveal",
+        "time": 5.5,
+        "expected": "left",
+        "projectedCenterX": -0.4715957566707419,
+        "passed": true
+      },
+      {
+        "id": "recall",
+        "time": 6.93,
+        "expected": "right",
+        "projectedCenterX": 0.4610263248710923,
+        "passed": true
+      },
+      {
+        "id": "reassembly_start",
+        "time": 7.92,
+        "expected": "left",
+        "projectedCenterX": -0.31817425706372165,
+        "passed": true
+      },
+      {
+        "id": "final_hero",
+        "time": 11,
+        "expected": "center",
+        "projectedCenterX": 0.003332093056939711,
+        "passed": true
+      }
+    ]
+  },
+  "framing": {
+    "passed": true,
+    "profiles": {
+      "desktop": {
+        "passed": true,
+        "aspect": 1.6,
+        "limits": {
+          "x": 0.985,
+          "yTop": 0.9,
+          "yBottom": -0.91
+        },
+        "worst": {
+          "minX": -0.9474124331124735,
+          "maxX": 0.9633716857993972,
+          "minY": -0.8368850656812346,
+          "maxY": 0.7284270436110392,
+          "minDepth": 8.213442510373582,
+          "maxAbsX": 0.9633716857993972,
+          "frameAtMaxAbsX": 6.933333333333334,
+          "frameAtMinY": 8.3,
+          "frameAtMaxY": 6.916666666666667
+        },
+        "violations": [],
+        "violationCount": 0
+      },
+      "tabletPortrait": {
+        "passed": true,
+        "aspect": 0.75,
+        "limits": {
+          "x": 0.985,
+          "yTop": 0.86,
+          "yBottom": -0.9
+        },
+        "worst": {
+          "minX": -0.8520042247362892,
+          "maxX": 0.9363709065619468,
+          "minY": -0.5447256049860125,
+          "maxY": 0.5503004455908201,
+          "minDepth": 10.113961640646195,
+          "maxAbsX": 0.9363709065619468,
+          "frameAtMaxAbsX": 6.966666666666667,
+          "frameAtMinY": 7.2,
+          "frameAtMaxY": 5.15
+        },
+        "violations": [],
+        "violationCount": 0
+      },
+      "mobilePortrait": {
+        "passed": true,
+        "aspect": 0.46208530805687204,
+        "limits": {
+          "x": 0.985,
+          "yTop": 0.78,
+          "yBottom": -0.7
+        },
+        "worst": {
+          "minX": -0.8865179801700086,
+          "maxX": 0.9242999757095152,
+          "minY": -0.31323431409047925,
+          "maxY": 0.46864938902957404,
+          "minDepth": 12.03635787410501,
+          "maxAbsX": 0.9242999757095152,
+          "frameAtMaxAbsX": 7.116666666666667,
+          "frameAtMinY": 7.2666666666666675,
+          "frameAtMaxY": 5.05
+        },
+        "violations": [],
+        "violationCount": 0
+      },
+      "mobileLandscape": {
+        "passed": true,
+        "aspect": 2.164102564102564,
+        "limits": {
+          "x": 0.985,
+          "yTop": 0.88,
+          "yBottom": -0.9
+        },
+        "worst": {
+          "minX": -0.3381800485331493,
+          "maxX": 0.36857375809152654,
+          "minY": -0.5888301669726101,
+          "maxY": 0.6228435938543768,
+          "minDepth": 9.230945639510951,
+          "maxAbsX": 0.36857375809152654,
+          "frameAtMaxAbsX": 6.95,
+          "frameAtMinY": 7.233333333333333,
+          "frameAtMaxY": 5.116666666666666
+        },
+        "violations": [],
+        "violationCount": 0
+      },
+      "lowPowerPortrait": {
+        "passed": true,
+        "aspect": 0.45,
+        "limits": {
+          "x": 0.985,
+          "yTop": 0.78,
+          "yBottom": -0.7
+        },
+        "worst": {
+          "minX": -0.9079628526256471,
+          "maxX": 0.942089455962906,
+          "minY": -0.3063532555737579,
+          "maxY": 0.46457618880817386,
+          "minDepth": 12.206990762775959,
+          "maxAbsX": 0.942089455962906,
+          "frameAtMaxAbsX": 7.1,
+          "frameAtMinY": 7.2666666666666675,
+          "frameAtMaxY": 5.05
+        },
+        "violations": [],
+        "violationCount": 0
+      }
+    }
+  }
+}

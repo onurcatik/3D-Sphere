@@ -1,0 +1,116 @@
+{
+  "status": "PASS",
+  "mapping": "monotone-cubic-hermite",
+  "duration": 11,
+  "criticalTimes": [
+    0,
+    1.54,
+    3.08,
+    5.5,
+    6.93,
+    7.92,
+    10.34,
+    11
+  ],
+  "boundaries": [
+    {
+      "scroll": 0,
+      "seconds": 0,
+      "chapter": "hero",
+      "camera": "Hero / establishing"
+    },
+    {
+      "scroll": 0.15,
+      "seconds": 1.54,
+      "chapter": "unlock",
+      "camera": "Slow dolly-in / awakening"
+    },
+    {
+      "scroll": 0.32,
+      "seconds": 3.08,
+      "chapter": "fragment",
+      "camera": "Orbital reveal / unlock"
+    },
+    {
+      "scroll": 0.5,
+      "seconds": 5.5,
+      "chapter": "core",
+      "camera": "Core approach / climax"
+    },
+    {
+      "scroll": 0.64,
+      "seconds": 6.93,
+      "chapter": "turn",
+      "camera": "Maximum exposure / orbital cross"
+    },
+    {
+      "scroll": 0.76,
+      "seconds": 7.92,
+      "chapter": "reassembly",
+      "camera": "Magnetic turn"
+    },
+    {
+      "scroll": 0.94,
+      "seconds": 10.34,
+      "chapter": "final",
+      "camera": "Lock / stabilization"
+    },
+    {
+      "scroll": 1,
+      "seconds": 11,
+      "chapter": "final",
+      "camera": "Final hero / controlled pulse"
+    }
+  ],
+  "monotonicSamples": 10001,
+  "c1Continuity": [
+    {
+      "scroll": 0.15,
+      "leftSlope": 0.8784321045562926,
+      "rightSlope": 0.8784295540409381,
+      "delta": 0.000002550515354471372
+    },
+    {
+      "scroll": 0.32,
+      "leftSlope": 1.02287314879268,
+      "rightSlope": 1.0228788476229767,
+      "delta": 0.00000569883029655216
+    },
+    {
+      "scroll": 0.5,
+      "leftSlope": 1.0753995642320824,
+      "rightSlope": 1.075395365646159,
+      "delta": 0.000004198585923376186
+    },
+    {
+      "scroll": 0.64,
+      "leftSlope": 0.8392859409678266,
+      "rightSlope": 0.8392822585800985,
+      "delta": 0.0000036823877280767192
+    },
+    {
+      "scroll": 0.76,
+      "leftSlope": 0.9861064319549584,
+      "rightSlope": 0.9861143518419269,
+      "delta": 0.000007919886968466017
+    },
+    {
+      "scroll": 0.94,
+      "leftSlope": 1.1111136575259195,
+      "rightSlope": 1.1111074075254024,
+      "delta": 0.000006250000517127319
+    }
+  ],
+  "slopes": [
+    0.9333333333333335,
+    0.8784313725490197,
+    1.022875816993464,
+    1.0753968253968254,
+    0.8392857142857142,
+    0.9861111111111112,
+    1.1111111111111112,
+    1
+  ],
+  "deterministic": true,
+  "cameraKeyframesChecked": 7
+}

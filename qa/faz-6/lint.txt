@@ -1,0 +1,5 @@
+
+> 3d-premium-website-faz13@1.0.0 lint
+> eslint app components lib --max-warnings 0
+
+sh: 1: eslint: not found

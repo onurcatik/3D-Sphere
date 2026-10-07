@@ -1,0 +1,172 @@
+{
+  "orb_faz8_web_desktop.glb": {
+    "bytes": 1444796,
+    "sha256": "2d3f0eb4e68629c0710f33b56e7ecb31371ac58774c25dd2cd59a6508d19b58d",
+    "asset": {
+      "version": "2.0",
+      "generator": "OpenAI FAZ8 GLB Optimizer",
+      "extras": {
+        "project": "3D Premium Website",
+        "phase": "FAZ 5",
+        "animationClip": "Orb_Main_Cinematic",
+        "durationSeconds": 11.0,
+        "fpsBaked": 30
+      }
+    },
+    "sceneCount": 1,
+    "nodeCount": 243,
+    "meshCount": 150,
+    "primitiveCount": 150,
+    "vertexAccessorCountSum": 48165,
+    "triangleEstimate": 92678,
+    "materialCount": 14,
+    "textureCount": 0,
+    "imageCount": 0,
+    "skinCount": 0,
+    "attributes": {
+      "POSITION": 150
+    },
+    "hasUV": false,
+    "hasNormals": false,
+    "hasTangents": false,
+    "requiredNodes": {
+      "ORB_ROOT": true,
+      "CORE_ROOT": true,
+      "SHELL_ROOT": true,
+      "RINGS_ROOT": true
+    },
+    "shellRootNodeCount": 14,
+    "animations": [
+      {
+        "name": "Orb_Main_Cinematic",
+        "durationSeconds": 11.0,
+        "channels": 167,
+        "paths": {
+          "translation": 80,
+          "rotation": 83,
+          "scale": 4
+        },
+        "targetNodeCount": 84
+      },
+      {
+        "name": "Ring_Idle",
+        "durationSeconds": 4.0,
+        "channels": 3,
+        "paths": {
+          "rotation": 3
+        },
+        "targetNodeCount": 3
+      },
+      {
+        "name": "Core_Pulse",
+        "durationSeconds": 2.4000000953674316,
+        "channels": 1,
+        "paths": {
+          "scale": 1
+        },
+        "targetNodeCount": 1
+      }
+    ],
+    "materials": [
+      "MAT_Core_BlueWhite",
+      "MAT_Core_Halo",
+      "MAT_Shell_Graphite",
+      "MAT_Antique_Gold",
+      "MAT_Crystal_Ice",
+      "MAT_Shell_Inner",
+      "MAT_Platform_Obsidian",
+      "MAT_EnergyWell_Blue",
+      "MAT_Rune_Emissive",
+      "MAT_Core_InnerWhite",
+      "MAT_Core_EnergyShell",
+      "MAT_Energy_Filament",
+      "MAT_Energy_Lightning",
+      "MAT_Energy_Beam"
+    ]
+  },
+  "orb_faz8_web_mobile.glb": {
+    "bytes": 1076060,
+    "sha256": "95ccb3790c48740ad8e485d994812811ffc22f040711128ff47fb61d24fed59d",
+    "asset": {
+      "version": "2.0",
+      "generator": "OpenAI FAZ8 GLB Optimizer",
+      "extras": {
+        "project": "3D Premium Website",
+        "phase": "FAZ 5",
+        "animationClip": "Orb_Main_Cinematic",
+        "durationSeconds": 11.0,
+        "fpsBaked": 30
+      }
+    },
+    "sceneCount": 1,
+    "nodeCount": 222,
+    "meshCount": 129,
+    "primitiveCount": 129,
+    "vertexAccessorCountSum": 31515,
+    "triangleEstimate": 60470,
+    "materialCount": 14,
+    "textureCount": 0,
+    "imageCount": 0,
+    "skinCount": 0,
+    "attributes": {
+      "POSITION": 129
+    },
+    "hasUV": false,
+    "hasNormals": false,
+    "hasTangents": false,
+    "requiredNodes": {
+      "ORB_ROOT": true,
+      "CORE_ROOT": true,
+      "SHELL_ROOT": true,
+      "RINGS_ROOT": true
+    },
+    "shellRootNodeCount": 14,
+    "animations": [
+      {
+        "name": "Orb_Main_Cinematic",
+        "durationSeconds": 11.0,
+        "channels": 167,
+        "paths": {
+          "translation": 80,
+          "rotation": 83,
+          "scale": 4
+        },
+        "targetNodeCount": 84
+      },
+      {
+        "name": "Ring_Idle",
+        "durationSeconds": 4.0,
+        "channels": 3,
+        "paths": {
+          "rotation": 3
+        },
+        "targetNodeCount": 3
+      },
+      {
+        "name": "Core_Pulse",
+        "durationSeconds": 2.4000000953674316,
+        "channels": 1,
+        "paths": {
+          "scale": 1
+        },
+        "targetNodeCount": 1
+      }
+    ],
+    "materials": [
+      "MAT_Core_BlueWhite",
+      "MAT_Core_Halo",
+      "MAT_Shell_Graphite",
+      "MAT_Antique_Gold",
+      "MAT_Crystal_Ice",
+      "MAT_Shell_Inner",
+      "MAT_Platform_Obsidian",
+      "MAT_EnergyWell_Blue",
+      "MAT_Rune_Emissive",
+      "MAT_Core_InnerWhite",
+      "MAT_Core_EnergyShell",
+      "MAT_Energy_Filament",
+      "MAT_Energy_Lightning",
+      "MAT_Energy_Beam"
+    ]
+  }
+}

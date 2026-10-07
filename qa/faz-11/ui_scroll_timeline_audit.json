@@ -1,0 +1,79 @@
+{
+  "duration": 11,
+  "scrollHeightVh": 700,
+  "spanSum": 1,
+  "heightSum": 700,
+  "maxStartProgressError": 0,
+  "maxStartTimeError": 0,
+  "rows": [
+    {
+      "id": "hero",
+      "scrollStart": 0,
+      "scrollEnd": 0.15,
+      "heightDvh": 105,
+      "sceneStartSeconds": 0,
+      "sampledSceneTime": 0,
+      "sampledChapterId": "hero"
+    },
+    {
+      "id": "unlock",
+      "scrollStart": 0.15,
+      "scrollEnd": 0.32,
+      "heightDvh": 119.00000000000001,
+      "sceneStartSeconds": 1.54,
+      "sampledSceneTime": 1.54,
+      "sampledChapterId": "unlock"
+    },
+    {
+      "id": "fragment",
+      "scrollStart": 0.32,
+      "scrollEnd": 0.5,
+      "heightDvh": 126,
+      "sceneStartSeconds": 3.08,
+      "sampledSceneTime": 3.08,
+      "sampledChapterId": "fragment"
+    },
+    {
+      "id": "core",
+      "scrollStart": 0.5,
+      "scrollEnd": 0.64,
+      "heightDvh": 98.00000000000001,
+      "sceneStartSeconds": 5.5,
+      "sampledSceneTime": 5.5,
+      "sampledChapterId": "core"
+    },
+    {
+      "id": "turn",
+      "scrollStart": 0.64,
+      "scrollEnd": 0.76,
+      "heightDvh": 84,
+      "sceneStartSeconds": 6.93,
+      "sampledSceneTime": 6.93,
+      "sampledChapterId": "turn"
+    },
+    {
+      "id": "reassembly",
+      "scrollStart": 0.76,
+      "scrollEnd": 0.94,
+      "heightDvh": 125.99999999999996,
+      "sceneStartSeconds": 7.92,
+      "sampledSceneTime": 7.92,
+      "sampledChapterId": "reassembly"
+    },
+    {
+      "id": "final",
+      "scrollStart": 0.94,
+      "scrollEnd": 1,
+      "heightDvh": 42.000000000000036,
+      "sceneStartSeconds": 10.34,
+      "sampledSceneTime": 10.34,
+      "sampledChapterId": "final"
+    }
+  ],
+  "dense": {
+    "monotone": true,
+    "finite": true,
+    "min": 0,
+    "max": 11
+  }
+}

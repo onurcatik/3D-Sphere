@@ -1,0 +1,167 @@
+{
+  "phase": "CHATGPT V3 FAZ 6",
+  "status": "PASS",
+  "checks": {
+    "coreEnergyTimelineExists": true,
+    "sceneSampleIncludesCoreEnergy": true,
+    "orbFeedsCoreState": true,
+    "threeLayerCore": true,
+    "separateHalo": true,
+    "semanticShellConnections": true,
+    "mobileArcBudget": true,
+    "particleGainLinked": true,
+    "beamGainLinked": true,
+    "coreLightGainLinked": true,
+    "bloomDetailGuard": true,
+    "noIndependentClockSources": true,
+    "noNumericReverseSmoothstep": true,
+    "changedTsTsxSyntax": true,
+    "coreRuntimeJsSyntax": true,
+    "timelineCompiles": true,
+    "timeline10001Finite": true,
+    "timeline10001Bounded": true,
+    "timelineCriticalTimes": true,
+    "connectionPeaksAtCoreReveal": true,
+    "connectionsOffAtFinal": true,
+    "orb_v3_faz5_desktop.glb:unchanged": true,
+    "orb_v3_faz5_mobile.glb:unchanged": true,
+    "faz1Regression": true,
+    "faz2Regression": true,
+    "faz5Regression": true
+  },
+  "diagnostics": {
+    "timeline": {
+      "finite": true,
+      "bounded": true,
+      "maxStep": 0.0010680782909181508,
+      "keyframeTimes": [
+        0,
+        1.54,
+        3.08,
+        4.2,
+        5.5,
+        6.93,
+        7.92,
+        10.34,
+        11
+      ],
+      "samples": {
+        "0": {
+          "reveal": 0.1,
+          "innerGain": 0.18,
+          "vortexGain": 0.12,
+          "membraneGain": 0.08,
+          "haloGain": 0.06,
+          "connectionGain": 0,
+          "beamGain": 0.1,
+          "particleGain": 0.56,
+          "lightGain": 0.32,
+          "whiteHot": 0.08
+        },
+        "11": {
+          "reveal": 0.3,
+          "innerGain": 0.4,
+          "vortexGain": 0.34,
+          "membraneGain": 0.24,
+          "haloGain": 0.2,
+          "connectionGain": 0,
+          "beamGain": 0.26,
+          "particleGain": 0.66,
+          "lightGain": 0.5,
+          "whiteHot": 0.16
+        },
+        "1.54": {
+          "reveal": 0.2,
+          "innerGain": 0.3,
+          "vortexGain": 0.24,
+          "membraneGain": 0.18,
+          "haloGain": 0.12,
+          "connectionGain": 0,
+          "beamGain": 0.2,
+          "particleGain": 0.7,
+          "lightGain": 0.46,
+          "whiteHot": 0.12
+        },
+        "3.08": {
+          "reveal": 0.42,
+          "innerGain": 0.52,
+          "vortexGain": 0.48,
+          "membraneGain": 0.38,
+          "haloGain": 0.28,
+          "connectionGain": 0.1,
+          "beamGain": 0.34,
+          "particleGain": 0.84,
+          "lightGain": 0.64,
+          "whiteHot": 0.2
+        },
+        "4.2": {
+          "reveal": 0.76,
+          "innerGain": 0.8,
+          "vortexGain": 0.78,
+          "membraneGain": 0.7,
+          "haloGain": 0.62,
+          "connectionGain": 0.68,
+          "beamGain": 0.52,
+          "particleGain": 0.96,
+          "lightGain": 0.84,
+          "whiteHot": 0.34
+        },
+        "5.5": {
+          "reveal": 1,
+          "innerGain": 1,
+          "vortexGain": 0.98,
+          "membraneGain": 0.92,
+          "haloGain": 0.84,
+          "connectionGain": 1,
+          "beamGain": 0.72,
+          "particleGain": 1,
+          "lightGain": 1,
+          "whiteHot": 0.48
+        },
+        "6.93": {
+          "reveal": 1,
+          "innerGain": 0.96,
+          "vortexGain": 1,
+          "membraneGain": 0.96,
+          "haloGain": 0.88,
+          "connectionGain": 0.86,
+          "beamGain": 0.74,
+          "particleGain": 0.96,
+          "lightGain": 0.96,
+          "whiteHot": 0.44
+        },
+        "7.92": {
+          "reveal": 0.72,
+          "innerGain": 0.74,
+          "vortexGain": 0.76,
+          "membraneGain": 0.68,
+          "haloGain": 0.56,
+          "connectionGain": 0.46,
+          "beamGain": 0.5,
+          "particleGain": 0.82,
+          "lightGain": 0.74,
+          "whiteHot": 0.3
+        },
+        "10.34": {
+          "reveal": 0.24,
+          "innerGain": 0.34,
+          "vortexGain": 0.28,
+          "membraneGain": 0.2,
+          "haloGain": 0.16000000000000003,
+          "connectionGain": 0.020000000000000018,
+          "beamGain": 0.21999999999999997,
+          "particleGain": 0.62,
+          "lightGain": 0.46,
+          "whiteHot": 0.14
+        }
+      }
+    },
+    "reverseSmoothsteps": [],
+    "tsSyntaxStderr": "",
+    "jsSyntaxStderr": "",
+    "liveThreeRuntime": "BLOCKED_DEPENDENCIES"
+  },
+  "environmentBlockers": [
+    "Live Three.js/WebGL/browser validation remains blocked because node_modules is absent."
+  ]
+}

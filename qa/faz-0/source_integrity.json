@@ -1,0 +1,328 @@
+{
+  "checkedFiles": 46,
+  "allMatched": true,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0",
+      "archiveSha256": "063098f6cb31bb44c6f8fbea25b3876de7ee1e5f7d00a50dbab506f6415eb7f0"
+    },
+    {
+      "path": "README.md",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "30f5376f7b10f086a0eb09f0bc209090d4b33b75db4db1f7a9782722f127fe0a",
+      "archiveSha256": "30f5376f7b10f086a0eb09f0bc209090d4b33b75db4db1f7a9782722f127fe0a"
+    },
+    {
+      "path": "app/globals.css",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "286352cd5e9f12e4b98a1854fd0207af009fd9854365cf1b321f40ebdaee6840",
+      "archiveSha256": "286352cd5e9f12e4b98a1854fd0207af009fd9854365cf1b321f40ebdaee6840"
+    },
+    {
+      "path": "app/layout.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "056f2505d2a2cf4b46fe02f24d08005b9412f3da8d20342da05a1e2dae86d424",
+      "archiveSha256": "056f2505d2a2cf4b46fe02f24d08005b9412f3da8d20342da05a1e2dae86d424"
+    },
+    {
+      "path": "app/page.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "a3c3e67464f376542f883672958fd01245f1f430467c40a558c96d3bc90733c1",
+      "archiveSha256": "a3c3e67464f376542f883672958fd01245f1f430467c40a558c96d3bc90733c1"
+    },
+    {
+      "path": "components/experience/CinematicExperience.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "f4d34934a2bfe1bcd2b6fd60a71a07a2b642e719b80ea989104907afa9f1e1e4",
+      "archiveSha256": "f4d34934a2bfe1bcd2b6fd60a71a07a2b642e719b80ea989104907afa9f1e1e4"
+    },
+    {
+      "path": "components/experience/useCinematicScroll.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "34b46b91e7f90e95599fd45bd5416b6255e2e69a41395fa8cdab23da9bcd9517",
+      "archiveSha256": "34b46b91e7f90e95599fd45bd5416b6255e2e69a41395fa8cdab23da9bcd9517"
+    },
+    {
+      "path": "components/scene/AdaptiveQualityController.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "d74d0e8539d1d8ccfda0b6aec0a88b0174fb98916ed872374c16ed22b9c7aa3b",
+      "archiveSha256": "d74d0e8539d1d8ccfda0b6aec0a88b0174fb98916ed872374c16ed22b9c7aa3b"
+    },
+    {
+      "path": "components/scene/CameraRig.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "b7a6cd12b7d2a52dfab10d94bb22d5bc87c83d5943bcf4f5f5d2b3c24e000586",
+      "archiveSha256": "b7a6cd12b7d2a52dfab10d94bb22d5bc87c83d5943bcf4f5f5d2b3c24e000586"
+    },
+    {
+      "path": "components/scene/CinematicAtmosphere.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "e200ba371e72e594c395af88ada6a1a9d33026b4a85a5f8215a13b7c94c29772",
+      "archiveSha256": "e200ba371e72e594c395af88ada6a1a9d33026b4a85a5f8215a13b7c94c29772"
+    },
+    {
+      "path": "components/scene/CinematicCanvas.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "f8b09b11ce18e49c1af43bdd5e3db7a49526263bb49b4a121b05ff0ba4834867",
+      "archiveSha256": "f8b09b11ce18e49c1af43bdd5e3db7a49526263bb49b4a121b05ff0ba4834867"
+    },
+    {
+      "path": "components/scene/CinematicPostFX.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "a5597dc6c5c7addcbceacd953f5cf94c9ab1ef61ea4caa444ba5f85c646c1037",
+      "archiveSha256": "a5597dc6c5c7addcbceacd953f5cf94c9ab1ef61ea4caa444ba5f85c646c1037"
+    },
+    {
+      "path": "components/scene/MaterialEnvironment.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "2441dfe7065974b274b484a1bc9a198cf34fcc7e70aa09f4bc2cf3df18b09bcd",
+      "archiveSha256": "2441dfe7065974b274b484a1bc9a198cf34fcc7e70aa09f4bc2cf3df18b09bcd"
+    },
+    {
+      "path": "components/scene/OrbModel.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "8027cb4104261ab9645a70d8afbaf4beb96897e23892e293c045644c8ad2c395",
+      "archiveSha256": "8027cb4104261ab9645a70d8afbaf4beb96897e23892e293c045644c8ad2c395"
+    },
+    {
+      "path": "components/scene/ParticleEnergyField.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "3a64a337f6179aa027913022c355b1d3289246752b04f49353e62d9d9bb623ba",
+      "archiveSha256": "3a64a337f6179aa027913022c355b1d3289246752b04f49353e62d9d9bb623ba"
+    },
+    {
+      "path": "components/scene/SceneLighting.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "0c9f450a42db8ce433060a08da603b3eb05108a06c03473650b112987155fdba",
+      "archiveSha256": "0c9f450a42db8ce433060a08da603b3eb05108a06c03473650b112987155fdba"
+    },
+    {
+      "path": "components/scene/TempleEnvironment.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "6038b8452325b0d15b18fcc9a934b18a4cce64ee387d059872e26f4cdf3ef0fa",
+      "archiveSha256": "6038b8452325b0d15b18fcc9a934b18a4cce64ee387d059872e26f4cdf3ef0fa"
+    },
+    {
+      "path": "components/scene/VolumetricLightShaft.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "91e2d81c45cbe68a9e09b66572c92b32d64983dee00cdaca3bf409274439f203",
+      "archiveSha256": "91e2d81c45cbe68a9e09b66572c92b32d64983dee00cdaca3bf409274439f203"
+    },
+    {
+      "path": "components/ui/ChapterRail.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "f9cf8c553c862e0a202d4ee9950986144ba039b46ac23a7d92e08ed6c910b7f1",
+      "archiveSha256": "f9cf8c553c862e0a202d4ee9950986144ba039b46ac23a7d92e08ed6c910b7f1"
+    },
+    {
+      "path": "components/ui/SceneHUD.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "830ccc4193828d21d8bd421152891d446d67708dc7ba73e7ce59adc44cfb6815",
+      "archiveSha256": "830ccc4193828d21d8bd421152891d446d67708dc7ba73e7ce59adc44cfb6815"
+    },
+    {
+      "path": "components/ui/ScrollNarrative.tsx",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "6c8cac0a650128f85831d3b91baa82f7b2953fe56d36d544608775445be8f7e7",
+      "archiveSha256": "6c8cac0a650128f85831d3b91baa82f7b2953fe56d36d544608775445be8f7e7"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "5c653376cbd30adeb706d4809895b8c3a7e43dc83df0e38880caa4b5d20b1992",
+      "archiveSha256": "5c653376cbd30adeb706d4809895b8c3a7e43dc83df0e38880caa4b5d20b1992"
+    },
+    {
+      "path": "lib/assetProfile.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "895e07520ffd1e492d029d8106187b1a4931385b7ddd8230fd138cda5a4b9af6",
+      "archiveSha256": "895e07520ffd1e492d029d8106187b1a4931385b7ddd8230fd138cda5a4b9af6"
+    },
+    {
+      "path": "lib/cinematicLook.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "f6efa892b14726d70a81c05c100e42553c9bd25efbdf192ef3352b78132d9e3d",
+      "archiveSha256": "f6efa892b14726d70a81c05c100e42553c9bd25efbdf192ef3352b78132d9e3d"
+    },
+    {
+      "path": "lib/particleEnergy.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "bced447ca239af56a26a52799ff4073d4a6025eb0dcb5c0efa967b814c00ffcf",
+      "archiveSha256": "bced447ca239af56a26a52799ff4073d4a6025eb0dcb5c0efa967b814c00ffcf"
+    },
+    {
+      "path": "lib/renderPolicy.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "890494fef563238f6a91ae44b13af35e94e4fef0be75c781486c809ecf5bb8b7",
+      "archiveSha256": "890494fef563238f6a91ae44b13af35e94e4fef0be75c781486c809ecf5bb8b7"
+    },
+    {
+      "path": "lib/runtime/cameraRig.js",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "b87ad9ea01dd7bc1608542304a6c2c24c4748174304e028ee37eb2fb91896009",
+      "archiveSha256": "b87ad9ea01dd7bc1608542304a6c2c24c4748174304e028ee37eb2fb91896009"
+    },
+    {
+      "path": "lib/runtime/coreEnergyRuntime.js",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "2d9b48610117098671e86ca070e96e9889dd7259d1b9a1a426ae4618b0a493cb",
+      "archiveSha256": "2d9b48610117098671e86ca070e96e9889dd7259d1b9a1a426ae4618b0a493cb"
+    },
+    {
+      "path": "lib/scrollTimeline.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "038e2abaeaa309c5e4c149ca0e39c815d9b28728813eda280cbca00afedb13a1",
+      "archiveSha256": "038e2abaeaa309c5e4c149ca0e39c815d9b28728813eda280cbca00afedb13a1"
+    },
+    {
+      "path": "lib/types.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "3d37827010d0aed5ac922d49ab10a674d5aa47193ac6b3391fc2eb16946af3e5",
+      "archiveSha256": "3d37827010d0aed5ac922d49ab10a674d5aa47193ac6b3391fc2eb16946af3e5"
+    },
+    {
+      "path": "lib/uiNarrative.ts",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "cedf445769bba1b5199acb47b107da2db78abd66fe88874fcfb9e96f44f0363f",
+      "archiveSha256": "cedf445769bba1b5199acb47b107da2db78abd66fe88874fcfb9e96f44f0363f"
+    },
+    {
+      "path": "next.config.mjs",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "4c201f60e34f291809fa6f8d392321395d189298d861dd601b87f04640753c32",
+      "archiveSha256": "4c201f60e34f291809fa6f8d392321395d189298d861dd601b87f04640753c32"
+    },
+    {
+      "path": "package-lock.json",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "94be31f94c78797b36c09c20f3353b56619e87cbcd5ae0a09675ed8965a1dae7",
+      "archiveSha256": "94be31f94c78797b36c09c20f3353b56619e87cbcd5ae0a09675ed8965a1dae7"
+    },
+    {
+      "path": "package.json",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "be9fdf243542a011bae370fad654ac3048c2e93d612876785f62082488974e30",
+      "archiveSha256": "be9fdf243542a011bae370fad654ac3048c2e93d612876785f62082488974e30"
+    },
+    {
+      "path": "public/models/orb_faz8_web_desktop.glb",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "2d3f0eb4e68629c0710f33b56e7ecb31371ac58774c25dd2cd59a6508d19b58d",
+      "archiveSha256": "2d3f0eb4e68629c0710f33b56e7ecb31371ac58774c25dd2cd59a6508d19b58d"
+    },
+    {
+      "path": "public/models/orb_faz8_web_mobile.glb",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "95ccb3790c48740ad8e485d994812811ffc22f040711128ff47fb61d24fed59d",
+      "archiveSha256": "95ccb3790c48740ad8e485d994812811ffc22f040711128ff47fb61d24fed59d"
+    },
+    {
+      "path": "tests/assets.test.mjs",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "827f0ca827c1921dab163cabe33f999f8171c67d842efcabd3750eb331ffee1d",
+      "archiveSha256": "827f0ca827c1921dab163cabe33f999f8171c67d842efcabd3750eb331ffee1d"
+    },
+    {
+      "path": "tools/check_ts_syntax.cjs",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "37b8e337744477affe591e389cb5f88301df136f5255ab4ae7ed86f6d9290384",
+      "archiveSha256": "37b8e337744477affe591e389cb5f88301df136f5255ab4ae7ed86f6d9290384"
+    },
+    {
+      "path": "tools/qa/capture.mjs",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "c468f7d2e9abc31ec0db5e9baa18bd9e299b23427ae19cffebba1aaa1edb0597",
+      "archiveSha256": "c468f7d2e9abc31ec0db5e9baa18bd9e299b23427ae19cffebba1aaa1edb0597"
+    },
+    {
+      "path": "tools/qa/phase.sh",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "016851df1ac0169c608bcc2621854127241197b09d0a49cde1bff33eda144f05",
+      "archiveSha256": "016851df1ac0169c608bcc2621854127241197b09d0a49cde1bff33eda144f05"
+    },
+    {
+      "path": "tools/validate_faz10.py",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "94ac3a5f44c8bb29ad3ac19de3eaa6eb07f75946bd6f23c553dbf84de0da6891",
+      "archiveSha256": "94ac3a5f44c8bb29ad3ac19de3eaa6eb07f75946bd6f23c553dbf84de0da6891"
+    },
+    {
+      "path": "tools/validate_faz11.py",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "705a1467f71344df314f581c5bad954437f7b633bfde0f456fe39652864305de",
+      "archiveSha256": "705a1467f71344df314f581c5bad954437f7b633bfde0f456fe39652864305de"
+    },
+    {
+      "path": "tools/validate_faz12.py",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "cb05961effbbaedb83a980549a1210262ad7b54a62118cc63a5ad26de6d2ab8d",
+      "archiveSha256": "cb05961effbbaedb83a980549a1210262ad7b54a62118cc63a5ad26de6d2ab8d"
+    },
+    {
+      "path": "tools/validate_faz13.py",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "0e75952d0d30b62cd5df0fe720323892f447f1faf59d7666140666d9a44c4886",
+      "archiveSha256": "0e75952d0d30b62cd5df0fe720323892f447f1faf59d7666140666d9a44c4886"
+    },
+    {
+      "path": "tools/validate_faz9.py",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "7231e01252a2bb94abdf80113eb63b6961c3f30019116f34e2367bf15f40f273",
+      "archiveSha256": "7231e01252a2bb94abdf80113eb63b6961c3f30019116f34e2367bf15f40f273"
+    },
+    {
+      "path": "tsconfig.json",
+      "inArchive": true,
+      "matchesArchive": true,
+      "currentSha256": "63c0399e96719b87bb236ece888fd4b96527bdec9086cdcbd84297e8a63768ae",
+      "archiveSha256": "63c0399e96719b87bb236ece888fd4b96527bdec9086cdcbd84297e8a63768ae"
+    }
+  ]
+}

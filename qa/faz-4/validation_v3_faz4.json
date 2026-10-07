@@ -1,0 +1,73 @@
+{
+  "phase": 4,
+  "models": [
+    {
+      "profile": "desktop",
+      "source": "public/models/orb_v3_faz3_desktop.glb",
+      "output": "public/models/orb_v3_faz4_desktop.glb",
+      "sourceBytes": 2085464,
+      "outputBytes": 2087392,
+      "sourceBinSha256": "75a5785c13019e1ed28258359724f7726b54d8274dc9a4dc31fa5587694d4487",
+      "outputBinSha256": "75a5785c13019e1ed28258359724f7726b54d8274dc9a4dc31fa5587694d4487",
+      "checks": {
+        "budget": true,
+        "binary_payload_identical": true,
+        "node_mesh_accessor_counts_preserved": true,
+        "animations_preserved": true,
+        "required_extensions_used": true,
+        "phase4_asset_metadata": true,
+        "no_textures_or_images": true,
+        "normals_preserved": true,
+        "no_uv_or_tangent_invented": true,
+        "fourteen_inner_shell_nodes": true,
+        "all_fourteen_materials_present": true,
+        "shell_physical_values": true,
+        "gold_physical_values": true,
+        "crystal_physical_extensions": true,
+        "crystal_profile_budget": true,
+        "rune_emissive_strength": true
+      },
+      "pass": true
+    },
+    {
+      "profile": "mobile",
+      "source": "public/models/orb_v3_faz3_mobile.glb",
+      "output": "public/models/orb_v3_faz4_mobile.glb",
+      "sourceBytes": 1513500,
+      "outputBytes": 1515432,
+      "sourceBinSha256": "f9306e626b7f960203947cb4c8f23fffe0a4dbba9a959cf37b5f2945c178f059",
+      "outputBinSha256": "f9306e626b7f960203947cb4c8f23fffe0a4dbba9a959cf37b5f2945c178f059",
+      "checks": {
+        "budget": true,
+        "binary_payload_identical": true,
+        "node_mesh_accessor_counts_preserved": true,
+        "animations_preserved": true,
+        "required_extensions_used": true,
+        "phase4_asset_metadata": true,
+        "no_textures_or_images": true,
+        "normals_preserved": true,
+        "no_uv_or_tangent_invented": true,
+        "fourteen_inner_shell_nodes": true,
+        "all_fourteen_materials_present": true,
+        "shell_physical_values": true,
+        "gold_physical_values": true,
+        "crystal_physical_extensions": true,
+        "crystal_profile_budget": true,
+        "rune_emissive_strength": true
+      },
+      "pass": true
+    }
+  ],
+  "projectChecks": {
+    "active_assets_phase4": true,
+    "premium_material_system_exists": true,
+    "premium_roles_present": true,
+    "crystal_runtime_preserves_premium_material": true,
+    "tiered_environment_intensity": true,
+    "single_tonemap_policy": true,
+    "no_texture_mapping_in_material_system": true,
+    "material_pipeline_exists": true,
+    "contract_exists": true
+  },
+  "pass": true
+}

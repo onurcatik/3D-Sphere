@@ -1,0 +1,102 @@
+{
+  "changedTrackedFiles": [
+    {
+      "file": "components/experience/CinematicExperience.tsx",
+      "beforeSha256": "f4d34934a2bfe1bcd2b6fd60a71a07a2b642e719b80ea989104907afa9f1e1e4",
+      "afterSha256": "323da6551c35a6ccec51fc201bc1278212c9c1986e03a96cdd6bdf76d40c4d20"
+    },
+    {
+      "file": "components/experience/useCinematicScroll.ts",
+      "beforeSha256": "34b46b91e7f90e95599fd45bd5416b6255e2e69a41395fa8cdab23da9bcd9517",
+      "afterSha256": "511eb8cc958565260ee3d23f39378facc88e2e8359b64d51619bef3e1150ff7d"
+    },
+    {
+      "file": "components/scene/CameraRig.tsx",
+      "beforeSha256": "b7a6cd12b7d2a52dfab10d94bb22d5bc87c83d5943bcf4f5f5d2b3c24e000586",
+      "afterSha256": "1cc628297555908e46db0276f2c906f4ad9d9f57a7d38094075273f78ec9f09b"
+    },
+    {
+      "file": "components/scene/CinematicAtmosphere.tsx",
+      "beforeSha256": "e200ba371e72e594c395af88ada6a1a9d33026b4a85a5f8215a13b7c94c29772",
+      "afterSha256": "b085c8173124e656feac659fbe3a8bf1e39a202cb0e46cede390d0cbcecd20ad"
+    },
+    {
+      "file": "components/scene/CinematicCanvas.tsx",
+      "beforeSha256": "f8b09b11ce18e49c1af43bdd5e3db7a49526263bb49b4a121b05ff0ba4834867",
+      "afterSha256": "93d23abc2831f6bfcd9c05055c53ca1a694e9ba4d688e196ee690bd130814373"
+    },
+    {
+      "file": "components/scene/CinematicPostFX.tsx",
+      "beforeSha256": "a5597dc6c5c7addcbceacd953f5cf94c9ab1ef61ea4caa444ba5f85c646c1037",
+      "afterSha256": "917bca286ab99ef923d5c938a52007f6f7fffe2934bd7820c545ea8051c1a7b6"
+    },
+    {
+      "file": "components/scene/OrbModel.tsx",
+      "beforeSha256": "8027cb4104261ab9645a70d8afbaf4beb96897e23892e293c045644c8ad2c395",
+      "afterSha256": "11954e43f7048206c2ba3b5aee09cec94c84d21c5b1a43a550ef79a62a1d511d"
+    },
+    {
+      "file": "components/scene/ParticleEnergyField.tsx",
+      "beforeSha256": "3a64a337f6179aa027913022c355b1d3289246752b04f49353e62d9d9bb623ba",
+      "afterSha256": "c2db57ce4d84b5eebb57be4a302e150c0051dce9561a4a85d065eb0a5c56a63a"
+    },
+    {
+      "file": "components/scene/SceneLighting.tsx",
+      "beforeSha256": "0c9f450a42db8ce433060a08da603b3eb05108a06c03473650b112987155fdba",
+      "afterSha256": "e160f679a93bb302cf3bf3202ba2edbbc1ed9c5a0ad901dd11b5c6d01c508c80"
+    },
+    {
+      "file": "components/scene/TempleEnvironment.tsx",
+      "beforeSha256": "6038b8452325b0d15b18fcc9a934b18a4cce64ee387d059872e26f4cdf3ef0fa",
+      "afterSha256": "1fc9840b2b24560671c60e1634f8018d07ea1b6f20c34260ddcdd77f90953155"
+    },
+    {
+      "file": "components/scene/VolumetricLightShaft.tsx",
+      "beforeSha256": "91e2d81c45cbe68a9e09b66572c92b32d64983dee00cdaca3bf409274439f203",
+      "afterSha256": "02edfe7bbd47e7ad664b8cc80f54aac02d6accdcab1c57f670950697fd581733"
+    },
+    {
+      "file": "lib/runtime/cameraRig.js",
+      "beforeSha256": "b87ad9ea01dd7bc1608542304a6c2c24c4748174304e028ee37eb2fb91896009",
+      "afterSha256": "da51b46e68ae2470f2f88cf1e7060937b7fdaebfa00b9f80fd93e8898adea7ee"
+    },
+    {
+      "file": "lib/scrollTimeline.ts",
+      "beforeSha256": "038e2abaeaa309c5e4c149ca0e39c815d9b28728813eda280cbca00afedb13a1",
+      "afterSha256": "31777253072e31b1fa661af75d0e7dcc23d5bfb7de3f95494570fadab27ad774"
+    },
+    {
+      "file": "lib/types.ts",
+      "beforeSha256": "3d37827010d0aed5ac922d49ab10a674d5aa47193ac6b3391fc2eb16946af3e5",
+      "afterSha256": "7833e951f4888a1035e62e638eeadc3493f9fd42c3aa7e32803b83c34f48017d"
+    }
+  ],
+  "unchangedTrackedFileCount": 32,
+  "missingTrackedFiles": [],
+  "newPhaseFiles": [
+    {
+      "file": "lib/cameraTimeline.ts",
+      "sha256": "a9b3a39a43dfe0ca7605b9dc89ffd23bb6026cce51d2f07372a86ca6a5e92df3"
+    },
+    {
+      "file": "lib/sceneTimeline.ts",
+      "sha256": "502e4ccd6892b0c0ff67c796f2e42f0ae764bf6f24f5614e96fda8c5fa0df9fd"
+    },
+    {
+      "file": "components/scene/SceneTimelineDriver.tsx",
+      "sha256": "07f7ecbea2fe10ffe78f1f9262087313c36c23e9a98d943792dbb3a018620810"
+    },
+    {
+      "file": "spec/v3/scene_timeline.json",
+      "sha256": "82435d660c3618cafcb778d15c38b4139187d6748663fa31f55b07e0d9aaf6b5"
+    },
+    {
+      "file": "spec/v3/FAZ1_SCENE_TIME_CONTRACT.md",
+      "sha256": "b4035bf249b92adb03b2774e97a3246476039a915cb944c82c4317a119ad8b28"
+    },
+    {
+      "file": "tools/validate_v3_faz1.py",
+      "sha256": "0f88dac543f376487cb2595488fc18c7af393279d152dfc36cd6ed9a9fce9800"
+    }
+  ]
+}

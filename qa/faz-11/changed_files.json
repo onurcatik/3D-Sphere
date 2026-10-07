@@ -1,0 +1,87 @@
+[
+  {
+    "path": "app/globals.css",
+    "bytes": 37022,
+    "sha256": "6d31b4837c53f4eeed63c12b32f6840df98ad9c54c72de9938e068bb98ab923f"
+  },
+  {
+    "path": "components/experience/CinematicExperience.tsx",
+    "bytes": 5309,
+    "sha256": "89b0dbae29c9df28c12d8c4d98c7806faa012eaa2c7762514a6ddbbacaf2842d"
+  },
+  {
+    "path": "components/experience/useCinematicScroll.ts",
+    "bytes": 8618,
+    "sha256": "c8c3eda942bfe6429390189444353b6b66522e92c0a677a33469cfc580ed5ae6"
+  },
+  {
+    "path": "components/scene/TempleEnvironment.tsx",
+    "bytes": 6595,
+    "sha256": "a2dacf1213404facb6c64577e89a0ef4202f96a69b004eafaa6b1f7db0f469d5"
+  },
+  {
+    "path": "components/ui/ChapterRail.tsx",
+    "bytes": 992,
+    "sha256": "81d8656ecc68729ffd674a9961d954f97d4edfd1975ff4babf2156e89bbbf429"
+  },
+  {
+    "path": "components/ui/SceneHUD.tsx",
+    "bytes": 746,
+    "sha256": "959a2ccf26240a1819da0e4e378952159f408cad5011f3c275e342d874b26c79"
+  },
+  {
+    "path": "components/ui/ScrollNarrative.tsx",
+    "bytes": 2997,
+    "sha256": "a071d989aea3c31a49299fa2381c3eccc362d1a9f11b6a00e71381375f50df28"
+  },
+  {
+    "path": "lib/uiNarrative.ts",
+    "bytes": 3146,
+    "sha256": "4c6692e84e52e0c724837674fd4e82c6cbdb4b16a4722a98c5c080e8c5c0429b"
+  },
+  {
+    "path": "package.json",
+    "bytes": 2182,
+    "sha256": "d643a014c8dd24952b48240bd7aef4a2caa9a343a08484e84f0031d1e0ec00ab"
+  },
+  {
+    "path": "tools/validate_v3_faz11.py",
+    "bytes": 8809,
+    "sha256": "3b94d18aab1abf31238bf240cadc9eb499023679bdf9fc764ed8f10a64a5d904"
+  },
+  {
+    "path": "spec/v3/FAZ11_UI_SCROLL_CONTRACT.md",
+    "bytes": 2852,
+    "sha256": "dfc82d2dbfdfe975bc0f59cceb648f3e8817719f3967b5d9c7e5c63c863bc87d"
+  },
+  {
+    "path": "qa/faz-11/FAZ11_REPORT.md",
+    "bytes": 2926,
+    "sha256": "8257d449e9a922c2382d39d17c2593ccf2cf434fcf601bee2dd319baf34d2220"
+  },
+  {
+    "path": "qa/faz-11/validation_v3_faz11.json",
+    "bytes": 1650,
+    "sha256": "cbf744aef8a51eeb3c317adaf0c65da752dc77239388d5626703a4d6901e63cd"
+  },
+  {
+    "path": "qa/faz-11/ui_scroll_timeline_audit.json",
+    "bytes": 1761,
+    "sha256": "f93b318df2026f75462c6fe2efb1219748310dd366a88bbc051a23f363bffb80"
+  },
+  {
+    "path": "PROJECT_STATE.json",
+    "bytes": 25793,
+    "sha256": "23eb91ad3a8a1f0d4e4767758c78d779fd370b99370eb27796480300b04d1206"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 22300,
+    "sha256": "bd3712afc5bd6aaade08e95c76a0e9a31c683c3dbb613ca3d67644e7eab27ac1"
+  },
+  {
+    "path": "README.md",
+    "bytes": 8062,
+    "sha256": "fdb4319f26c348cb3481d29edd5800df7a3d1333012ceee9131cf9135a86efc5"
+  }
+]

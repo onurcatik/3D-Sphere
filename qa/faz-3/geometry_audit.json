@@ -1,0 +1,219 @@
+{
+  "phase": 3,
+  "profiles": {
+    "desktop": {
+      "shells": [
+        {
+          "shell": 1,
+          "offsetMin": 0.015999992433122025,
+          "offsetMax": 0.016000018646248344,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 2,
+          "offsetMin": 0.015999972607736362,
+          "offsetMax": 0.016000023583410558,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 3,
+          "offsetMin": 0.0159999868575502,
+          "offsetMax": 0.016000015769726032,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 4,
+          "offsetMin": 0.015999980498446434,
+          "offsetMax": 0.016000020270363877,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 5,
+          "offsetMin": 0.015999972580962703,
+          "offsetMax": 0.016000024549034257,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 6,
+          "offsetMin": 0.015999974881931847,
+          "offsetMax": 0.016000025325458845,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 7,
+          "offsetMin": 0.015999982036195595,
+          "offsetMax": 0.01600003193679043,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 8,
+          "offsetMin": 0.015999973939748717,
+          "offsetMax": 0.0160000184427048,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 9,
+          "offsetMin": 0.015999989248242988,
+          "offsetMax": 0.016000032807314542,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 10,
+          "offsetMin": 0.015999983602254565,
+          "offsetMax": 0.01600002413657142,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 11,
+          "offsetMin": 0.015999985075328432,
+          "offsetMax": 0.01600002127077067,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 12,
+          "offsetMin": 0.01599997189238373,
+          "offsetMax": 0.01600001567803948,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 13,
+          "offsetMin": 0.01599998202645858,
+          "offsetMax": 0.01600002232036021,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 14,
+          "offsetMin": 0.015999975208209054,
+          "offsetMax": 0.01600002245306637,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        }
+      ],
+      "allOffsetsWithin1e-5": true,
+      "allNormalsOpposite": true,
+      "allWindingReversed": true,
+      "trimeshGeometryCount": 164,
+      "trimeshBoundsFinite": true
+    },
+    "mobile": {
+      "shells": [
+        {
+          "shell": 1,
+          "offsetMin": 0.015999992433122025,
+          "offsetMax": 0.016000018646248344,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 2,
+          "offsetMin": 0.015999972607736362,
+          "offsetMax": 0.016000023583410558,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 3,
+          "offsetMin": 0.0159999868575502,
+          "offsetMax": 0.016000015769726032,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 4,
+          "offsetMin": 0.015999980498446434,
+          "offsetMax": 0.016000020270363877,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 5,
+          "offsetMin": 0.015999972580962703,
+          "offsetMax": 0.016000024549034257,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 6,
+          "offsetMin": 0.015999974881931847,
+          "offsetMax": 0.016000025325458845,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 7,
+          "offsetMin": 0.015999982036195595,
+          "offsetMax": 0.01600003193679043,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 8,
+          "offsetMin": 0.015999973939748717,
+          "offsetMax": 0.0160000184427048,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 9,
+          "offsetMin": 0.015999989248242988,
+          "offsetMax": 0.016000032807314542,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 10,
+          "offsetMin": 0.015999983602254565,
+          "offsetMax": 0.01600002413657142,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 11,
+          "offsetMin": 0.015999985075328432,
+          "offsetMax": 0.01600002127077067,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 12,
+          "offsetMin": 0.01599997189238373,
+          "offsetMax": 0.01600001567803948,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 13,
+          "offsetMin": 0.01599998202645858,
+          "offsetMax": 0.01600002232036021,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        },
+        {
+          "shell": 14,
+          "offsetMin": 0.015999975208209054,
+          "offsetMax": 0.01600002245306637,
+          "normalOppositionMaxError": 0.0,
+          "windingReversed": true
+        }
+      ],
+      "allOffsetsWithin1e-5": true,
+      "allNormalsOpposite": true,
+      "allWindingReversed": true,
+      "trimeshGeometryCount": 143,
+      "trimeshBoundsFinite": true
+    }
+  }
+}

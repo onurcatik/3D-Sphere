@@ -1,0 +1,10 @@
+{
+  "faz3Validator": 0,
+  "tsTsxSyntax": 0,
+  "pythonCompile": 0,
+  "typecheck": 2,
+  "lint": 127,
+  "build": 127,
+  "threeAssetTest": 1,
+  "threeAssetTestStatus": "BLOCKED_DEPENDENCIES"
+}

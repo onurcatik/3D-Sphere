@@ -1,0 +1,55 @@
+{
+  "phase": "CHATGPT V3 FAZ 1",
+  "status": "PASS",
+  "checks": {
+    "duration_11s": true,
+    "critical_times": true,
+    "mapping_monotone_hermite": true,
+    "scroll_endpoints": true,
+    "time_endpoints": true,
+    "positive_boundary_slopes": true,
+    "10001_samples_monotonic": true,
+    "10001_samples_in_range": true,
+    "boundary_0.00_0.00s": true,
+    "boundary_0.15_1.54s": true,
+    "boundary_0.32_3.08s": true,
+    "boundary_0.50_5.50s": true,
+    "boundary_0.64_6.93s": true,
+    "boundary_0.76_7.92s": true,
+    "boundary_0.94_10.34s": true,
+    "boundary_1.00_11.00s": true,
+    "source_has_critical_times": true,
+    "source_declares_monotone_mapping": true,
+    "single_scene_sampler": true,
+    "driver_samples_once": true,
+    "all_consumers_use_scene_sample": true,
+    "no_consumer_samples_look_directly": true,
+    "no_consumer_samples_particle_directly": true,
+    "camera_keyframes_single_source": true,
+    "orb_faz8_web_desktop.glb:unchanged": true,
+    "orb_faz8_web_mobile.glb:unchanged": true
+  },
+  "mapping": {
+    "samples": 10001,
+    "slopes": [
+      0.9333333333333335,
+      0.8784313725490197,
+      1.022875816993464,
+      1.0753968253968254,
+      0.8392857142857142,
+      0.9861111111111112,
+      1.1111111111111112,
+      1.0
+    ],
+    "min": 0.0,
+    "max": 1.0
+  },
+  "deferredToPhase2": [
+    "coreEnergyRuntime elapsed time",
+    "particle shader elapsed time",
+    "volumetric beam pulse elapsed time",
+    "ambient dust elapsed time",
+    "reverse-edge smoothstep cleanup",
+    "AnimationAction final-to-reverse hardening"
+  ]
+}

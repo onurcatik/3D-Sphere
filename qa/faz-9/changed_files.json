@@ -1,0 +1,77 @@
+[
+  {
+    "path": "package.json",
+    "bytes": 1966,
+    "sha256": "5f3f80c0dd81fcaa37115cdd27a3dd400778a0825cace4c413da66db6ffcd9de"
+  },
+  {
+    "path": "lib/lightingTimeline.ts",
+    "bytes": 5491,
+    "sha256": "d017a0f23f81758c9b7c4fe85257c6f4aba1b63e8d95e4001352395ce60a1748"
+  },
+  {
+    "path": "lib/sceneTimeline.ts",
+    "bytes": 2980,
+    "sha256": "14bd42a6c10843d7f0b37817a7fb360ed7c7632e1de17a22e118c1b33c76a95e"
+  },
+  {
+    "path": "components/scene/SceneLighting.tsx",
+    "bytes": 3017,
+    "sha256": "05171f8d86d1e6056ebce022a5722bd9c86566d925ba03d16da3a89249b22788"
+  },
+  {
+    "path": "components/scene/MaterialEnvironment.tsx",
+    "bytes": 1749,
+    "sha256": "ba1d0ef7adbe01fea209a075739ee63bc2533d34de4b1e5453c7433843ea425e"
+  },
+  {
+    "path": "components/scene/TempleEnvironment.tsx",
+    "bytes": 6518,
+    "sha256": "f8a2bd795a4940fee16f9bb8e9f85f1e3013833168dd14de873561c1f629408c"
+  },
+  {
+    "path": "components/scene/CinematicAtmosphere.tsx",
+    "bytes": 1653,
+    "sha256": "095cfe3286417f548ddc0fb8cec5ef4fe72c75655921fd38dd73cd5dcc9a044f"
+  },
+  {
+    "path": "components/scene/VolumetricLightShaft.tsx",
+    "bytes": 1694,
+    "sha256": "62d4dfa7032beb5dafdedd1bcf8422b66d4208956fd7fbce9f7b2dd756d681ae"
+  },
+  {
+    "path": "components/scene/CinematicCanvas.tsx",
+    "bytes": 2552,
+    "sha256": "5eaaacdcca74c9e584c214eb7063ee968fc08061e2a012eae1555d7fa677b6b9"
+  },
+  {
+    "path": "tools/validate_v3_faz9.py",
+    "bytes": 6424,
+    "sha256": "0f1274e2dd4135d33eabb3af7b0c2819d67f1cdafef9ff116771e6979f6b5db1"
+  },
+  {
+    "path": "spec/v3/FAZ9_LIGHTING_ENVIRONMENT_CONTRACT.md",
+    "bytes": 2252,
+    "sha256": "6cdb8aafc18100ec0e209dc6747b7db9209c2466442a6eba2b3b1adaa5d3e165"
+  },
+  {
+    "path": "qa/faz-9/FAZ9_REPORT.md",
+    "bytes": 2834,
+    "sha256": "2e0cc8ef7a9e007f0cd7af6458e20b690aa15ace7a04518ecd7f062efe8c7109"
+  },
+  {
+    "path": "PROJECT_STATE.json",
+    "bytes": 22737,
+    "sha256": "31384e9b3a0d5656c4790dc9ee66f8661fa6e27ccb92738dc518f7e7c094bb2a"
+  },
+  {
+    "path": "README.md",
+    "bytes": 6171,
+    "sha256": "a6ae20fbb68b2f54f2947cb4cfb6d1fcaa2fc1c7e7a13486d3d7347aba661e62"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 17283,
+    "sha256": "8360629e93527be38c17c0df55acddafe0504098bdb535dfc99bc6a7b3a667ed"
+  }
+]

@@ -1,0 +1,108 @@
+{
+  "samples": 10001,
+  "finite": true,
+  "bounded": true,
+  "maxAdjacentDelta": 0.023569440233219274,
+  "critical": {
+    "0": {
+      "active": 0,
+      "alignment": 0,
+      "progress": 0,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "6.93": {
+      "active": 0,
+      "alignment": 0,
+      "progress": 0,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "7.92": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0,
+      "guideGain": 1,
+      "seamGlow": 0.1348148148148148,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "9.05": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.6461491527718091,
+      "guideGain": 0.715694372780404,
+      "seamGlow": 0.8301515933304684,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "9.32": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.7894571081402529,
+      "guideGain": 0.6526388724182888,
+      "seamGlow": 0.8989394119073214,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "9.58": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.8926377286986199,
+      "guideGain": 0.6072393993726073,
+      "seamGlow": 0.9484661097753375,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "9.9": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 0.9710626571268872,
+      "guideGain": 0.5727324308641697,
+      "seamGlow": 0.9861100754209058,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "10.34": {
+      "active": 1,
+      "alignment": 1,
+      "progress": 1,
+      "guideGain": 0,
+      "seamGlow": 1,
+      "seatPulse": 1,
+      "sealPulse": 0,
+      "completed": 0
+    },
+    "10.5": {
+      "active": 0.8521857695411412,
+      "alignment": 1,
+      "progress": 1,
+      "guideGain": 0,
+      "seamGlow": 0.8521857695411412,
+      "seatPulse": 0.03429355281207003,
+      "sealPulse": 0.9944933015533823,
+      "completed": 0.09568750210327534
+    },
+    "11": {
+      "active": 0,
+      "alignment": 1,
+      "progress": 1,
+      "guideGain": 0,
+      "seamGlow": 0,
+      "seatPulse": 0,
+      "sealPulse": 0,
+      "completed": 1
+    }
+  }
+}

@@ -1,0 +1,378 @@
+{
+  "schema": 1,
+  "phase": 3,
+  "pipeline": "tools/glb_v3_pipeline.py",
+  "innerSurfaceThickness": 0.016,
+  "models": [
+    {
+      "profile": "desktop",
+      "source": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/public/models/orb_faz8_web_desktop.glb",
+      "output": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/public/models/orb_v3_faz3_desktop.glb",
+      "sourceBytes": 1444796,
+      "outputBytes": 2085464,
+      "sourceSha256": "2d3f0eb4e68629c0710f33b56e7ecb31371ac58774c25dd2cd59a6508d19b58d",
+      "outputSha256": "ca747fc19d42ceec1a1d278c999eda01f0c36121bd9c4d0fed8ad2b96aafbf00",
+      "primitivesWithEmbeddedNormals": 150,
+      "normalAccessorReuseCount": 150,
+      "addedInnerShells": 14,
+      "shells": [
+        {
+          "shell": "Shell_01",
+          "sourceMeshIndex": 2,
+          "innerMeshIndex": 150,
+          "innerNodeIndex": 243,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.29538747668266296,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_02",
+          "sourceMeshIndex": 4,
+          "innerMeshIndex": 151,
+          "innerNodeIndex": 244,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2937931716442108,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_03",
+          "sourceMeshIndex": 5,
+          "innerMeshIndex": 152,
+          "innerNodeIndex": 245,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.3147282898426056,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_04",
+          "sourceMeshIndex": 7,
+          "innerMeshIndex": 153,
+          "innerNodeIndex": 246,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.290132611989975,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_05",
+          "sourceMeshIndex": 8,
+          "innerMeshIndex": 154,
+          "innerNodeIndex": 247,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4322766363620758,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_06",
+          "sourceMeshIndex": 10,
+          "innerMeshIndex": 155,
+          "innerNodeIndex": 248,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4206940233707428,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_07",
+          "sourceMeshIndex": 11,
+          "innerMeshIndex": 156,
+          "innerNodeIndex": 249,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.43231621384620667,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_08",
+          "sourceMeshIndex": 12,
+          "innerMeshIndex": 157,
+          "innerNodeIndex": 250,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.39550209045410156,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_09",
+          "sourceMeshIndex": 14,
+          "innerMeshIndex": 158,
+          "innerNodeIndex": 251,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.3929809033870697,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_10",
+          "sourceMeshIndex": 15,
+          "innerMeshIndex": 159,
+          "innerNodeIndex": 252,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4542430341243744,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_11",
+          "sourceMeshIndex": 16,
+          "innerMeshIndex": 160,
+          "innerNodeIndex": 253,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.30134454369544983,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_12",
+          "sourceMeshIndex": 18,
+          "innerMeshIndex": 161,
+          "innerNodeIndex": 254,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.27232125401496887,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_13",
+          "sourceMeshIndex": 19,
+          "innerMeshIndex": 162,
+          "innerNodeIndex": 255,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2811989486217499,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_14",
+          "sourceMeshIndex": 21,
+          "innerMeshIndex": 163,
+          "innerNodeIndex": 256,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2821849584579468,
+          "thickness": 0.016
+        }
+      ],
+      "originalCounts": {
+        "nodes": 243,
+        "meshes": 150,
+        "accessors": 539,
+        "bufferViews": 539
+      },
+      "enhancedCounts": {
+        "nodes": 257,
+        "meshes": 164,
+        "accessors": 731,
+        "bufferViews": 731
+      },
+      "animations": [
+        "Orb_Main_Cinematic",
+        "Ring_Idle",
+        "Core_Pulse"
+      ]
+    },
+    {
+      "profile": "mobile",
+      "source": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/public/models/orb_faz8_web_mobile.glb",
+      "output": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/public/models/orb_v3_faz3_mobile.glb",
+      "sourceBytes": 1076060,
+      "outputBytes": 1513500,
+      "sourceSha256": "95ccb3790c48740ad8e485d994812811ffc22f040711128ff47fb61d24fed59d",
+      "outputSha256": "b0c39ee2abc8faa1bceb713501aef2c91e320b6b6ed1b191f598f76a3c59821a",
+      "primitivesWithEmbeddedNormals": 129,
+      "normalAccessorReuseCount": 129,
+      "addedInnerShells": 14,
+      "shells": [
+        {
+          "shell": "Shell_01",
+          "sourceMeshIndex": 2,
+          "innerMeshIndex": 129,
+          "innerNodeIndex": 222,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.29538747668266296,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_02",
+          "sourceMeshIndex": 4,
+          "innerMeshIndex": 130,
+          "innerNodeIndex": 223,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2937931716442108,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_03",
+          "sourceMeshIndex": 5,
+          "innerMeshIndex": 131,
+          "innerNodeIndex": 224,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.3147282898426056,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_04",
+          "sourceMeshIndex": 7,
+          "innerMeshIndex": 132,
+          "innerNodeIndex": 225,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.290132611989975,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_05",
+          "sourceMeshIndex": 8,
+          "innerMeshIndex": 133,
+          "innerNodeIndex": 226,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4322766363620758,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_06",
+          "sourceMeshIndex": 10,
+          "innerMeshIndex": 134,
+          "innerNodeIndex": 227,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4206940233707428,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_07",
+          "sourceMeshIndex": 11,
+          "innerMeshIndex": 135,
+          "innerNodeIndex": 228,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.43231621384620667,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_08",
+          "sourceMeshIndex": 12,
+          "innerMeshIndex": 136,
+          "innerNodeIndex": 229,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.39550209045410156,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_09",
+          "sourceMeshIndex": 14,
+          "innerMeshIndex": 137,
+          "innerNodeIndex": 230,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.3929809033870697,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_10",
+          "sourceMeshIndex": 15,
+          "innerMeshIndex": 138,
+          "innerNodeIndex": 231,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.4542430341243744,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_11",
+          "sourceMeshIndex": 16,
+          "innerMeshIndex": 139,
+          "innerNodeIndex": 232,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.30134454369544983,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_12",
+          "sourceMeshIndex": 18,
+          "innerMeshIndex": 140,
+          "innerNodeIndex": 233,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.27232125401496887,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_13",
+          "sourceMeshIndex": 19,
+          "innerMeshIndex": 141,
+          "innerNodeIndex": 234,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2811989486217499,
+          "thickness": 0.016
+        },
+        {
+          "shell": "Shell_14",
+          "sourceMeshIndex": 21,
+          "innerMeshIndex": 142,
+          "innerNodeIndex": 235,
+          "vertices": 34,
+          "triangles": 64,
+          "boundaryEdges": 0,
+          "signedVolume": 0.2821849584579468,
+          "thickness": 0.016
+        }
+      ],
+      "originalCounts": {
+        "nodes": 222,
+        "meshes": 129,
+        "accessors": 516,
+        "bufferViews": 516
+      },
+      "enhancedCounts": {
+        "nodes": 236,
+        "meshes": 143,
+        "accessors": 687,
+        "bufferViews": 687
+      },
+      "animations": [
+        "Orb_Main_Cinematic",
+        "Ring_Idle",
+        "Core_Pulse"
+      ]
+    }
+  ]
+}

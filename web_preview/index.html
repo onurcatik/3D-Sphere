@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>ORIVION — FAZ 13 Responsive Preview</title>
+<style>
+:root{color-scheme:dark;--bg:#02050a;--gold:#d6b47a;--ice:#c7eaff;--line:rgba(235,245,250,.12)}
+*{box-sizing:border-box} body{margin:0;background:radial-gradient(circle at 50% 10%,#0a1928,#02050a 46%);color:#f4f7f9;font-family:Inter,system-ui,sans-serif;min-height:100vh;padding:32px}
+header{max-width:1220px;margin:0 auto 34px;display:flex;align-items:end;justify-content:space-between;gap:24px;border-bottom:1px solid var(--line);padding-bottom:20px}h1{font:400 clamp(38px,6vw,78px)/.9 Georgia,serif;margin:0;letter-spacing:-.04em}h1 em{color:#e6edf3;font-weight:400}header p{max-width:46ch;color:rgba(225,237,245,.58);line-height:1.6;font-size:13px}.tag{color:var(--gold);font-size:9px;letter-spacing:.24em;font-weight:700;margin-bottom:10px}
+.grid{max-width:1220px;margin:auto;display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:18px;align-items:start}.card{border:1px solid var(--line);background:rgba(7,14,22,.7);padding:14px;box-shadow:0 24px 80px rgba(0,0,0,.28)}.device{position:relative;overflow:hidden;border:1px solid rgba(255,255,255,.13);background:#02050a}.device img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 42%;filter:saturate(.82) brightness(.78)}.device:after{content:"";position:absolute;inset:0;background:radial-gradient(circle at 50% 38%,transparent 0 26%,rgba(0,0,0,.14) 52%,rgba(0,0,0,.72) 100%)}.desktop{aspect-ratio:16/9}.tablet{aspect-ratio:4/5}.mobile{aspect-ratio:9/19.5}.overlay{position:absolute;inset:0;z-index:2;padding:18px;display:flex;flex-direction:column;justify-content:space-between}.top{display:flex;justify-content:space-between;font-size:7px;letter-spacing:.2em;color:rgba(240,246,250,.62)}.copy{max-width:72%}.copy small{color:var(--gold);font-size:7px;letter-spacing:.22em}.copy h2{font:400 clamp(30px,4vw,58px)/.82 Georgia,serif;margin:8px 0 10px}.copy p{font-size:10px;line-height:1.55;color:rgba(232,241,247,.64);margin:0}.tablet .copy,.mobile .copy{max-width:100%}.tablet .overlay,.mobile .overlay{justify-content:flex-end;background:linear-gradient(180deg,transparent 38%,rgba(2,5,10,.86) 84%)}.mobile .copy h2{font-size:36px}.mobile .copy p{font-size:9px}.metrics{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;max-width:1220px;margin:18px auto 0}.metric{border:1px solid var(--line);padding:16px;background:rgba(5,11,18,.62)}.metric b{display:block;font:400 25px Georgia,serif;color:var(--ice)}.metric span{display:block;margin-top:6px;color:rgba(229,240,246,.45);font-size:8px;letter-spacing:.16em}.status{max-width:1220px;margin:18px auto 0;padding:14px 16px;border:1px solid rgba(214,180,122,.22);color:rgba(235,243,248,.62);font-size:10px;letter-spacing:.11em}.status strong{color:var(--gold)}
+@media(max-width:900px){body{padding:18px}.grid{grid-template-columns:1fr 1fr}.grid .card:first-child{grid-column:1/-1}.metrics{grid-template-columns:repeat(2,1fr)}header{align-items:start;flex-direction:column}.desktop .copy{max-width:80%}}
+@media(max-width:560px){.grid{grid-template-columns:1fr}.grid .card:first-child{grid-column:auto}.metrics{grid-template-columns:1fr}.card{padding:10px}}
+</style>
+</head>
+<body>
+<header><div><div class="tag">FAZ 13 / RESPONSIVE + MOBILE OPTIMIZATION</div><h1>ONE SCENE.<br><em>FIVE DEVICE TIERS.</em></h1></div><p>FAZ 13; desktop, tablet, mobile ve düşük güçlü cihazlar için aynı 11 saniyelik scroll-controlled 3D sahneyi farklı DPR, LOD, kamera kompozisyonu ve touch davranışıyla çalıştırır.</p></header>
+<section class="grid">
+  <article class="card"><div class="device desktop"><img src="../public/reference/orb-reference.png" alt=""><div class="overlay"><div class="top"><span>DESKTOP HIGH</span><span>DPR ≤ 1.80</span></div><div class="copy"><small>01 / HERO</small><h2>FULL CINEMATIC FIELD</h2><p>Full environment, DOF, high shadow budget, mouse parallax and desktop GLB.</p></div></div></div></article>
+  <article class="card"><div class="device tablet"><img src="../public/reference/orb-reference.png" alt=""><div class="overlay"><div class="top"><span>TABLET</span><span>DPR ≤ 1.35</span></div><div class="copy"><small>ADAPTIVE</small><h2>REDUCED ORBIT</h2><p>Narrower camera arc, no DOF, reduced particles and native touch when needed.</p></div></div></div></article>
+  <article class="card"><div class="device mobile"><img src="../public/reference/orb-reference.png" alt=""><div class="overlay"><div class="top"><span>MOBILE</span><span>DPR ≤ 1.18</span></div><div class="copy"><small>PORTRAIT</small><h2>ORB MOVES UP</h2><p>Camera composition lifts the hero object above the bottom narrative zone without moving the core world origin.</p></div></div></div></article>
+</section>
+<section class="metrics">
+  <div class="metric"><b>5</b><span>QUALITY TIERS</span></div>
+  <div class="metric"><b>46 FPS</b><span>DPR DEGRADE THRESHOLD</span></div>
+  <div class="metric"><b>56.5 FPS</b><span>DPR RECOVERY THRESHOLD</span></div>
+  <div class="metric"><b>16–48</b><span>BEAM SEGMENTS</span></div>
+  <div class="metric"><b>44–260</b><span>ENVIRONMENT DUST</span></div>
+</section>
+<div class="status"><strong>PASS</strong> — Native touch scroll, adaptive DPR, mobile GLB selection, safe-area, dynamic viewport, environment LOD, camera re-composition, ChapterRail + SceneHUD mount.</div>
+</body>
+</html>

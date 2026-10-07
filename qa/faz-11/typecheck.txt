@@ -1,0 +1,341 @@
+
+> 3d-premium-website-faz13@1.0.0 typecheck
+> tsc --noEmit
+
+.next/dev/types/validator.ts(6,59): error TS2307: Cannot find module 'next/types.js' or its corresponding type declarations.
+.next/dev/types/validator.ts(14,12): error TS2503: Cannot find namespace 'React'.
+.next/dev/types/validator.ts(14,134): error TS2503: Cannot find namespace 'React'.
+.next/dev/types/validator.ts(14,160): error TS2503: Cannot find namespace 'React'.
+.next/dev/types/validator.ts(29,12): error TS2503: Cannot find namespace 'React'.
+.next/dev/types/validator.ts(29,86): error TS2503: Cannot find namespace 'React'.
+.next/dev/types/validator.ts(29,112): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(6,59): error TS2307: Cannot find module 'next/types.js' or its corresponding type declarations.
+.next/types/validator.ts(14,12): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(14,134): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(14,160): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(29,12): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(29,86): error TS2503: Cannot find namespace 'React'.
+.next/types/validator.ts(29,112): error TS2503: Cannot find namespace 'React'.
+app/layout.tsx(1,41): error TS2307: Cannot find module 'next' or its corresponding type declarations.
+app/layout.tsx(15,71): error TS2503: Cannot find namespace 'React'.
+app/layout.tsx(17,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+app/layout.tsx(17,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+app/layout.tsx(18,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+app/layout.tsx(18,23): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+app/layout.tsx(19,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+app/page.tsx(4,10): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/experience/CinematicExperience.tsx(3,65): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/experience/CinematicExperience.tsx(59,21): error TS7006: Parameter 'previous' implicitly has an 'any' type.
+components/experience/CinematicExperience.tsx(82,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(82,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/experience/CinematicExperience.tsx(92,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(92,76): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(94,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(95,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(96,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(96,41): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(96,45): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(96,49): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(97,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(97,51): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(98,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(98,34): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(99,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(100,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(101,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(101,85): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(102,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(102,77): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(103,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(103,89): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(104,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(104,78): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(105,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(106,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(107,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(107,40): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(108,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(108,33): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(108,38): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(109,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(109,39): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(110,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(111,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(113,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(114,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(115,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(116,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(117,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(118,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(122,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(122,71): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(124,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(126,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(127,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(128,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(129,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(129,70): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(130,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(131,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(132,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(137,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(138,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(138,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(139,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(139,36): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(140,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(140,37): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(141,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(141,37): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(142,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/CinematicExperience.tsx(143,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/experience/useCinematicScroll.ts(3,18): error TS2307: Cannot find module 'gsap' or its corresponding type declarations.
+components/experience/useCinematicScroll.ts(4,31): error TS2307: Cannot find module 'gsap/ScrollTrigger' or its corresponding type declarations.
+components/experience/useCinematicScroll.ts(5,19): error TS2307: Cannot find module 'lenis' or its corresponding type declarations.
+components/experience/useCinematicScroll.ts(6,27): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/experience/useCinematicScroll.ts(7,32): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/experience/useCinematicScroll.ts(60,24): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(61,9): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(62,21): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(63,14): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(66,24): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(67,21): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(68,14): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(84,16): error TS7006: Parameter 'self' implicitly has an 'any' type.
+components/experience/useCinematicScroll.ts(138,72): error TS7006: Parameter 'section' implicitly has an 'any' type.
+components/experience/useCinematicScroll.ts(139,22): error TS2347: Untyped function calls may not accept type arguments.
+components/experience/useCinematicScroll.ts(161,22): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(169,7): error TS18046: 'link' is of type 'unknown'.
+components/experience/useCinematicScroll.ts(170,20): error TS18046: 'link' is of type 'unknown'.
+components/scene/AdaptiveQualityController.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/AdaptiveQualityController.tsx(4,35): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/AdaptiveQualityController.tsx(19,28): error TS7006: Parameter 'state' implicitly has an 'any' type.
+components/scene/AdaptiveQualityController.tsx(33,13): error TS7006: Parameter '_' implicitly has an 'any' type.
+components/scene/AdaptiveQualityController.tsx(33,16): error TS7006: Parameter 'delta' implicitly has an 'any' type.
+components/scene/CameraRig.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/CameraRig.tsx(4,25): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/CameraRig.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/CameraRig.tsx(6,40): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/CinematicAtmosphere.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/CinematicAtmosphere.tsx(4,36): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/CinematicAtmosphere.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/CinematicCanvas.tsx(4,24): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/CinematicCanvas.tsx(5,26): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/CinematicCanvas.tsx(29,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/CinematicCanvas.tsx(32,21): error TS7031: Binding element 'gl' implicitly has an 'any' type.
+components/scene/CinematicPostFX.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/CinematicPostFX.tsx(4,76): error TS2307: Cannot find module '@react-three/postprocessing' or its corresponding type declarations.
+components/scene/CinematicPostFX.tsx(5,82): error TS2307: Cannot find module 'postprocessing' or its corresponding type declarations.
+components/scene/CinematicPostFX.tsx(6,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/CinematicPostFX.tsx(21,28): error TS7006: Parameter 'state' implicitly has an 'any' type.
+components/scene/CinematicPostFX.tsx(65,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/MaterialEnvironment.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/MaterialEnvironment.tsx(4,35): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/MaterialEnvironment.tsx(5,32): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/MaterialEnvironment.tsx(6,33): error TS2307: Cannot find module 'three/examples/jsm/environments/RoomEnvironment.js' or its corresponding type declarations.
+components/scene/OrbModel.tsx(3,36): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/OrbModel.tsx(4,38): error TS2307: Cannot find module '@react-three/drei' or its corresponding type declarations.
+components/scene/OrbModel.tsx(5,44): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/OrbModel.tsx(6,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/OrbModel.tsx(26,27): error TS7006: Parameter 'state' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(29,24): error TS7006: Parameter 'node' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(48,22): error TS7006: Parameter 'node' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(55,40): error TS7006: Parameter 'item' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(89,41): error TS7006: Parameter 'material' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(104,43): error TS7006: Parameter 'material' implicitly has an 'any' type.
+components/scene/OrbModel.tsx(129,10): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/OrbModel.tsx(129,10): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/OrbModel.tsx(136,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/OrbModel.tsx(137,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/OrbModel.tsx(138,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/OrbModel.tsx(138,34): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/OrbModel.tsx(139,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/ParticleEnergyField.tsx(4,44): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/ParticleEnergyField.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/ParticleEnergyField.tsx(227,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(227,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/ParticleEnergyField.tsx(228,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(229,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(230,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(231,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(232,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(233,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(234,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(235,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(236,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(237,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(238,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(239,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ParticleEnergyField.tsx(240,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/SceneLighting.tsx(4,33): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/SceneLighting.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/SceneLighting.tsx(51,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/SceneLighting.tsx(52,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(53,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(54,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(55,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(56,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(71,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(81,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneLighting.tsx(82,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/SceneTimelineDriver.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/SceneTimelineDriver.tsx(4,25): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/ShellFractureFX.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/ShellFractureFX.tsx(4,44): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/ShellFractureFX.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/ShellFractureFX.tsx(159,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ShellFractureFX.tsx(159,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/ShellFractureFX.tsx(160,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ShellFractureFX.tsx(161,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/ShellFractureFX.tsx(162,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/TempleEnvironment.tsx(4,44): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/TempleEnvironment.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/TempleEnvironment.tsx(29,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(30,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(31,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(32,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(33,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(34,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(35,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(36,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(37,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(38,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(135,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(135,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/TempleEnvironment.tsx(151,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(152,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(153,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(154,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(155,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(156,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(157,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(165,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(166,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(167,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(168,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(169,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(171,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(172,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(173,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(174,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(175,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(176,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(177,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(178,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(179,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(180,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/TempleEnvironment.tsx(181,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/VolumetricLightShaft.tsx(3,26): error TS2307: Cannot find module '@react-three/fiber' or its corresponding type declarations.
+components/scene/VolumetricLightShaft.tsx(4,24): error TS2307: Cannot find module 'react' or its corresponding type declarations.
+components/scene/VolumetricLightShaft.tsx(5,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+components/scene/VolumetricLightShaft.tsx(39,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/VolumetricLightShaft.tsx(39,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/scene/VolumetricLightShaft.tsx(40,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/VolumetricLightShaft.tsx(41,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/scene/VolumetricLightShaft.tsx(51,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(7,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(7,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/ui/ChapterRail.tsx(8,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(8,63): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(8,68): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(9,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(13,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(21,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(22,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(22,67): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(23,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(23,70): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(24,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(27,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ChapterRail.tsx(28,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(5,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(5,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/ui/SceneHUD.tsx(6,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(6,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(6,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(7,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(7,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(7,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(8,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(8,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(8,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(9,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(9,50): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(9,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(11,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(12,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(12,31): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(13,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(14,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(14,24): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(15,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(16,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(17,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(17,31): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(18,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(19,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(19,25): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(20,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(22,7): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(22,39): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(22,44): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/SceneHUD.tsx(23,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(10,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(12,9): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(20,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(20,5): error TS2875: This JSX tag requires the module path 'react/jsx-runtime' to exist, but none could be found. Make sure you have types for the appropriate package installed.
+components/ui/ScrollNarrative.tsx(26,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(35,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(36,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(37,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(37,36): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(38,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(39,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(39,86): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(40,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(42,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(43,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(43,62): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(44,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(44,63): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(45,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(47,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(49,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(51,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(51,64): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(51,69): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(52,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(52,54): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(53,15): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(53,58): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(56,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(57,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(58,34): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(58,60): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(59,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(60,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(61,35): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(61,61): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(62,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(63,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(67,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(68,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(69,30): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(69,56): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(70,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(71,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(72,39): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(72,65): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(73,19): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(74,17): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(76,13): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(77,11): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+components/ui/ScrollNarrative.tsx(80,5): error TS7026: JSX element implicitly has type 'any' because no interface 'JSX.IntrinsicElements' exists.
+lib/orbMaterialSystem.ts(1,24): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+lib/orbMaterialSystem.ts(257,18): error TS7006: Parameter 'node' implicitly has an 'any' type.
+lib/renderPolicy.ts(1,79): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+lib/renderPolicy.ts(2,36): error TS2307: Cannot find module 'three' or its corresponding type declarations.
+lib/types.ts(1,39): error TS2307: Cannot find module 'react' or its corresponding type declarations.

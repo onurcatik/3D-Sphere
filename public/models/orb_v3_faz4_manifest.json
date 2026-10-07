@@ -1,0 +1,22 @@
+{
+  "phase": 4,
+  "generator": "tools/glb_v3_materials.py",
+  "models": [
+    {
+      "profile": "desktop",
+      "source": "public/models/orb_v3_faz3_desktop.glb",
+      "output": "public/models/orb_v3_faz4_desktop.glb",
+      "bytes": 2087392,
+      "sha256": "bc5e816f9d339cb38521f3965cc4b52095f806f65eea0b5af411a480c78e48ac",
+      "sourceBinaryBytes": 1887288
+    },
+    {
+      "profile": "mobile",
+      "source": "public/models/orb_v3_faz3_mobile.glb",
+      "output": "public/models/orb_v3_faz4_mobile.glb",
+      "bytes": 1515432,
+      "sha256": "347561662562853a57169cbbf129413b879051a891987f355dd742b367d9fe4a",
+      "sourceBinaryBytes": 1329952
+    }
+  ]
+}

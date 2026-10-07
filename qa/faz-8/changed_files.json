@@ -1,0 +1,96 @@
+{
+  "phase": "V3-F8",
+  "generatedFromCurrentWorkingTree": true,
+  "files": [
+    {
+      "path": "lib/cameraTimeline.ts",
+      "size": 12616,
+      "sha256": "eb190bda796198f3a5f3b0e86d6b36002eb13700ab6f2f1300e6eaee4d2f1b05"
+    },
+    {
+      "path": "lib/assetProfile.ts",
+      "size": 7558,
+      "sha256": "6af6ca1ab80a083c8c903ffc774692bf9e8315e4d09fed2f15afbde207e7590a"
+    },
+    {
+      "path": "components/scene/CameraRig.tsx",
+      "size": 2622,
+      "sha256": "351b2ab783c95276aef2908055fb8954d181048d71fd78294bbcc9fde76d2fbc"
+    },
+    {
+      "path": "components/scene/CinematicCanvas.tsx",
+      "size": 2518,
+      "sha256": "0a471de3e9705fa3a5a958eed965354c32281aa57f654b7e3cc3fc7646e51cc7"
+    },
+    {
+      "path": "lib/runtime/cameraRig.js",
+      "size": 4230,
+      "sha256": "7e548f6bea5b862f658948424517dc1f496c35c06fb7979ff9cf89182fe20cc1"
+    },
+    {
+      "path": "package.json",
+      "size": 1905,
+      "sha256": "6b16178e24a3f1d4a34d0de6c347f1dafaa8a37daef0ab92ab42fc64f3162efd"
+    },
+    {
+      "path": "README.md",
+      "size": 5124,
+      "sha256": "6d1f0eb74caa250a05ab878f592291d04e614633e78b5ce28e00ce1059b46c0d"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "size": 15411,
+      "sha256": "5e1bc37016b3acac4b1d7e168a88f4949c4494e3cb31f00bc1cf5f6b474ea83d"
+    },
+    {
+      "path": "PROJECT_STATE.json",
+      "size": 21319,
+      "sha256": "9720419799f9a907bde71ab9a32ba2fcb2fcbf39541585d7aa9dd4cabd36d6b8"
+    },
+    {
+      "path": "tools/export_v3_faz8_camera_samples.cjs",
+      "size": 3222,
+      "sha256": "aac7bdfe236d78dc4a53d3c0d8ad876308d7a551c45a8808aae59b0dbd6059de"
+    },
+    {
+      "path": "tools/validate_v3_faz8.py",
+      "size": 10336,
+      "sha256": "e4596587662dce66f2f9d1506cf850c9ed51beb6aec25f82dc964717f93d97ef"
+    },
+    {
+      "path": "spec/v3/FAZ8_CAMERA_COMPOSITION_CONTRACT.md",
+      "size": 3402,
+      "sha256": "bbc99207b40c5b7fd108c131d6ccba7e540d0dc35f3c677c63b216c40ad5707e"
+    },
+    {
+      "path": "qa/faz-8/FAZ8_REPORT.md",
+      "size": 3562,
+      "sha256": "d12aeceda3cc15cb64e2fa283190b4612ad125e465843208fe4bdbbd14b17289"
+    },
+    {
+      "path": "qa/faz-8/validation_v3_faz8.json",
+      "size": 7704,
+      "sha256": "30cb36bbb7aa1423618ce018bd042e31535661e204102f2fd3b287d371356d41"
+    },
+    {
+      "path": "qa/faz-8/camera_framing_audit.json",
+      "size": 4701,
+      "sha256": "f53463977bcd27534a783adb49fa70cba3efd807d8af2ca886506269bcf4c890"
+    },
+    {
+      "path": "qa/faz-8/camera_samples.json",
+      "size": 1342074,
+      "sha256": "4f7e50f54d9d2208003372059c21b1615860c6f23382ee1e4fef30fdd7f4c572"
+    },
+    {
+      "path": "qa/faz-8/targeted_compile.txt",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "qa/faz-8/glb_hashes.sha256",
+      "size": 207,
+      "sha256": "2ae3a3dde9fadb4d67d2fb3abfb4c23968ff875081c0e48c054e445ffaa9f23b"
+    }
+  ]
+}

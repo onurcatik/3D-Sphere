@@ -1,0 +1,60 @@
+{
+  "status": "PASS",
+  "checks": {
+    "sampleScene_exists": true,
+    "scene_driver_calls_sampleScene": true,
+    "all_active_consumers_use_sceneSample": true,
+    "no_active_direct_look_sampling": true,
+    "no_active_direct_particle_sampling": true,
+    "camera_keyframes_single_source": true,
+    "scroll_velocity_not_time_source": true,
+    "main_clip_uses_shared_progress": true
+  },
+  "deferredClockSites": [
+    {
+      "file": "components/scene/TempleEnvironment.tsx",
+      "line": 57,
+      "text": "dustGroup.current.rotation.y = state.clock.elapsedTime * 0.004;"
+    },
+    {
+      "file": "components/scene/TempleEnvironment.tsx",
+      "line": 58,
+      "text": "dustGroup.current.position.y = Math.sin(state.clock.elapsedTime * 0.16) * 0.035;"
+    },
+    {
+      "file": "components/scene/OrbModel.tsx",
+      "line": 97,
+      "text": "runtime.update(state.clock.elapsedTime);"
+    },
+    {
+      "file": "components/scene/ParticleEnergyField.tsx",
+      "line": 194,
+      "text": "material.uniforms.uTime.value = state.clock.elapsedTime;"
+    },
+    {
+      "file": "components/scene/ParticleEnergyField.tsx",
+      "line": 208,
+      "text": "pointsRef.current.rotation.y = Math.sin(state.clock.elapsedTime * 0.07) * 0.035;"
+    },
+    {
+      "file": "components/scene/ParticleEnergyField.tsx",
+      "line": 209,
+      "text": "pointsRef.current.rotation.z = Math.cos(state.clock.elapsedTime * 0.05) * 0.018;"
+    },
+    {
+      "file": "components/scene/VolumetricLightShaft.tsx",
+      "line": 25,
+      "text": "const pulse = 0.94 + Math.sin(state.clock.elapsedTime * 1.45) * 0.06;"
+    }
+  ],
+  "consumers": [
+    "components/scene/OrbModel.tsx",
+    "components/scene/CameraRig.tsx",
+    "components/scene/SceneLighting.tsx",
+    "components/scene/CinematicAtmosphere.tsx",
+    "components/scene/CinematicPostFX.tsx",
+    "components/scene/ParticleEnergyField.tsx",
+    "components/scene/VolumetricLightShaft.tsx",
+    "components/scene/TempleEnvironment.tsx"
+  ]
+}

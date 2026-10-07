@@ -1,0 +1,24 @@
+{
+  "phase": 6,
+  "changed": [
+    "lib/coreEnergyTimeline.ts",
+    "lib/sceneTimeline.ts",
+    "lib/runtime/coreEnergyRuntime.js",
+    "components/scene/OrbModel.tsx",
+    "components/scene/ParticleEnergyField.tsx",
+    "components/scene/VolumetricLightShaft.tsx",
+    "components/scene/SceneLighting.tsx",
+    "components/scene/CinematicPostFX.tsx",
+    "tools/validate_v3_faz6.py",
+    "spec/v3/FAZ6_CORE_ENERGY_CONTRACT.md",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "PROJECT_STATE.json",
+    "qa/faz-6/FAZ6_REPORT.md",
+    "qa/faz-6/validation_v3_faz6.json",
+    "qa/faz-6/core_energy_timeline_audit.json",
+    "qa/faz-6/changed_files.json"
+  ],
+  "glbFilesChanged": false
+}

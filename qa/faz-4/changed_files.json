@@ -1,0 +1,82 @@
+[
+  {
+    "path": "components/scene/OrbModel.tsx",
+    "bytes": 4396,
+    "sha256": "4b13608344b8c6dfdc275404a8e23d21f88c6617b09ad265dacce7a8985d9b96"
+  },
+  {
+    "path": "components/scene/MaterialEnvironment.tsx",
+    "bytes": 1363,
+    "sha256": "c58d5a3300f4632ec012aaedc92528414718a669bb4be78ea77f7d5a3f1fd9ae"
+  },
+  {
+    "path": "components/scene/CinematicCanvas.tsx",
+    "bytes": 2387,
+    "sha256": "c2197ad5e7cc4e5a2488a7d1b09e0a01c22a08d8723f0423c7efb74d9df70b71"
+  },
+  {
+    "path": "lib/orbMaterialSystem.ts",
+    "bytes": 7426,
+    "sha256": "1187c9c0556a8093f8c0e9279ed896851f5a58a6d5edc78d48638c23133ff218"
+  },
+  {
+    "path": "lib/runtime/coreEnergyRuntime.js",
+    "bytes": 12163,
+    "sha256": "79938a59ab574d33f99c61160403df61381fc7fc8964eb0cfe614603f23a4bae"
+  },
+  {
+    "path": "lib/assetProfile.ts",
+    "bytes": 7267,
+    "sha256": "3c0ad5ee80c0d2eeef702368ef5f103faf5120d2db03add7a84889a864b98759"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1425,
+    "sha256": "84f7627319fa947ecc0d7288921d679fbf9a70d20304509004ddad4bde2b4b1d"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2146,
+    "sha256": "e356de3b40cae41849afae926266648b489837d97e096fba226d238338586d23"
+  },
+  {
+    "path": "tools/glb_v3_materials.py",
+    "bytes": 6455,
+    "sha256": "f45c3aecb6981b7f3aef9a65980bb1993ce5344d8b31d5136630f8adefffc020"
+  },
+  {
+    "path": "tools/validate_v3_faz4.py",
+    "bytes": 5838,
+    "sha256": "532f35c28e2c250275de31b6a5facef62a952ca83d84027e75d4eedc683a1d95"
+  },
+  {
+    "path": "spec/v3/FAZ4_MATERIAL_SURFACE_CONTRACT.md",
+    "bytes": 2123,
+    "sha256": "1afeef73a761869aae73e4a8dfb15132a7b80424dcee59308e0e8afe4ade5abf"
+  },
+  {
+    "path": "public/models/orb_v3_faz4_desktop.glb",
+    "bytes": 2087392,
+    "sha256": "bc5e816f9d339cb38521f3965cc4b52095f806f65eea0b5af411a480c78e48ac"
+  },
+  {
+    "path": "public/models/orb_v3_faz4_mobile.glb",
+    "bytes": 1515432,
+    "sha256": "347561662562853a57169cbbf129413b879051a891987f355dd742b367d9fe4a"
+  },
+  {
+    "path": "public/models/orb_v3_faz4_manifest.json",
+    "bytes": 672,
+    "sha256": "63f96e2b087fd30cdba4906bb9af58fbfaeb699f35c7bfec0a11c6e10bf636ad"
+  },
+  {
+    "path": "PROJECT_STATE.json",
+    "bytes": 12735,
+    "sha256": "dceb3f880642c48b7f351fc89721e20075734e74b8e8b70e13d8210e60885204"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 7019,
+    "sha256": "2215026e84fbad5c38ab2b8e9e693fe3c7c1b28c95db6f73ce5bb885890fc3bb"
+  }
+]

@@ -1,0 +1,87 @@
+[
+  {
+    "path": "components/scene/OrbModel.tsx",
+    "bytes": 4629,
+    "sha256": "2d8d00cbe7ad7c2dc2253d85e1427079fbedcfddf3a0fa2d13a38b973b1bfb2d"
+  },
+  {
+    "path": "lib/assetProfile.ts",
+    "bytes": 7267,
+    "sha256": "3ed59f4abdfd56d92f7a59852445307630ab9420c2084733fbf8091c33d3f54c"
+  },
+  {
+    "path": "package.json",
+    "bytes": 1183,
+    "sha256": "43470d03da9f910fc28f99a8965f6189e93c6ff8d0d82c5b79745c71206343d7"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1474,
+    "sha256": "3488376e076b43b35fc9d3dc44cceb3ca4d73b06d23f3aa58ce949003a9e446a"
+  },
+  {
+    "path": "tests/assets.test.mjs",
+    "bytes": 1244,
+    "sha256": "b867d08e1effd4361a0246850ad2f0d8ab4c1bcf2ae36547231cb05787c47334"
+  },
+  {
+    "path": "tools/glb_v3_pipeline.py",
+    "bytes": 16597,
+    "sha256": "cf987299f4b8bbed22ad0907e1cdb3e0284a6420f0d36e63e5b6389ed1a36d2d"
+  },
+  {
+    "path": "tools/validate_v3_faz3.py",
+    "bytes": 4647,
+    "sha256": "ea3eb2159c2d4e336253ea98bd00f869a37ad363fd35cf275588cffae3c09415"
+  },
+  {
+    "path": "spec/v3/FAZ3_GLB_ASSET_CONTRACT.md",
+    "bytes": 2171,
+    "sha256": "35f30406ace69cc1bd223bdb075753b3b75125b340661a89c119adaf918643f7"
+  },
+  {
+    "path": "public/models/source/README.md",
+    "bytes": 376,
+    "sha256": "3145593b4b1dc4f9b074d829f1f561c85e23f3520184e6249723f6259f497561"
+  },
+  {
+    "path": "public/models/orb_v3_faz3_desktop.glb",
+    "bytes": 2085464,
+    "sha256": "ca747fc19d42ceec1a1d278c999eda01f0c36121bd9c4d0fed8ad2b96aafbf00"
+  },
+  {
+    "path": "public/models/orb_v3_faz3_mobile.glb",
+    "bytes": 1513500,
+    "sha256": "b0c39ee2abc8faa1bceb713501aef2c91e320b6b6ed1b191f598f76a3c59821a"
+  },
+  {
+    "path": "public/models/orb_v3_faz3_manifest.json",
+    "bytes": 10859,
+    "sha256": "6bc82db5455172e4394e06ca04c665ff900b370fdb6f815c3ecde10f22cce6cc"
+  },
+  {
+    "path": "PROJECT_STATE.json",
+    "bytes": 10600,
+    "sha256": "a255cce296c6ea6d1298eaf20169b1c06c459fa8ad14093e857333d3012f128f"
+  },
+  {
+    "path": "CHANGELOG.md",
+    "bytes": 5512,
+    "sha256": "ac0c10a0e3ce4df5089e3aa0931ee3864c4cba0f4ad6d3302a08c41cca408377"
+  },
+  {
+    "path": "qa/faz-3/FAZ3_REPORT.md",
+    "bytes": 3318,
+    "sha256": "c83d9f5d3279e5b4c21d87242c39e083f0308dcf3b2b7df4b6f948f051660b80"
+  },
+  {
+    "path": "qa/faz-3/validation_v3_faz3.json",
+    "bytes": 1958,
+    "sha256": "ae6445645be9ae1db028af8fe4046404d42b6ae515b96b347c073b819f91fad1"
+  },
+  {
+    "path": "qa/faz-3/geometry_audit.json",
+    "bytes": 6348,
+    "sha256": "cc23dc505a4edc48dd5f6b76fc1941de3329b75d4245ea9f7dce9311ed8d7fbc"
+  }
+]

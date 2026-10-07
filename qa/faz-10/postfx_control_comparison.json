@@ -1,0 +1,149 @@
+{
+  "note": "Analytic control comparison only; not a rendered image comparison.",
+  "rows": [
+    {
+      "time": 0,
+      "legacy": {
+        "bloomIntensity": 0.4386,
+        "bloomThreshold": 1.13,
+        "bokehScale": 1.1,
+        "vignetteDarkness": 0.82
+      },
+      "current": {
+        "bloomIntensity": 0.3301789862356115,
+        "bloomThreshold": 1.2376572416,
+        "bokehScale": 0.3556569764352,
+        "vignetteDarkness": 0.574,
+        "saturationRisk": 0.12612315428571427,
+        "additiveGain": 0.9571181275428572,
+        "particleGain": 0.9470282752
+      }
+    },
+    {
+      "time": 3.08,
+      "legacy": {
+        "bloomIntensity": 0.549024,
+        "bloomThreshold": 1.0899999999999999,
+        "bokehScale": 1.55,
+        "vignetteDarkness": 0.74
+      },
+      "current": {
+        "bloomIntensity": 0.38085018106353824,
+        "bloomThreshold": 1.2252021031384615,
+        "bokehScale": 0.3764996352649846,
+        "vignetteDarkness": 0.518,
+        "saturationRisk": 0.3228721652747253,
+        "additiveGain": 0.8902234638065933,
+        "particleGain": 0.8643936905846153
+      }
+    },
+    {
+      "time": 4.3,
+      "legacy": {
+        "bloomIntensity": 0.6387338287785265,
+        "bloomThreshold": 1.0633476659956673,
+        "bokehScale": 1.9942055667388774,
+        "vignetteDarkness": 0.6955794433261122
+      },
+      "current": {
+        "bloomIntensity": 0.40570899628138524,
+        "bloomThreshold": 1.2279942405187048,
+        "bokehScale": 0.31342110412017227,
+        "vignetteDarkness": 0.4869056103282785,
+        "saturationRisk": 0.5331898180216976,
+        "additiveGain": 0.8187154618726228,
+        "particleGain": 0.776060276430887
+      }
+    },
+    {
+      "time": 5.5,
+      "legacy": {
+        "bloomIntensity": 0.7222428347455621,
+        "bloomThreshold": 1.0398998634501593,
+        "bokehScale": 2.619503868912153,
+        "vignetteDarkness": 0.6497997269003186
+      },
+      "current": {
+        "bloomIntensity": 0.44544871382443574,
+        "bloomThreshold": 1.2254299549830459,
+        "bokehScale": 0.30805365498406917,
+        "vignetteDarkness": 0.454859808830223,
+        "saturationRisk": 0.6823577966634745,
+        "additiveGain": 0.7679983491344187,
+        "particleGain": 0.7134097254013407
+      }
+    },
+    {
+      "time": 6.93,
+      "legacy": {
+        "bloomIntensity": 0.8101227520000001,
+        "bloomThreshold": 1.01,
+        "bokehScale": 3.45,
+        "vignetteDarkness": 0.59
+      },
+      "current": {
+        "bloomIntensity": 0.4985762992263034,
+        "bloomThreshold": 1.1961161353846153,
+        "bokehScale": 0.4057200000000001,
+        "vignetteDarkness": 0.413,
+        "saturationRisk": 0.686543824175824,
+        "additiveGain": 0.7665750997802199,
+        "particleGain": 0.7116515938461538
+      }
+    },
+    {
+      "time": 7.92,
+      "legacy": {
+        "bloomIntensity": 0.7144880000000001,
+        "bloomThreshold": 1.04,
+        "bokehScale": 2.35,
+        "vignetteDarkness": 0.66
+      },
+      "current": {
+        "bloomIntensity": 0.461565405199251,
+        "bloomThreshold": 1.1974170372923076,
+        "bokehScale": 0.3977135819342769,
+        "vignetteDarkness": 0.46199999999999997,
+        "saturationRisk": 0.4815502663736264,
+        "additiveGain": 0.8362729094329671,
+        "particleGain": 0.797748888123077
+      }
+    },
+    {
+      "time": 10.34,
+      "legacy": {
+        "bloomIntensity": 0.549024,
+        "bloomThreshold": 1.1,
+        "bokehScale": 1.35,
+        "vignetteDarkness": 0.78
+      },
+      "current": {
+        "bloomIntensity": 0.3995674268413322,
+        "bloomThreshold": 1.2193171992615384,
+        "bokehScale": 0.3892424548785231,
+        "vignetteDarkness": 0.5459999999999999,
+        "saturationRisk": 0.20940856615384612,
+        "additiveGain": 0.9288010875076923,
+        "particleGain": 0.9120484022153846
+      }
+    },
+    {
+      "time": 11,
+      "legacy": {
+        "bloomIntensity": 0.6274559999999999,
+        "bloomThreshold": 1.07,
+        "bokehScale": 1.45,
+        "vignetteDarkness": 0.75
+      },
+      "current": {
+        "bloomIntensity": 0.4463863212023537,
+        "bloomThreshold": 1.196937809723077,
+        "bokehScale": 0.3945012844327384,
+        "vignetteDarkness": 0.5249999999999999,
+        "saturationRisk": 0.26384149802197804,
+        "additiveGain": 0.9102938906725274,
+        "particleGain": 0.8891865708307692
+      }
+    }
+  ]
+}

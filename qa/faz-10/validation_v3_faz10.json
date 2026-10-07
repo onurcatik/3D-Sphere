@@ -1,0 +1,108 @@
+{
+  "phase": 10,
+  "passed": true,
+  "checks": {
+    "postFxBudgetIsSceneSampleState": true,
+    "postFxDenseSamplingFinite": true,
+    "postFxDenseSamplingSmooth": true,
+    "analyticSaturationRiskBounded": true,
+    "bloomIntensityBounded": true,
+    "bloomThresholdSelective": true,
+    "dofBokehRestrained": true,
+    "composerUsesExplicitMultisampling": true,
+    "desktopComposerMsaaConfigured": true,
+    "mobileComposerMsaaDisabled": true,
+    "mobileDofDisabled": true,
+    "particleCapsPass": true,
+    "particleFieldUsesCentralBudget": true,
+    "coreParticlesUseCentralBudget": true,
+    "fractureDebrisUsesCentralBudget": true,
+    "environmentDustUsesCentralBudget": true,
+    "particleOpacityUsesPostFxGain": true,
+    "particlePointSizeUsesPostFxGain": true,
+    "fractureUsesPostFxGain": true,
+    "shaftUsesPostFxGain": true,
+    "coreRuntimeHasVisualBudget": true,
+    "orbModelFeedsCoreVisualBudget": true,
+    "reassemblyUsesVisualBudget": true,
+    "mainParticlesHaveConservativeBounds": true,
+    "coreParticlesHaveConservativeBounds": true,
+    "fractureParticlesUseBoundedCulling": true,
+    "noChromaticAberrationPass": true,
+    "grainIsRestrained": true,
+    "baselineSaturationMetricEstablished": true,
+    "desktopGlbUnchanged": true,
+    "mobileGlbUnchanged": true,
+    "faz1Regression": true,
+    "faz2Regression": true,
+    "faz5Regression": true,
+    "faz6Regression": true,
+    "faz7Regression": true,
+    "faz8Regression": true,
+    "faz9Regression": true,
+    "tsTsxSyntax": true,
+    "coreRuntimeJsSyntax": true,
+    "reassemblyRuntimeJsSyntax": true
+  },
+  "summary": {
+    "maxAnalyticSaturationRisk": 0.6950776302187168,
+    "maxBloomIntensity": 0.49897361492891,
+    "minBloomThreshold": 1.1957593312411616,
+    "maxBokehScale": 0.4412352795140175,
+    "maxPostFxAdjacentStep": 0.0018797059655887849,
+    "particleBudgets": {
+      "desktop-high": {
+        "cap": 3000,
+        "field": 1350,
+        "core": 760,
+        "debris": 300,
+        "dust": 240,
+        "total": 2650
+      },
+      "desktop-balanced": {
+        "cap": 3000,
+        "field": 1150,
+        "core": 620,
+        "debris": 260,
+        "dust": 190,
+        "total": 2220
+      },
+      "tablet": {
+        "cap": 3000,
+        "field": 850,
+        "core": 450,
+        "debris": 190,
+        "dust": 130,
+        "total": 1620
+      },
+      "mobile": {
+        "cap": 1000,
+        "field": 430,
+        "core": 240,
+        "debris": 130,
+        "dust": 70,
+        "total": 870
+      },
+      "low-power": {
+        "cap": 1000,
+        "field": 280,
+        "core": 150,
+        "debris": 70,
+        "dust": 40,
+        "total": 540
+      }
+    },
+    "archivalBaselineMaxNearWhiteRatio": 0.2138503086419753,
+    "archivalBaselineMaxHighLumaRatio": 0.256313175154321,
+    "archivalBaselineWarnings": 1,
+    "regressions": {
+      "faz1": true,
+      "faz2": true,
+      "faz5": true,
+      "faz6": true,
+      "faz7": true,
+      "faz8": true,
+      "faz9": true
+    }
+  }
+}

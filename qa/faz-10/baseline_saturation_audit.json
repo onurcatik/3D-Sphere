@@ -1,0 +1,78 @@
+{
+  "metric": {
+    "nearWhiteChannelMinimum": 248,
+    "highLumaAverageMinimum": 245.0,
+    "nearWhiteWarningRatio": 0.08,
+    "highLumaWarningRatio": 0.12,
+    "purpose": "QA warning only; not an aesthetic pass/fail metric"
+  },
+  "frames": [
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.00.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.00562451774691358,
+      "highLumaRatio": 0.00956934799382716,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.15.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.008482831790123456,
+      "highLumaRatio": 0.013526716820987654,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.32.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.04555217978395062,
+      "highLumaRatio": 0.06383391203703703,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.50.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.0,
+      "highLumaRatio": 0.0023683449074074076,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.63.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.2138503086419753,
+      "highLumaRatio": 0.256313175154321,
+      "warning": true
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.76.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.06128858024691358,
+      "highLumaRatio": 0.0877271412037037,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/0.94.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.009068769290123457,
+      "highLumaRatio": 0.014884259259259259,
+      "warning": false
+    },
+    {
+      "file": "/mnt/data/3D_Premium_Website_CHATGPT_V3_WORK/3D_Premium_Website_FAZ13/visual-baseline/desktop/1.00.png",
+      "width": 1920,
+      "height": 1080,
+      "nearWhiteRatio": 0.006197916666666667,
+      "highLumaRatio": 0.010552662037037037,
+      "warning": false
+    }
+  ],
+  "maxNearWhiteRatio": 0.2138503086419753,
+  "maxHighLumaRatio": 0.256313175154321,
+  "warnings": 1
+}

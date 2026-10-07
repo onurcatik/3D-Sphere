@@ -1,0 +1,17 @@
+{
+  "phase": 2,
+  "sourceFiles": [
+    "components/scene/OrbModel.tsx",
+    "components/scene/ParticleEnergyField.tsx",
+    "components/scene/TempleEnvironment.tsx",
+    "components/scene/VolumetricLightShaft.tsx",
+    "lib/particleEnergy.ts",
+    "lib/sceneTimeline.ts",
+    "lib/runtime/coreEnergyRuntime.js",
+    "lib/runtime/seekAnimationAction.js",
+    "tests/assets.test.mjs",
+    "tests/seek-helper.test.mjs",
+    "tools/validate_v3_faz2.py"
+  ],
+  "glbFilesChanged": false
+}

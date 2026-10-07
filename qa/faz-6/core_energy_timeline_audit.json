@@ -1,0 +1,17 @@
+{
+  "samplesChecked": 10001,
+  "finite": true,
+  "boundedZeroToOne": true,
+  "maxAdjacentSampleDelta": 0.0010680782909181508,
+  "criticalSamples": {
+    "0.00": {"reveal": 0.10, "connectionGain": 0.00, "whiteHot": 0.08},
+    "1.54": {"reveal": 0.20, "connectionGain": 0.00, "whiteHot": 0.12},
+    "3.08": {"reveal": 0.42, "connectionGain": 0.10, "whiteHot": 0.20},
+    "4.20": {"reveal": 0.76, "connectionGain": 0.68, "whiteHot": 0.34},
+    "5.50": {"reveal": 1.00, "connectionGain": 1.00, "whiteHot": 0.48},
+    "6.93": {"reveal": 1.00, "connectionGain": 0.86, "whiteHot": 0.44},
+    "7.92": {"reveal": 0.72, "connectionGain": 0.46, "whiteHot": 0.30},
+    "10.34": {"reveal": 0.24, "connectionGain": 0.02, "whiteHot": 0.14},
+    "11.00": {"reveal": 0.30, "connectionGain": 0.00, "whiteHot": 0.16}
+  }
+}
