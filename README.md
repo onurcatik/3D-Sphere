@@ -1,178 +1,184 @@
-# 3D Premium Website — FAZ 13
+# 🪐 3D Cinematic Sphere — Immersive WebGL Experience
 
-FAZ 13, FAZ 12 premium UI katmanını bozmadan responsive/mobile production davranışını tamamlar.
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![React](https://img.shields.io/badge/React-19.2-blue?style=flat-square&logo=react)](https://react.dev/)
+[![Three.js](https://img.shields.io/badge/Three.js-r181-000000?style=flat-square&logo=three.js)](https://threejs.org/)
+[![R3F](https://img.shields.io/badge/R3F-v9.4-black?style=flat-square)](https://docs.pmnd.rs/react-three-fiber/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+[![GSAP](https://img.shields.io/badge/GSAP-3.13-88CE02?style=flat-square&logo=greensock)](https://greensock.com/)
+[![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
 
-## Yeni katmanlar
-- 5 kademeli cihaz / kalite profili
-- Desktop vs mobile GLB otomatik seçimi
-- Runtime Adaptive DPR / FPS governor
-- Portrait mobile kamera re-composition
-- Native touch scroll, desktop Lenis ayrımı
-- Touch cihazlarda pointer parallax kapatma
-- Environment LOD / dust azaltma
-- Volumetric beam segment LOD
-- Profile bağlı shadow map bütçesi
-- Dynamic viewport (`dvh`/`svh`)
-- iOS safe-area desteği
-- Mobile portrait / compact / landscape CSS
-- Orientation ve resize profile refresh
-- ChapterRail + SceneHUD gerçek mount düzeltmesi
+An interactive, scrollytelling WebGL showcase delivering a high-fidelity 3D cinematic journey. Built upon **Next.js 16**, **React Three Fiber (R3F)**, **Three.js**, and custom procedural shaders, the project orchestrates an 11-second deterministic physics, lighting, and mechanical transformation of an articulated crystalline core and multi-segment outer sphere.
 
-## Çalıştırma
+---
+
+## 🌟 Key Architectural Pillars
+
+### 1. Deterministic Scrollytelling Engine
+* **Single Scene Sampler (`sampleScene`)**: Unifies the entire render loop across camera, materials, lighting, particle fields, and post-processing from a central `sceneTime` tick.
+* **Monotone Cubic Hermite Spline Mapping**: Eliminates abrupt velocity steps across chapter boundaries by interpolating $700\,\text{vh}$ of scroll distance to an exact $11.00\,\text{s}$ timeline with strict $C^1$ velocity continuity.
+* **Dual Scroll Pipeline**: Employs **Lenis** smooth inertial scrolling on desktop workstations while seamlessly reverting to native momentum scroll on touch devices to eliminate input lag.
+
+### 2. Articulated Mechanical Geometry & PBR Materials
+* **14-Piece Shell Delamination**: Precise GLTF node choreography (`Shell_01` through `Shell_14`) driven by authored translations and rotations baked directly into the asset pipeline.
+* **Multi-Layered Volumetric Core**: Features a dynamic four-tier inner nucleus—`Runtime_InnerCore`, `Core_Vortex_GEO`, `Core_EnergyShell_GEO`, and `Core_Halo_GEO`.
+* **Advanced Material Extensions**: Leverages Khronos PBR extensions (`KHR_materials_clearcoat`, `KHR_materials_transmission`, `KHR_materials_volume`, `KHR_materials_ior`, and `KHR_materials_emissive_strength`) for realistic refraction, dispersion, and energy conduits.
+
+### 3. Dynamic Director & Responsive Camera Rig
+* **Framing Safeguards Across 5 Device Profiles**: Automated camera positioning for *Desktop Ultra/High*, *Desktop Balanced*, *Tablet Portrait*, *Mobile Portrait*, and *Mobile Landscape*.
+* **Narrative Anti-Collision Offset**: Dynamically shifts framing and perspective away from editorial copy to ensure unhindered visibility of the orb's internal mechanics.
+* **Conservative Bounds Tracking**: Projects 3D boundary boxes across 661 temporal steps to verify zero frustum clipping at extreme aspect ratios.
+
+### 4. Atmospheric Depth & Restrained Lighting
+* **Hierarchical Illumination**: Keyed direct shadows, high-temperature rear rim lights, cool fill gradients, and localized nucleus light sources.
+* **PMREM Dynamic Environment**: Real-time roughness reflections synchronized to the timeline, avoiding excessive bloom reliance.
+* **Volumetric Light Shafts & Temple Acoustics**: Procedurally rendered light rays, ambient dust particles, and analytical contact shadows grounded in 3D space.
+
+### 5. Runtime Performance Governor
+* **Adaptive DPR & Framerate Sentinel**: Dynamically balances resolution scale between $0.75\times$ and $2.0\times$ targeting steady 60 FPS across low-tier and mobile GPUs.
+* **Shared Particle Budgets**: Global hardware limits constrain total simulation instances ($\le 3{,}000$ particles on desktop; $\le 1{,}000$ on mobile) across energy streams, fractured debris, and dust.
+* **Highlight Pressure & Post-FX Restraint**: Shared luminance caps prevent optical bloom blowouts and preserve crystal faceting during core detonation.
+
+---
+
+## ⏱️ Cinematic Timeline & Choreography
+
+The narrative unfolds along an exact $11.00$-second lifecycle divided into distinct choreographic phases:
+
+| Keyframe (s) | Progress | Movement Phase | Scene State & Visual Characteristics |
+| :---: | :---: | :--- | :--- |
+| **0.00 s** | `0.00` | **Dormant Core** | Outer shell sealed; sub-surface luminescent pulse; deep cold ambient fog. |
+| **1.54 s** | `0.14` | **Awakening & Tension** | Internal core excitation; mechanical seams breach with high-intensity light. |
+| **3.08 s** | `0.28` | **Shell Delamination** | Groups A, B, and C peel outwards with calibrated delay; micro-debris ejection. |
+| **5.50 s** | `0.50` | **Core Reveal (Peak)** | Shell reaches maximum stable expansion; crystal vortex unshielded; light shaft focus. |
+| **6.93 s** | `0.63` | **Equilibrium** | Gravitational suspension; magnetic arcs stabilize between core and orbiting segments. |
+| **7.92 s** | `0.72` | **Magnetic Recall** | Inversion wave; rotational alignment triggers opposite-pair return trajectories. |
+| **10.34 s** | `0.94` | **Hermetic Sealing** | Micro-latches dock; sealing ring collapses; energy arcs dissipate. |
+| **11.00 s** | `1.00` | **Latent State** | Complete mechanical lock; resting thermal glow; seamless loop cycle. |
+
+---
+
+## 🛠️ Technology Stack
+
+* **Framework**: [Next.js 16](https://nextjs.org/) (App Router, React Server Components & Turbopack architecture)
+* **View Layer**: [React 19](https://react.dev/)
+* **3D & Graphics Engine**: [Three.js](https://threejs.org/) (r181) & [@react-three/fiber](https://github.com/pmndrs/react-three-fiber) (v9)
+* **3D Helpers & Shaders**: [@react-three/drei](https://github.com/pmndrs/drei) & [@react-three/postprocessing](https://github.com/pmndrs/react-postprocessing)
+* **Animation & Smooth Scroll**: [GSAP](https://greensock.com/gsap/) (v3) & [Lenis](https://lenis.darkroom.engineering/) (v1.3)
+* **Typing & Linting**: TypeScript 5.8, ESLint 10, typescript-eslint
+* **Asset Pipeline**: Python 3 (Trimesh, PyGLTFLib, NumPy, Pillow)
+* **Testing & QA**: Playwright, Pixelmatch, Lighthouse
+
+---
+
+## 📂 Repository Structure
+
+```
+.
+├── app/                        # Next.js App Router root, metadata, & global stylesheets
+│   ├── globals.css             # Fluid layout, safe areas, cinematic design tokens
+│   ├── layout.tsx              # Root HTML layout and viewport configuration
+│   └── page.tsx                # Primary experience entry point
+├── components/
+│   ├── experience/             # Orchestration hooks, scrollytelling listeners & canvas wrapper
+│   │   ├── CinematicExperience.tsx
+│   │   └── useCinematicScroll.ts
+│   ├── scene/                  # R3F components (Canvas, Lighting, Camera, Geometry, PostFX)
+│   │   ├── AdaptiveQualityController.tsx
+│   │   ├── CameraRig.tsx
+│   │   ├── CinematicAtmosphere.tsx
+│   │   ├── CinematicCanvas.tsx
+│   │   ├── CinematicPostFX.tsx
+│   │   ├── MaterialEnvironment.tsx
+│   │   ├── OrbModel.tsx
+│   │   ├── ParticleEnergyField.tsx
+│   │   ├── SceneLighting.tsx
+│   │   ├── ShellFractureFX.tsx
+│   │   ├── TempleEnvironment.tsx
+│   │   └── VolumetricLightShaft.tsx
+│   └── ui/                     # HUD, telemetry overlays, and scrollytelling narrative panels
+│       ├── ChapterRail.tsx
+│       ├── SceneHUD.tsx
+│       └── ScrollNarrative.tsx
+├── lib/                        # Core mathematical timelines, shaders, and state contracts
+│   ├── assetProfile.ts         # Device detection & tier capability matrix
+│   ├── cameraTimeline.ts       # 661-sample camera trajectory & FOV spline
+│   ├── cinematicLook.ts        # Look LUTs, grading tokens, and color balancing
+│   ├── coreEnergyTimeline.ts   # Core vortex, ribbon, and halo parameters
+│   ├── lightingTimeline.ts     # Key/rim/fill intensity and shadow map budgets
+│   ├── orbBreakupTimeline.ts   # 14-piece shell delamination formulas
+│   ├── orbMaterialSystem.ts    # PBR material overrides & shader injection
+│   ├── orbReassemblyTimeline.ts# Magnetic return curves and sealing rings
+│   ├── particleBudget.ts       # Global simulation quotas per hardware tier
+│   ├── postProcessingBudget.ts # Highlight pressure and bloom attenuators
+│   └── scrollTimeline.ts       # Hermite spline mapping & C1 continuity drivers
+├── public/
+│   └── models/                 # Optimized desktop & mobile GLB models
+├── spec/                       # Formal specification contracts (v3 architecture)
+├── tools/                      # Offline Python GLTF authoring & QA validation scripts
+└── visual-baseline/            # Reference renders for visual regression verification
+```
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+* **Node.js**: `v20.x` or later (LTS recommended)
+* **npm**: `v10.x` or later
+* **Python**: `3.10+` (optional, for asset pipeline authoring & validation tools)
+
+### Installation
 ```bash
+# Clone repository
+git clone https://github.com/onurcatik/3D-Sphere.git
+cd 3D-Sphere
+
+# Install package dependencies
 npm install
+```
+
+### Development Server
+Start the local Next.js development server:
+```bash
 npm run dev
 ```
+Open [http://localhost:3000](http://localhost:3000) in your browser to experience the real-time render.
 
-## Doğrulama
+### Production Build
+Validate types and compile the optimized bundle:
 ```bash
-npm run validate
+# Typecheck
+npm run typecheck
+
+# Production build
+npm run build
+
+# Start production server
+npm run start
 ```
 
-Ana 3D varlıklar `public/models/` altında FAZ 8 optimize desktop/mobile GLB olarak korunmuştur. FAZ 13 model geometrisini veya ana 11 saniyelik animation clip'i değiştirmez.
+---
 
-## CHATGPT V3 GLB production pipeline
+## 🧪 Pipeline Scripts & Quality Assurance
 
-FAZ 3 keeps the original FAZ13 GLBs immutable and builds versioned active assets:
+The repository includes a comprehensive toolchain for validating GLTF binary integrity, mathematical continuity, and render constraints.
 
-```bash
-npm run models:v3
-npm run validate:v3:faz3
-```
+| Command | Description |
+| :--- | :--- |
+| `npm run validate` | Runs master validation suite ensuring asset parity and runtime syntax. |
+| `npm run validate:v3:faz8` | Verifies camera framing bounding boxes across 661 temporal samples. |
+| `npm run validate:v3:faz9` | Checks lighting hierarchy, shadow budget constraints, and PMREM integrity. |
+| `npm run validate:v3:faz10` | Enforces global particle caps and post-processing highlight thresholds. |
+| `npm run qa:saturation` | Analyzes visual baseline frames against near-white pixel blowout thresholds. |
+| `npm run models:v3` | Rebuilds active desktop and mobile GLBs via the offline Python pipeline. |
 
-Active files:
+---
 
-- `public/models/orb_v3_faz3_desktop.glb`
-- `public/models/orb_v3_faz3_mobile.glb`
+## 📱 Mobile & Low-Power Optimization
 
-The pipeline embeds vertex normals and generates one reversed-winding inner surface for each of the 14 animated shell pieces. See `spec/v3/FAZ3_GLB_ASSET_CONTRACT.md` for the guarantees and current UV/tangent/bevel policy.
+* **Responsive Viewport Support**: Standardizes dynamic viewport heights with `dvh` / `svh` fallbacks, accommodating iOS navigation bars.
+* **Touch Device Parallax Disabling**: Disables pointer gyro/mouse parallax on touch-enabled devices to reduce GPU thrashing.
+* **Automated Shadow Disabling**: Automatically drops contact shadow resolution or falls back to baked ambient planes on Tier 1 (Low-Power) hardware.
+* **Asset Specialization**: Transmits lighter polygon topologies and stripped secondary anim channels specifically to mobile targets (`orb_v3_faz7_mobile.glb`).
 
-## CHATGPT V3 FAZ 4 — premium material surface system
-
-FAZ 4 builds material-authored versions of the FAZ 3 geometry without changing its binary geometry/animation payload:
-
-```bash
-npm run models:v3
-npm run validate:v3:faz4
-```
-
-Active files:
-
-- `public/models/orb_v3_faz4_desktop.glb`
-- `public/models/orb_v3_faz4_mobile.glb`
-
-The GLBs embed `KHR_materials_clearcoat`, `KHR_materials_transmission`, `KHR_materials_volume`, `KHR_materials_ior`, and `KHR_materials_emissive_strength` where appropriate. Runtime equivalents live in `lib/orbMaterialSystem.ts`. UVs/textures are intentionally not fabricated in this phase; see `spec/v3/FAZ4_MATERIAL_SURFACE_CONTRACT.md`.
-
-## CHATGPT V3 FAZ 5 — deterministic shell breakup choreography
-
-FAZ 5, premium FAZ 4 modellerinin yalnız `Shell_01..Shell_14` translation/rotation kanallarını yeniden author eder ve üç kademeli parçalanmayı doğrudan GLB içine bake eder:
-
-```bash
-npm run models:v3:faz5
-npm run validate:v3:faz5
-```
-
-Active files:
-
-- `public/models/orb_v3_faz5_desktop.glb`
-- `public/models/orb_v3_faz5_mobile.glb`
-
-Koreografi `spec/v3/orb_breakup_choreography.json` ile tanımlanır. 14 parça 3.08 saniyeye kadar neredeyse kapalı kalır, A/B/C grupları gecikmeli ayrılır ve 5.50 saniyede kararlı açık poza ulaşır. Web runtime'daki `ShellFractureFX` yalnız deterministik `sceneTime` ile çalışan tek şok halkası, mikro kırıntılar ve fracture-seam enerji katmanını sağlar. Ayrıntılı sözleşme: `spec/v3/FAZ5_BREAKUP_CHOREOGRAPHY_CONTRACT.md`.
-
-## CHATGPT V3 FAZ 6 — deterministic three-layer core energy
-
-FAZ 6, FAZ 5 GLB'lerini değiştirmeden çekirdeği üç ana görsel katmana ayırır: `Runtime_InnerCore`, `Core_Vortex_GEO` ve `Core_EnergyShell_GEO`. `Core_Halo_GEO` ayrı optik çevre katmanıdır. Bütün katmanlar `lib/coreEnergyTimeline.ts` üzerinden 11 saniyelik `SceneSample` zamanına bağlanır.
-
-Desktop'ta en fazla 5, mobile'da en fazla 3 dinamik enerji bağı çekirdekten seçilmiş hareketli `Shell_XX` düğümlerine world-space olarak bağlanır. Bağlantılar rastgele değildir ve finalde tamamen kapanır.
-
-```bash
-npm run validate:v3:faz6
-```
-
-Ayrıntılı sözleşme: `spec/v3/FAZ6_CORE_ENERGY_CONTRACT.md`.
-
-## CHATGPT V3 FAZ 7 — magnetic recall and exact reassembly
-
-FAZ 7 replaces the temporary post-6.93 fallback with a fully authored deterministic return sequence. The shell first aligns to its target orientation, then closes in five opposite-pair waves and reaches the exact closed pose by 10.34 s.
-
-```bash
-npm run models:v3:faz7
-npm run validate:v3:faz7
-```
-
-Active files:
-
-- `public/models/orb_v3_faz7_desktop.glb`
-- `public/models/orb_v3_faz7_mobile.glb`
-
-`lib/orbReassemblyTimeline.ts` drives magnetic guide/seam/seal gains from `sceneTime`; `lib/runtime/reassemblyRuntime.js` draws deterministic slot guides and the final sealing ring. Detailed contract: `spec/v3/FAZ7_REASSEMBLY_CONTRACT.md`.
-
-## CHATGPT V3 FAZ 8 — cinematic camera composition
-
-FAZ 8 replaces the inherited close-up camera path with an authored 11-second composition system. The open orb is fully framed during 5.50–6.93 s, desktop composition alternates away from narrative copy, and tablet/mobile profiles attenuate horizontal bias while increasing distance/FOV for safe framing.
-
-```bash
-npm run validate:v3:faz8
-```
-
-Key files:
-
-- `lib/cameraTimeline.ts`
-- `components/scene/CameraRig.tsx`
-- `spec/v3/FAZ8_CAMERA_COMPOSITION_CONTRACT.md`
-
-The validator projects conservative FAZ 7 shell bounds across 661 frames for desktop, tablet portrait, mobile portrait/landscape and low-power portrait. FAZ 8 does not modify the active FAZ 7 GLBs.
-
-## CHATGPT V3 FAZ 9 — lighting, environment and spatial depth
-
-FAZ 9 keeps the active FAZ 7 GLBs unchanged and rebuilds the scene-lighting hierarchy around one shadow-casting key, a warm rear rim, a low cool fill, short-range core light, timeline-driven PMREM reflections, layered temple depth, analytic contact shadow and restrained volumetric shaft.
-
-```bash
-python3 tools/validate_v3_faz9.py
-```
-
-Key files:
-
-- `lib/lightingTimeline.ts`
-- `components/scene/SceneLighting.tsx`
-- `components/scene/MaterialEnvironment.tsx`
-- `components/scene/TempleEnvironment.tsx`
-- `components/scene/CinematicAtmosphere.tsx`
-- `components/scene/VolumetricLightShaft.tsx`
-- `spec/v3/FAZ9_LIGHTING_ENVIRONMENT_CONTRACT.md`
-
-At the 5.50 s core reveal, fog density is intentionally reduced and exposure trimmed while PMREM response is slightly increased, preserving metal/crystal detail instead of solving the image with additional bloom. Live Three.js/browser inspection remains blocked in the current workspace because project dependencies are not installed.
-
-## CHATGPT V3 FAZ 10 — particle budget and restrained post-processing
-
-FAZ 10 puts all particle-like systems under one tier budget and introduces a shared highlight-pressure/post-processing budget. Bloom, DOF, core additive layers, main energy particles, fracture debris, environment dust, reassembly guides and the volumetric shaft are no longer allowed to peak independently.
-
-```bash
-npm run validate:v3:faz10
-npm run qa:saturation
-```
-
-Key files:
-
-- `lib/particleBudget.ts`
-- `lib/postProcessingBudget.ts`
-- `components/scene/CinematicPostFX.tsx`
-- `components/scene/ParticleEnergyField.tsx`
-- `components/scene/ShellFractureFX.tsx`
-- `lib/runtime/coreEnergyRuntime.js`
-- `tools/analyze_frame_saturation.py`
-- `spec/v3/FAZ10_PARTICLE_POSTFX_CONTRACT.md`
-
-Particle caps include the primary energy field, core GPU particles, fracture debris and environment dust together. Desktop/tablet tiers stay below 3,000 particles and mobile/low-power stay below 1,000. The saturation analyzer is a QA warning metric only; it does not replace visual review. The archival FAZ13 baseline has one severe warning frame at progress 0.63, where near-white pixels exceed 21% of the image. A current rendered before/after saturation comparison remains blocked until the project dependencies can be installed and the updated browser render can run.
-
-## CHATGPT V3 — FAZ 11
-
-FAZ 11 arayüz ve scroll deneyimini 11 saniyelik deterministik sahne sözleşmesine bağlar. Bölüm linkleri fiziksel DOM section tepesine değil gerçek ScrollTrigger aralığındaki chapter başlangıcına gider. Normal header bölüm adı + chapter indeksi gösterir; raw yüzde/saniye bilgisi yalnız `?debug=1` ile açılır.
-
-Doğrulama:
-
-```bash
-npm run validate:v3:faz11
-```
-
-Tam `typecheck`, `lint`, `build` ve canlı browser doğrulaması için proje bağımlılıklarının (`node_modules`) kurulmuş olması gerekir.
